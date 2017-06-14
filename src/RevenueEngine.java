@@ -30,7 +30,7 @@ public class RevenueEngine {
                 if(!"Bill_Id".equalsIgnoreCase(row.getCell(0).toString())){
                     Booking bkg = assignBooking(row);
                     if(bkg.getBillId()!=null){
-                       Rate rate = rateBooking(bkg);
+                       Rate rate = RateCalculator.rateBooking(bkg);
                        System.out.println(rate.getBillId());
                        createOutRates(rate,sheetOut,count);
                        count=count++;
@@ -48,32 +48,7 @@ public class RevenueEngine {
         System.out.println("xlsx written successfully on disk. Time taken - "+(System.currentTimeMillis() - startTime));
      }
 
-    private static Rate rateBooking(Booking bkg) {
-       Rate rate = new Rate();
-       rate.setBillId(bkg.getBillId());
-       calculateFrtRate(bkg,rate);
 
-       calculateTotalRates(bkg,rate);
-       return rate;
-    }
-
-    private static void calculateTotalRates(Booking bkg, Rate rate) {
-
-    }
-
-    private static void calculateFrtRate(Booking bkg, Rate rate) {
-        BigDecimal frtRate = new BigDecimal(0);
-        if("Container".equalsIgnoreCase(bkg.getLoadType())){
-            BigDecimal wgt = new BigDecimal(bkg.getWeight());
-            BigDecimal pcs = new BigDecimal(bkg.getPieces());
-            frtRate = wgt.multiply(pcs).multiply(new BigDecimal(CT_FRT));
-        }else{
-            BigDecimal wgt = new BigDecimal(bkg.getWeight());
-            BigDecimal pcs = new BigDecimal(bkg.getPieces());
-            frtRate = wgt.multiply(pcs).multiply(new BigDecimal(Unit_FRT));
-        }
-        rate.setFrt(frtRate);
-    }
 
     public static void createOutRates (Rate rate,XSSFSheet sheetOut,int count){
         sheetOut.shiftRows(1,sheetOut.getLastRowNum()+1,1,true, true);
@@ -124,7 +99,7 @@ public class RevenueEngine {
     }
     protected static String getLocalizedBigDecimalValue(BigDecimal input) {
         if(input==null){
-            return "";
+            return "0.00";
         }
         final NumberFormat numberFormat = NumberFormat.getNumberInstance(java.util.Locale.US);
         numberFormat.setGroupingUsed(true);
@@ -133,6 +108,4 @@ public class RevenueEngine {
         return numberFormat.format(input);
     }
 
-    public static final double CT_FRT = 1.58;
-    public static final double Unit_FRT = 0.34;
 }
