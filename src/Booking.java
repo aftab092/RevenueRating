@@ -9,7 +9,7 @@ import org.apache.poi.ss.usermodel.Row;
  */
 public class Booking {
 
-    private String billId;
+    private Long billId;
     private String status;
     private String customer;
     private String contact;
@@ -23,11 +23,11 @@ public class Booking {
     private String tariffNumber;
     private String addSvcCode;
 
-    public String getBillId() {
+    public Long getBillId() {
         return billId;
     }
 
-    public void setBillId(String billId) {
+    public void setBillId(Long billId) {
         this.billId = billId;
     }
 

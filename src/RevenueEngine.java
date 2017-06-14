@@ -3,10 +3,11 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.util.StringUtil;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-
+import java.math.BigDecimal;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
+import java.text.NumberFormat;
 import java.util.Iterator;
 
 
@@ -15,8 +16,8 @@ public class RevenueEngine {
         long startTime = System.currentTimeMillis();
         int count = 0;
          try{
-            FileInputStream file = new FileInputStream(new File("C:\\Users\\amohammad\\Documents\\699\\Bookings.xlsx"));
-            FileInputStream fileOut = new FileInputStream(new File("C:\\Users\\amohammad\\Documents\\699\\RATES.xlsx"));
+            FileInputStream file = new FileInputStream(new File("C:\\Users\\amohammad\\IdeaProjects\\RevenueRating\\resources\\Bookings.xlsx"));
+            FileInputStream fileOut = new FileInputStream(new File("C:\\Users\\amohammad\\IdeaProjects\\RevenueRating\\resources\\RATES.xlsx"));
             XSSFWorkbook workbookInput = new XSSFWorkbook(file);
             XSSFSheet sheet = workbookInput.getSheetAt(0);
             XSSFWorkbook workbookOut = new XSSFWorkbook(fileOut);
@@ -26,16 +27,18 @@ public class RevenueEngine {
             while (rowIterator.hasNext()) {
                 String billIdIn = "";
                 Row row = rowIterator.next();
-                Booking bkg = assignBooking(row);
-                if(bkg.getBillId()!=null && !"Bill_Id".equalsIgnoreCase(bkg.getBillId())){
-                   Rate rate = rateBooking(bkg);
-                   System.out.println(rate.getBillId());
-                   createOutRates(rate,sheetOut,count);
-                   count=count++;
-                } 
+                if(!"Bill_Id".equalsIgnoreCase(row.getCell(0).toString())){
+                    Booking bkg = assignBooking(row);
+                    if(bkg.getBillId()!=null){
+                       Rate rate = rateBooking(bkg);
+                       System.out.println(rate.getBillId());
+                       createOutRates(rate,sheetOut,count);
+                       count=count++;
+                    }
+                }
             }
              //Write the workbook in file system
-             FileOutputStream out = new FileOutputStream(new File("C:\\Users\\amohammad\\Documents\\699\\RATES.xlsx"));
+             FileOutputStream out = new FileOutputStream(new File("C:\\Users\\amohammad\\IdeaProjects\\RevenueRating\\resources\\RATES.xlsx"));
              workbookOut.write(out);
              out.close();
          } catch (Exception e){
@@ -48,33 +51,51 @@ public class RevenueEngine {
     private static Rate rateBooking(Booking bkg) {
        Rate rate = new Rate();
        rate.setBillId(bkg.getBillId());
+       calculateFrtRate(bkg,rate);
 
-        //to do
-
+       calculateTotalRates(bkg,rate);
        return rate;
+    }
+
+    private static void calculateTotalRates(Booking bkg, Rate rate) {
+
+    }
+
+    private static void calculateFrtRate(Booking bkg, Rate rate) {
+        BigDecimal frtRate = new BigDecimal(0);
+        if("Container".equalsIgnoreCase(bkg.getLoadType())){
+            BigDecimal wgt = new BigDecimal(bkg.getWeight());
+            BigDecimal pcs = new BigDecimal(bkg.getPieces());
+            frtRate = wgt.multiply(pcs).multiply(new BigDecimal(CT_FRT));
+        }else{
+            BigDecimal wgt = new BigDecimal(bkg.getWeight());
+            BigDecimal pcs = new BigDecimal(bkg.getPieces());
+            frtRate = wgt.multiply(pcs).multiply(new BigDecimal(Unit_FRT));
+        }
+        rate.setFrt(frtRate);
     }
 
     public static void createOutRates (Rate rate,XSSFSheet sheetOut,int count){
         sheetOut.shiftRows(1,sheetOut.getLastRowNum()+1,1,true, true);
         Row rowOut = sheetOut.createRow(1);
         rowOut.createCell(0).setCellValue(rate.getBillId());
-        rowOut.createCell(1).setCellValue(rate.getFrt());
-        rowOut.createCell(2).setCellValue(rate.getAcc());
-        rowOut.createCell(3).setCellValue(rate.getDest());
-        rowOut.createCell(4).setCellValue(rate.getCCS());
-        rowOut.createCell(5).setCellValue(rate.getCONS());
-        rowOut.createCell(6).setCellValue(rate.getCARGO());
-        rowOut.createCell(7).setCellValue(rate.getHAZ());
-        rowOut.createCell(8).setCellValue(rate.getLONGLength());
-        rowOut.createCell(9).setCellValue(rate.getOVRWGT());
-        rowOut.createCell(10).setCellValue(rate.getTotalCharge());
+        rowOut.createCell(1).setCellValue(getLocalizedBigDecimalValue(rate.getFrt()));
+        rowOut.createCell(2).setCellValue(getLocalizedBigDecimalValue(rate.getAcc()));
+        rowOut.createCell(3).setCellValue(getLocalizedBigDecimalValue(rate.getDest()));
+        rowOut.createCell(4).setCellValue(getLocalizedBigDecimalValue(rate.getCCS()));
+        rowOut.createCell(5).setCellValue(getLocalizedBigDecimalValue(rate.getCONS()));
+        rowOut.createCell(6).setCellValue(getLocalizedBigDecimalValue(rate.getCARGO()));
+        rowOut.createCell(7).setCellValue(getLocalizedBigDecimalValue(rate.getHAZ()));
+        rowOut.createCell(8).setCellValue(getLocalizedBigDecimalValue(rate.getLONGLength()));
+        rowOut.createCell(9).setCellValue(getLocalizedBigDecimalValue(rate.getOVRWGT()));
+        rowOut.createCell(10).setCellValue(getLocalizedBigDecimalValue(rate.getTotalCharge()));
         //return rowOut;
     }
 
     public static Booking assignBooking(Row row){
         Booking bkg = new Booking();
         if(row.getCell(0)!=null)
-            bkg.setBillId(row.getCell(0).toString());
+            bkg.setBillId(new Long((long) row.getCell(0).getNumericCellValue()));
         if(row.getCell(1)!=null)
             bkg.setStatus(row.getCell(1).toString());
         if(row.getCell(2)!=null)
@@ -101,4 +122,17 @@ public class RevenueEngine {
             bkg.setAddSvcCode(row.getCell(12).toString());
         return bkg;
     }
+    protected static String getLocalizedBigDecimalValue(BigDecimal input) {
+        if(input==null){
+            return "";
+        }
+        final NumberFormat numberFormat = NumberFormat.getNumberInstance(java.util.Locale.US);
+        numberFormat.setGroupingUsed(true);
+        numberFormat.setMaximumFractionDigits(2);
+        numberFormat.setMinimumFractionDigits(2);
+        return numberFormat.format(input);
+    }
+
+    public static final double CT_FRT = 1.58;
+    public static final double Unit_FRT = 0.34;
 }

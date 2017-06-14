@@ -1,3 +1,5 @@
+import java.math.BigDecimal;
+
 /**
  * Created with IntelliJ IDEA.
  * User: amohammad
@@ -6,103 +8,103 @@
  * To change this template use File | Settings | File Templates.
  */
 public class Rate {
-    private String BillId;
-    private String Frt;
-    private String Acc;
-    private String Dest;
-    private String CCS;
-    private String CONS;
-    private String CARGO;
-    private String HAZ;
-    private String LONGLength;
-    private String OVRWGT;
-    private String TotalCharge;
+    private Long BillId;
+    private BigDecimal Frt;
+    private BigDecimal Acc;
+    private BigDecimal Dest;
+    private BigDecimal CCS;
+    private BigDecimal CONS;
+    private BigDecimal CARGO;
+    private BigDecimal HAZ;
+    private BigDecimal LONGLength;
+    private BigDecimal OVRWGT;
+    private BigDecimal TotalCharge;
 
-    public String getBillId() {
+    public Long getBillId() {
         return BillId;
     }
 
-    public void setBillId(String billId) {
+    public void setBillId(Long billId) {
         BillId = billId;
     }
 
-    public String getFrt() {
+    public BigDecimal getFrt() {
         return Frt;
     }
 
-    public void setFrt(String frt) {
+    public void setFrt(BigDecimal frt) {
         Frt = frt;
     }
 
-    public String getAcc() {
+    public BigDecimal getAcc() {
         return Acc;
     }
 
-    public void setAcc(String acc) {
+    public void setAcc(BigDecimal acc) {
         Acc = acc;
     }
 
-    public String getDest() {
+    public BigDecimal getDest() {
         return Dest;
     }
 
-    public void setDest(String dest) {
+    public void setDest(BigDecimal dest) {
         Dest = dest;
     }
 
-    public String getCCS() {
+    public BigDecimal getCCS() {
         return CCS;
     }
 
-    public void setCCS(String CCS) {
+    public void setCCS(BigDecimal CCS) {
         this.CCS = CCS;
     }
 
-    public String getCONS() {
+    public BigDecimal getCONS() {
         return CONS;
     }
 
-    public void setCONS(String CONS) {
+    public void setCONS(BigDecimal CONS) {
         this.CONS = CONS;
     }
 
-    public String getCARGO() {
+    public BigDecimal getCARGO() {
         return CARGO;
     }
 
-    public void setCARGO(String CARGO) {
+    public void setCARGO(BigDecimal CARGO) {
         this.CARGO = CARGO;
     }
 
-    public String getHAZ() {
+    public BigDecimal getHAZ() {
         return HAZ;
     }
 
-    public void setHAZ(String HAZ) {
+    public void setHAZ(BigDecimal HAZ) {
         this.HAZ = HAZ;
     }
 
-    public String getLONGLength() {
+    public BigDecimal getLONGLength() {
         return LONGLength;
     }
 
-    public void setLONGLength(String LONGLength) {
+    public void setLONGLength(BigDecimal LONGLength) {
         this.LONGLength = LONGLength;
     }
 
-    public String getOVRWGT() {
+    public BigDecimal getOVRWGT() {
         return OVRWGT;
     }
 
-    public void setOVRWGT(String OVRWGT) {
+    public void setOVRWGT(BigDecimal OVRWGT) {
         this.OVRWGT = OVRWGT;
     }
 
-    public String getTotalCharge() {
+    public BigDecimal getTotalCharge() {
         return TotalCharge;
     }
 
-    public void setTotalCharge(String totalCharge) {
+    public void setTotalCharge(BigDecimal totalCharge) {
         TotalCharge = totalCharge;
     }
 }
