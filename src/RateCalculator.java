@@ -11,7 +11,7 @@ import java.util.Date;
  */
 public class RateCalculator {
 
-    public static final double CT_FRT = 1.58;
+    public static final double CT_FRT = 0.08;
     public static final double Unit_FRT = 0.04;
     public static final double acc_CT = 10.29;
     public static final double acc_Unit = 5.00;
@@ -36,13 +36,25 @@ public class RateCalculator {
     }
 
     private static void calculateHAZRate(Booking bkg, Rate rate) {
-        BigDecimal hazRate = new BigDecimal(0);
-        if("HAZ".equalsIgnoreCase(bkg.getAddSvcCode())){
-            BigDecimal pcs = new BigDecimal(bkg.getPieces());
+        BigDecimal hazRate = new BigDecimal("0.0");
+        BigDecimal wgt = new BigDecimal(bkg.getWeight());
+        BigDecimal pcs = new BigDecimal(bkg.getPieces());
+        if("HAZ".equalsIgnoreCase(bkg.getAddSvcCode()) && !pcs.equals(hazRate)){
             hazRate =  pcs.multiply(new BigDecimal(haz_CT));
             rate.setHAZ(hazRate);
+        }else if("REF".equalsIgnoreCase(bkg.getAddSvcCode())){
+            rate.setHAZ(new BigDecimal("80"));
         }
-
+        else if("RED".equalsIgnoreCase(bkg.getAddSvcCode())){
+            rate.setHAZ(new BigDecimal("800"));
+        }
+        else if("LDS".equalsIgnoreCase(bkg.getAddSvcCode())){
+            rate.setHAZ(new BigDecimal("100"));
+        }
+        else if(bkg.getAddSvcCode() != null && !"".equalsIgnoreCase(bkg.getAddSvcCode()) && !hazRate.equals(wgt)){
+            hazRate =  wgt.multiply(new BigDecimal("0.12"));
+            rate.setHAZ(hazRate);
+        }
     }
 
     private static void calculateCARGORate(Booking bkg, Rate rate) {
@@ -53,7 +65,7 @@ public class RateCalculator {
     }
 
     private static void calculateCONSRate(Booking bkg, Rate rate) {
-        if(bkg.getTariffNumber().equalsIgnoreCase("A1K")){
+        if(bkg.getTariffNumber().equalsIgnoreCase("1AK")){
             rate.setCONS(new BigDecimal("1.23"));
         }
     }
@@ -75,7 +87,7 @@ public class RateCalculator {
     private static void calculateLongLengthRate(Booking bkg, Rate rate) {
         BigDecimal longRate = new BigDecimal(0);
         Double cube = Double.parseDouble(bkg.getCube());
-        if(cube > 100){
+        if(cube > 1000){
             cube = cube-100;
             longRate = new BigDecimal(cube).multiply(new BigDecimal("0.13"));
             rate.setLONGLength(longRate);
@@ -85,9 +97,9 @@ public class RateCalculator {
     private static void calculateOVRWGTRate(Booking bkg, Rate rate) {
         BigDecimal wgtRate = new BigDecimal(0);
         Double wgt = Double.parseDouble(bkg.getWeight()) ;
-        if(wgt > 10000){
+        if(wgt > 10000000){
             wgt = wgt-10000;
-            wgtRate = new BigDecimal(wgt).multiply(new BigDecimal("1.4"));
+            wgtRate = new BigDecimal(wgt).multiply(new BigDecimal("0.4"));
             rate.setOVRWGT(wgtRate);
         }
     }
@@ -132,15 +144,24 @@ public class RateCalculator {
     }
 
     private static void calculateFrtRate(Booking bkg, Rate rate) {
-        BigDecimal frtRate = new BigDecimal(0);
+        BigDecimal frtRate = new BigDecimal("0.0");
+        BigDecimal wgt = new BigDecimal(bkg.getWeight());
+        BigDecimal pcs = new BigDecimal(bkg.getPieces());
+        if(bkg.getBillId()==18999){
+               System.out.print("");
+        }
         if("Container".equalsIgnoreCase(bkg.getLoadType())){
-            BigDecimal wgt = new BigDecimal(bkg.getWeight());
-            BigDecimal pcs = new BigDecimal(bkg.getPieces());
-            frtRate = wgt.multiply(pcs).multiply(new BigDecimal(CT_FRT));
+            if(!pcs.equals(frtRate)){
+                frtRate = wgt.multiply(pcs).multiply(new BigDecimal(CT_FRT));
+            }else{
+                frtRate = wgt.multiply(new BigDecimal(CT_FRT));
+            }
         }else{
-            BigDecimal wgt = new BigDecimal(bkg.getWeight());
-            BigDecimal pcs = new BigDecimal(bkg.getPieces());
-            frtRate = wgt.multiply(pcs).multiply(new BigDecimal(Unit_FRT));
+            if(!pcs.equals(frtRate)){
+                frtRate = wgt.multiply(pcs).multiply(new BigDecimal(Unit_FRT));
+            }else{
+                frtRate = wgt.multiply(new BigDecimal(Unit_FRT));
+            }
         }
         rate.setFrt(frtRate);
     }
