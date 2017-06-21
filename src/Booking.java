@@ -1,5 +1,7 @@
 import org.apache.poi.ss.usermodel.Row;
 
+import java.util.Date;
+
 /**
  * Created with IntelliJ IDEA.
  * User: amohammad
@@ -22,6 +24,8 @@ public class Booking {
     private String pieces;
     private String tariffNumber;
     private String addSvcCode;
+    private Date createDate;
+    private String user;
 
     public Long getBillId() {
         return billId;
@@ -127,5 +131,19 @@ public class Booking {
         this.addSvcCode = addSvcCode;
     }
 
+    public String getUser() {
+        return user;
+    }
 
+    public void setUser(String user) {
+        this.user = user;
+    }
+
+    public Date getCreateDate() {
+        return createDate;
+    }
+
+    public void setCreateDate(Date createDate) {
+        this.createDate = createDate;
+    }
 }

@@ -64,6 +64,9 @@ public class RevenueEngine {
         rowOut.createCell(8).setCellValue(getLocalizedBigDecimalValue(rate.getLONGLength()));
         rowOut.createCell(9).setCellValue(getLocalizedBigDecimalValue(rate.getOVRWGT()));
         rowOut.createCell(10).setCellValue(getLocalizedBigDecimalValue(rate.getTotalCharge()));
+        rowOut.createCell(11).setCellValue(rate.getCreateDate());
+        rowOut.createCell(12).setCellValue(rate.getUser());
+
         //return rowOut;
     }
 
@@ -95,11 +98,15 @@ public class RevenueEngine {
             bkg.setTariffNumber(row.getCell(11).toString());
         if(row.getCell(12)!=null)
             bkg.setAddSvcCode(row.getCell(12).toString());
+        if(row.getCell(13)!=null)
+            bkg.setCreateDate(row.getCell(13).getDateCellValue());
+        if(row.getCell(14)!=null)
+            bkg.setUser(row.getCell(14).toString());
         return bkg;
     }
     protected static String getLocalizedBigDecimalValue(BigDecimal input) {
         if(input==null){
-            return "0.00";
+            return "0";
         }
         final NumberFormat numberFormat = NumberFormat.getNumberInstance(java.util.Locale.US);
         numberFormat.setGroupingUsed(true);

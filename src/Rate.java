@@ -1,4 +1,5 @@
 import java.math.BigDecimal;
+import java.util.Date;
 
 /**
  * Created with IntelliJ IDEA.
@@ -19,6 +20,8 @@ public class Rate {
     private BigDecimal LONGLength;
     private BigDecimal OVRWGT;
     private BigDecimal TotalCharge;
+    private Date createDate;
+    private String user;
 
     public Long getBillId() {
         return BillId;
@@ -106,5 +109,21 @@ public class Rate {
 
     public void setTotalCharge(BigDecimal totalCharge) {
         TotalCharge = totalCharge;
+    }
+
+    public Date getCreateDate() {
+        return createDate;
+    }
+
+    public void setCreateDate(Date createDate) {
+        this.createDate = createDate;
+    }
+
+    public String getUser() {
+        return user;
+    }
+
+    public void setUser(String user) {
+        this.user = user;
     }
 }

@@ -1,4 +1,6 @@
 import java.math.BigDecimal;
+import java.util.Calendar;
+import java.util.Date;
 
 /**
  * Created with IntelliJ IDEA.
@@ -11,13 +13,108 @@ public class RateCalculator {
 
     public static final double CT_FRT = 1.58;
     public static final double Unit_FRT = 0.04;
+    public static final double acc_CT = 10.29;
+    public static final double acc_Unit = 5.00;
+    public static final double haz_CT = 3.54;
 
     public static Rate rateBooking(Booking bkg) {
         Rate rate = new Rate();
         rate.setBillId(bkg.getBillId());
         calculateFrtRate(bkg,rate);
+        calculateACCRate(bkg,rate);
+        calculateDestRate(bkg, rate);
+        calculateCCSRate(bkg, rate);
+        calculateCONSRate(bkg, rate);
+        calculateCARGORate(bkg, rate);
+        calculateHAZRate(bkg, rate);
+        calculateLongLengthRate(bkg, rate);
+        calculateOVRWGTRate(bkg, rate);
         calculateTotalRates(bkg,rate);
+        rate.setUser(getUser(bkg));
+        rate.setCreateDate(addDays(bkg.getCreateDate(),5));
         return rate;
+    }
+
+    private static void calculateHAZRate(Booking bkg, Rate rate) {
+        BigDecimal hazRate = new BigDecimal(0);
+        if("HAZ".equalsIgnoreCase(bkg.getAddSvcCode())){
+            BigDecimal pcs = new BigDecimal(bkg.getPieces());
+            hazRate =  pcs.multiply(new BigDecimal(haz_CT));
+            rate.setHAZ(hazRate);
+        }
+
+    }
+
+    private static void calculateCARGORate(Booking bkg, Rate rate) {
+        BigDecimal pcs = new BigDecimal(bkg.getPieces());
+        if(pcs.intValue()>1 && !bkg.getTariffNumber().equalsIgnoreCase("587E")){
+            rate.setCARGO(new BigDecimal("9"));
+        }
+    }
+
+    private static void calculateCONSRate(Booking bkg, Rate rate) {
+        if(bkg.getTariffNumber().equalsIgnoreCase("A1K")){
+            rate.setCONS(new BigDecimal("1.23"));
+        }
+    }
+
+    private static void calculateCCSRate(Booking bkg, Rate rate) {
+        rate.setCCS(new BigDecimal("2.03"));
+    }
+
+    private static void calculateDestRate(Booking bkg, Rate rate) {
+         if(bkg.getPortOfDestination().equalsIgnoreCase("SHA")){
+            rate.setDest(new BigDecimal("4.09"));
+         } else if(bkg.getPortOfDestination().equalsIgnoreCase("SYD")){
+             rate.setDest(new BigDecimal("8.03"));
+         }else if(bkg.getPortOfDestination().equalsIgnoreCase("ANK")){
+             rate.setDest(new BigDecimal("2.00"));
+         }
+    }
+
+    private static void calculateLongLengthRate(Booking bkg, Rate rate) {
+        BigDecimal longRate = new BigDecimal(0);
+        Double cube = Double.parseDouble(bkg.getCube());
+        if(cube > 100){
+            cube = cube-100;
+            longRate = new BigDecimal(cube).multiply(new BigDecimal("0.13"));
+            rate.setLONGLength(longRate);
+        }
+    }
+
+    private static void calculateOVRWGTRate(Booking bkg, Rate rate) {
+        BigDecimal wgtRate = new BigDecimal(0);
+        Double wgt = Double.parseDouble(bkg.getWeight()) ;
+        if(wgt > 10000){
+            wgt = wgt-10000;
+            wgtRate = new BigDecimal(wgt).multiply(new BigDecimal("1.4"));
+            rate.setOVRWGT(wgtRate);
+        }
+    }
+
+    private static String getUser(Booking bkg) {
+        if(bkg.getLoadType().equalsIgnoreCase("Container") && bkg.getTariffNumber().equalsIgnoreCase("1E")){
+            return "nlomada";
+        }else if (bkg.getLoadType().equalsIgnoreCase("Container") && bkg.getPortOfDestination().equalsIgnoreCase("SHA")){
+            return "fnoor";
+        }else if (bkg.getLoadType().equalsIgnoreCase("Container")){
+            return "nnoor";
+        }else if(bkg.getLoadType().equalsIgnoreCase("Unit") && bkg.getPortOfDestination().equalsIgnoreCase("SHA")){
+            return "mshahab";
+        }else if(bkg.getLoadType().equalsIgnoreCase("Unit") && bkg.getPortOfDestination().equalsIgnoreCase("HON")){
+            return "rnoor";
+        }
+        return "pcr";
+    }
+
+    private static void calculateACCRate(Booking bkg, Rate rate) {
+        BigDecimal accRate = new BigDecimal(0);
+        if("Container".equalsIgnoreCase(bkg.getLoadType())){
+            accRate = new BigDecimal(acc_CT);
+        }else{
+            accRate = new BigDecimal(acc_Unit);
+        }
+        rate.setAcc(accRate);
     }
 
     private static void calculateTotalRates(Booking bkg, Rate rate) {
@@ -46,6 +143,14 @@ public class RateCalculator {
             frtRate = wgt.multiply(pcs).multiply(new BigDecimal(Unit_FRT));
         }
         rate.setFrt(frtRate);
+    }
+
+    public static Date addDays(Date date, int days)
+    {
+        Calendar cal = Calendar.getInstance();
+        cal.setTime(date);
+        cal.add(Calendar.DATE, days); //minus number would decrement the days
+        return cal.getTime();
     }
 
 }
