@@ -1,0 +1,996 @@
+Bill_Id,Status,Customer,Contact,Address,Load_Type,Port_of_departure,Port_of_destination,Weight,Cube,Pieces,Tariff,Additional_service_Code,create_date,create_user,rate_id,FRT,ACC,DEST,CCS,CONS,CARGO,HAZ,LONG_Length,OVR_WGT,Total_Charge,rate_Date,rate_User
+15015,PEND,POV Private,Steven,"Seattle, US",Unit,HON,SEA,1000,66,2,1E,HAZ,1/12/2014,userHaz,15015,80,5,0,2.03,0,9,7.08,0,0,103.11,1/17/2014,pcr
+15016,PEND,POV Public,Edward,"Los Angeles, US",Unit,HON,LAX,1000,100,1,2034A,,1/13/2014,matt,15016,40,5,0,2.03,0,0,0,0,0,47.03,1/18/2014,pcr
+15017,PEND,POV GATES,Edward,"Los Angeles, US",Container,HON,LAX,1000,100,1,554I,,1/14/2014,achadaluri,15017,80,10.29,0,2.03,0,0,0,0,0,92.32,1/19/2014,nnoor
+45014,PEND,POV Private,Steven,"Los Angeles, US",Container,SEA,LAX,1000,100,1,587E,,1/15/2014,achadaluri,45014,80,10.29,0,2.03,0,0,0,0,0,92.32,1/20/2014,nnoor
+45017,PEND,Alex Corp,Alex,"Los Angeles, US",Container,SHA,LAX,1000,100,1,554I,,1/16/2014,achadaluri,45017,80,10.29,0,2.03,0,0,0,0,0,92.32,1/21/2014,nnoor
+45018,PEND,POV Private,Sam,"Sydney, Australia",Unit,ANK,SYD,1000,100,1,IND,LDS,1/17/2014,rhodes,45018,40,5,8.03,2.03,0,0,100,0,0,155.06,1/22/2014,pcr
+45019,PEND,POV Private,Pavan,"Shanghai, China",Unit,OAK,SHA,1000,100,1,IND,,1/17/2014,rhodes,45019,40,5,4.09,2.03,0,0,0,0,0,51.12,1/22/2014,mshahab
+45020,PEND,Alex Corp,Sagar,"Los Angeles, US",Unit,OAK,LAX,1000,100,1,2034A,REF,1/19/2014,matt,45020,40,5,0,2.03,0,0,80,0,0,127.03,1/24/2014,pcr
+45021,PEND,One timer 3,Edward,"Anchorage, US",Unit,HON,ANK,1000,100,2,1AK,,1/20/2014,achadaluri,45021,80,5,2,2.03,0,9,0,0,0,98.03,1/25/2014,pcr
+45022,PEND,POV Private,Chaitanya,"Honolulu, US",Unit,SHA,HON,1000,100,1,1e,,1/21/2014,achadaluri,45022,40,5,0,2.03,0,0,0,0,0,47.03,1/26/2014,rnoor
+18000,PEND,POV Private,Steven,"Anchorage, US",Container,HON,ANK,1384473,0,7,587E,,1/20/2014,achadaluri,18000,"775,304.88",10.29,2,2.03,0,0,0,0,0,"775,319.20",1/25/2014,nnoor
+18001,PEND,POV Private,Steven,"Anchorage, US",Container,HON,ANK,1385342,88,2,587E,,1/20/2014,achadaluri,18001,"221,654.72",10.29,2,2.03,0,0,0,0,0,"221,669.04",1/25/2014,nnoor
+18002,PEND,POV Private,Steven,"Anchorage, US",Container,HON,ANK,1385532,0,11,587E,,1/20/2014,achadaluri,18002,"1,219,268.16",10.29,2,2.03,0,0,0,0,0,"1,219,282.48",1/25/2014,nnoor
+18003,PEND,POV Private,Steven,"Anchorage, US",Container,OAK,ANK,1385835,0,0,587E,,1/20/2014,achadaluri,18003,"110,866.80",10.29,2,2.03,0,0,0,0,0,"110,881.12",1/25/2014,nnoor
+18004,PEND,POV Private,Steven,"Anchorage, US",Container,OAK,ANK,1386053,0,0,587E,,1/20/2014,achadaluri,18004,"110,884.24",10.29,2,2.03,0,0,0,0,0,"110,898.56",1/25/2014,nnoor
+18006,PEND,POV Private,Steven,"Anchorage, US",Container,OAK,ANK,1392609,0,0,587E,,1/20/2014,achadaluri,18006,"111,408.72",10.29,2,2.03,0,0,0,0,0,"111,423.04",1/25/2014,nnoor
+18007,PEND,POV Private,Steven,"Anchorage, US",Container,OAK,ANK,1392609,0,0,587E,,1/20/2014,achadaluri,18007,"111,408.72",10.29,2,2.03,0,0,0,0,0,"111,423.04",1/25/2014,nnoor
+18008,PEND,POV Private,Steven,"Anchorage, US",Container,OAK,ANK,1392810,0,0,587E,,1/20/2014,achadaluri,18008,"111,424.80",10.29,2,2.03,0,0,0,0,0,"111,439.12",1/25/2014,nnoor
+18009,PEND,POV Private,Steven,"Anchorage, US",Container,OAK,ANK,1393060,0,0,587E,,1/20/2014,achadaluri,18009,"111,444.80",10.29,2,2.03,0,0,0,0,0,"111,459.12",1/25/2014,nnoor
+18010,PEND,POV Private,Steven,"Anchorage, US",Container,OAK,ANK,1394636,0,0,587E,,1/20/2014,achadaluri,18010,"111,570.88",10.29,2,2.03,0,0,0,0,0,"111,585.20",1/25/2014,nnoor
+18011,PEND,GOVT PROP,Steven,"Anchorage, US",Container,OAK,ANK,16555000,5000,99,587E, RED,1/20/2014,achadaluri,18011,"131,115,600.00",10.29,2,2.03,0,0,"1,986,600.00",637,"6,618,000.00","139,720,851.32",1/25/2014,nnoor
+18012,PEND,GOVT PROP,Steven,"Anchorage, US",Container,OAK,ANK,13999084,100,8,587E, RED,1/20/2014,achadaluri,18012,"8,959,413.76",10.29,2,2.03,0,0,"1,679,890.08",0,"5,595,633.60","16,234,951.76",1/25/2014,nnoor
+18013,PEND,GOVT PROP,Steven,"Anchorage, US",Container,OAK,ANK,14000000,1000,8,587E, RED,1/20/2014,achadaluri,18013,"8,960,000.00",10.29,2,2.03,0,0,"1,680,000.00",0,"5,596,000.00","16,236,014.32",1/25/2014,nnoor
+18014,PEND,GOVT PROP,Steven,"Anchorage, US",Container,OAK,ANK,14000000,500,1,587E, RED,1/20/2014,achadaluri,18014,"1,120,000.00",10.29,2,2.03,0,0,"1,680,000.00",0,"5,596,000.00","8,396,014.32",1/25/2014,nnoor
+18015,PEND,GOVT PROP,Steven,"Anchorage, US",Container,OAK,ANK,14000000,5000,5,587E, RED,1/20/2014,achadaluri,18015,"5,600,000.00",10.29,2,2.03,0,0,"1,680,000.00",637,"5,596,000.00","12,876,651.32",1/25/2014,nnoor
+18016,PEND,GOVT PROP,Steven,"Anchorage, US",Container,OAK,ANK,14000000,5000,1,587E, RED,1/20/2014,achadaluri,18016,"1,120,000.00",10.29,2,2.03,0,0,"1,680,000.00",637,"5,596,000.00","8,396,651.32",1/25/2014,nnoor
+18017,PEND,GOVT PROP,Steven,"Anchorage, US",Container,OAK,ANK,1400000,0,1,587E, RED,1/20/2014,achadaluri,18017,"112,000.00",10.29,2,2.03,0,0,"168,000.00",0,0,"280,014.32",1/25/2014,nnoor
+18018,PEND,POV Private,Steven,"Anchorage, US",Container,OAK,ANK,1400000,0,1,587E,,1/20/2014,achadaluri,18018,"112,000.00",10.29,2,2.03,0,0,0,0,0,"112,014.32",1/25/2014,nnoor
+18019,PEND,POV Private,Steven,"Anchorage, US",Container,OAK,ANK,1400000,0,1,587E,,1/20/2014,achadaluri,18019,"112,000.00",10.29,2,2.03,0,0,0,0,0,"112,014.32",1/25/2014,nnoor
+18020,PEND,POV Private,Steven,"Anchorage, US",Container,OAK,ANK,1400000,0,1,587E,,1/20/2014,achadaluri,18020,"112,000.00",10.29,2,2.03,0,0,0,0,0,"112,014.32",1/25/2014,nnoor
+18021,PEND,POV Private,Steven,"Anchorage, US",Container,OAK,ANK,1400000,0,1,587E,,1/20/2014,achadaluri,18021,"112,000.00",10.29,2,2.03,0,0,0,0,0,"112,014.32",1/25/2014,nnoor
+18022,PEND,POV Private,Steven,"Anchorage, US",Container,OAK,ANK,1400000,0,1,587E,,1/20/2014,achadaluri,18022,"112,000.00",10.29,2,2.03,0,0,0,0,0,"112,014.32",1/25/2014,nnoor
+18023,PEND,POV Private,Steven,"Anchorage, US",Container,OAK,ANK,1405096,0,1,587E,,1/20/2014,achadaluri,18023,"112,407.68",10.29,2,2.03,0,0,0,0,0,"112,422.00",1/25/2014,nnoor
+18024,PEND,POV Private,Steven,"Anchorage, US",Container,OAK,ANK,1405097,0,0,587E,,1/20/2014,achadaluri,18024,"112,407.76",10.29,2,2.03,0,0,0,0,0,"112,422.08",1/25/2014,nnoor
+18025,PEND,POV Private,Steven,"Anchorage, US",Container,OAK,ANK,1406544,9684,0,587E,,1/20/2014,achadaluri,18025,"112,523.52",10.29,2,2.03,0,0,0,"1,245.92",0,"113,783.76",1/25/2014,nnoor
+18026,PEND,POV Private,Steven,"Anchorage, US",Container,OAK,ANK,1408141,0,0,587E,,1/20/2014,achadaluri,18026,"112,651.28",10.29,2,2.03,0,0,0,0,0,"112,665.60",1/25/2014,nnoor
+18027,PEND,POV Private,Steven,"Anchorage, US",Container,OAK,ANK,1408684,0,7431,587E,,1/20/2014,achadaluri,18027,"837,434,464.32",10.29,2,2.03,0,0,0,0,0,"837,434,478.64",1/25/2014,nnoor
+18028,PEND,POV Private,Steven,"Anchorage, US",Container,OAK,ANK,1408930,0,295,587E,,1/20/2014,achadaluri,18028,"33,250,748.00",10.29,2,2.03,0,0,0,0,0,"33,250,762.32",1/25/2014,nnoor
+18029,PEND,POV Private,Steven,"Anchorage, US",Container,OAK,ANK,1409173,0,0,587E,,1/20/2014,achadaluri,18029,"112,733.84",10.29,2,2.03,0,0,0,0,0,"112,748.16",1/25/2014,nnoor
+18030,PEND,POV Private,Steven,"Anchorage, US",Container,OAK,ANK,1409824,0,1,587E,,1/20/2014,achadaluri,18030,"112,785.92",10.29,2,2.03,0,0,0,0,0,"112,800.24",1/25/2014,nnoor
+18031,PEND,POV Private,Steven,"Anchorage, US",Container,OAK,ANK,1410000,0,18,587E,,1/20/2014,achadaluri,18031,"2,030,400.00",10.29,2,2.03,0,0,0,0,0,"2,030,414.32",1/25/2014,nnoor
+18032,PEND,POV Private,Steven,"Anchorage, US",Container,SEA,ANK,1410239,0,18,587E,,1/20/2014,achadaluri,18032,"2,030,744.16",10.29,2,2.03,0,0,0,0,0,"2,030,758.48",1/25/2014,nnoor
+18033,PEND,POV Private,Steven,"Los Angeles, US",Container,SEA,LAX,1410366,0,0,587E,,1/20/2014,achadaluri,18033,"112,829.28",10.29,0,2.03,0,0,0,0,0,"112,841.60",1/25/2014,nnoor
+18034,PEND,POV Private,Steven,"Los Angeles, US",Container,SEA,LAX,1410465,0,0,587E,,1/20/2014,achadaluri,18034,"112,837.20",10.29,0,2.03,0,0,0,0,0,"112,849.52",1/25/2014,nnoor
+18036,PEND,POV Private,Steven,"Los Angeles, US",Container,SEA,LAX,1413206,0,0,587E,,1/20/2014,achadaluri,18036,"113,056.48",10.29,0,2.03,0,0,0,0,0,"113,068.80",1/25/2014,nnoor
+18037,PEND,POV Private,Steven,"Los Angeles, US",Container,SEA,LAX,1413207,80,0,587E,,1/20/2014,achadaluri,18037,"113,056.56",10.29,0,2.03,0,0,0,0,0,"113,068.88",1/25/2014,nnoor
+18038,PEND,POV Private,Steven,"Los Angeles, US",Container,SEA,LAX,1413482,0,0,587E,,1/20/2014,achadaluri,18038,"113,078.56",10.29,0,2.03,0,0,0,0,0,"113,090.88",1/25/2014,nnoor
+18039,PEND,POV Private,Steven,"Los Angeles, US",Container,SEA,LAX,1414205,0,0,587E,,1/20/2014,achadaluri,18039,"113,136.40",10.29,0,2.03,0,0,0,0,0,"113,148.72",1/25/2014,nnoor
+18040,PEND,POV Private,Steven,"Los Angeles, US",Container,SEA,LAX,1414844,0,18,587E,,1/20/2014,achadaluri,18040,"2,037,375.36",10.29,0,2.03,0,0,0,0,0,"2,037,387.68",1/25/2014,nnoor
+18041,PEND,POV Private,Steven,"Oakland, US",Container,SEA,OAK,1414959,0,19,587E,,1/20/2014,achadaluri,18041,"2,150,737.68",10.29,0,2.03,0,0,0,0,0,"2,150,750.00",1/25/2014,nnoor
+18042,PEND,POV Private,Steven,"Oakland, US",Container,SEA,OAK,1415043,0,17,587E,,1/20/2014,achadaluri,18042,"1,924,458.48",10.29,0,2.03,0,0,0,0,0,"1,924,470.80",1/25/2014,nnoor
+18043,PEND,POV Private,Steven,"Oakland, US",Container,SEA,OAK,1415701,0,0,587E,,1/20/2014,achadaluri,18043,"113,256.08",10.29,0,2.03,0,0,0,0,0,"113,268.40",1/25/2014,nnoor
+18044,PEND,POV Private,Steven,"Oakland, US",Container,SEA,OAK,1417438,0,0,587E,,1/20/2014,achadaluri,18044,"113,395.04",10.29,0,2.03,0,0,0,0,0,"113,407.36",1/25/2014,nnoor
+18045,PEND,POV Private,Steven,"Oakland, US",Container,SEA,OAK,1418387,0,1,587E,,1/20/2014,achadaluri,18045,"113,470.96",10.29,0,2.03,0,0,0,0,0,"113,483.28",1/25/2014,nnoor
+18046,PEND,POV Private,Steven,"Oakland, US",Container,SEA,OAK,1418734,0,0,587E,,1/20/2014,achadaluri,18046,"113,498.72",10.29,0,2.03,0,0,0,0,0,"113,511.04",1/25/2014,nnoor
+18047,PEND,POV Private,Steven,"Oakland, US",Container,SEA,OAK,1418759,0,573,587E,,1/20/2014,achadaluri,18047,"65,035,912.56",10.29,0,2.03,0,0,0,0,0,"65,035,924.88",1/25/2014,nnoor
+18048,PEND,POV Private,Steven,"Oakland, US",Container,SEA,OAK,1420000,72529,0,587E,,1/20/2014,achadaluri,18048,"113,600.00",10.29,0,2.03,0,0,0,"9,415.77",0,"123,028.09",1/25/2014,nnoor
+18049,PEND,POV Private,Steven,"Los Angeles, US",Container,SEA,LAX,1420170,0,819,587E,,1/20/2014,achadaluri,18049,"93,049,538.40",10.29,0,2.03,0,0,0,0,0,"93,049,550.72",1/25/2014,nnoor
+18050,PEND,POV Private,Steven,"Los Angeles, US",Container,SEA,LAX,1420722,0,281,587E,,1/20/2014,achadaluri,18050,"31,937,830.56",10.29,0,2.03,0,0,0,0,0,"31,937,842.88",1/25/2014,nnoor
+18051,PEND,POV Private,Steven,"Los Angeles, US",Container,SEA,LAX,1420737,0,0,587E,,1/20/2014,achadaluri,18051,"113,658.96",10.29,0,2.03,0,0,0,0,0,"113,671.28",1/25/2014,nnoor
+18052,PEND,POV Private,Steven,"Honolulu, US",Container,SEA,HON,1421376,0,1,587E,,1/20/2014,achadaluri,18052,"113,710.08",10.29,0,2.03,0,0,0,0,0,"113,722.40",1/25/2014,nnoor
+18053,PEND,POV Private,Steven,"Honolulu, US",Container,SEA,HON,1421615,2400,1,587E,,1/20/2014,achadaluri,18053,"113,729.20",10.29,0,2.03,0,0,0,299,0,"114,040.52",1/25/2014,nnoor
+18054,PEND,POV Private,Steven,"Honolulu, US",Container,LAX,HON,1421615,2400,0,587E,,1/20/2014,achadaluri,18054,"113,729.20",10.29,0,2.03,0,0,0,299,0,"114,040.52",1/25/2014,nnoor
+18056,PEND,POV Private,Steven,"Honolulu, US",Container,LAX,HON,1423640,0,1602,587E,,1/20/2014,achadaluri,18056,"182,453,702.40",10.29,0,2.03,0,0,0,0,0,"182,453,714.72",1/25/2014,nnoor
+18057,PEND,POV Private,Steven,"Honolulu, US",Container,LAX,HON,1423640,0,1926,587E,,1/20/2014,achadaluri,18057,"219,354,451.20",10.29,0,2.03,0,0,0,0,0,"219,354,463.52",1/25/2014,nnoor
+18058,PEND,POV Private,Steven,"Honolulu, US",Container,LAX,HON,1424095,5,1,587E,,1/20/2014,achadaluri,18058,"113,927.60",10.29,0,2.03,0,0,0,0,0,"113,939.92",1/25/2014,nnoor
+18059,PEND,POV Private,Steven,"Honolulu, US",Container,LAX,HON,1425673,0,1655,587E,,1/20/2014,achadaluri,18059,"188,759,105.20",10.29,0,2.03,0,0,0,0,0,"188,759,117.52",1/25/2014,nnoor
+18060,PEND,POV Private,Steven,"Honolulu, US",Container,LAX,HON,1427125,0,0,587E,,1/20/2014,achadaluri,18060,"114,170.00",10.29,0,2.03,0,0,0,0,0,"114,182.32",1/25/2014,nnoor
+18061,PEND,POV Private,Steven,"Honolulu, US",Container,LAX,HON,1428183,0,0,587E,,1/20/2014,achadaluri,18061,"114,254.64",10.29,0,2.03,0,0,0,0,0,"114,266.96",1/25/2014,nnoor
+18062,PEND,POV Private,Steven,"Honolulu, US",Container,LAX,HON,1428729,0,0,587E,,1/20/2014,achadaluri,18062,"114,298.32",10.29,0,2.03,0,0,0,0,0,"114,310.64",1/25/2014,nnoor
+18063,PEND,POV Private,Steven,"Honolulu, US",Container,LAX,HON,1429125,0,100,587E,,1/20/2014,achadaluri,18063,"11,433,000.00",10.29,0,2.03,0,0,0,0,0,"11,433,012.32",1/25/2014,nnoor
+18064,PEND,POV Private,Steven,"Honolulu, US",Container,LAX,HON,1430267,0,0,587E,,1/20/2014,achadaluri,18064,"114,421.36",10.29,0,2.03,0,0,0,0,0,"114,433.68",1/25/2014,nnoor
+18065,PEND,POV Private,Steven,"Honolulu, US",Container,LAX,HON,1431198,0,0,587E,,1/20/2014,achadaluri,18065,"114,495.84",10.29,0,2.03,0,0,0,0,0,"114,508.16",1/25/2014,nnoor
+18066,PEND,POV Private,Steven,"Honolulu, US",Container,LAX,HON,1433624,0,0,587E,,1/20/2014,achadaluri,18066,"114,689.92",10.29,0,2.03,0,0,0,0,0,"114,702.24",1/25/2014,nnoor
+18067,PEND,POV Private,Steven,"Honolulu, US",Container,LAX,HON,1434077,0,26,587E,,1/20/2014,achadaluri,18067,"2,982,880.16",10.29,0,2.03,0,0,0,0,0,"2,982,892.48",1/25/2014,nnoor
+18068,PEND,POV Private,Steven,"Honolulu, US",Container,LAX,HON,1435375,0,18,587E,,1/20/2014,achadaluri,18068,"2,066,940.00",10.29,0,2.03,0,0,0,0,0,"2,066,952.32",1/25/2014,nnoor
+18069,PEND,POV Private,Steven,"Honolulu, US",Container,LAX,HON,1435624,49770,0,587E,,1/20/2014,achadaluri,18069,"114,849.92",10.29,0,2.03,0,0,0,"6,457.10",0,"121,319.34",1/25/2014,nnoor
+18070,PEND,POV Private,Steven,"Honolulu, US",Container,LAX,HON,1435794,0,0,587E,,1/20/2014,achadaluri,18070,"114,863.52",10.29,0,2.03,0,0,0,0,0,"114,875.84",1/25/2014,nnoor
+18071,PEND,POV Private,Steven,"Honolulu, US",Container,LAX,HON,1436915,0,0,587E,,1/20/2014,achadaluri,18071,"114,953.20",10.29,0,2.03,0,0,0,0,0,"114,965.52",1/25/2014,nnoor
+18072,PEND,POV Private,Steven,"Honolulu, US",Container,LAX,HON,1437569,0,112,587E,,1/20/2014,achadaluri,18072,"12,880,618.24",10.29,0,2.03,0,0,0,0,0,"12,880,630.56",1/25/2014,nnoor
+18073,PEND,POV Private,Steven,"Honolulu, US",Container,LAX,HON,1438570,0,0,587E,,1/20/2014,achadaluri,18073,"115,085.60",10.29,0,2.03,0,0,0,0,0,"115,097.92",1/25/2014,nnoor
+18074,PEND,POV Private,Steven,"Honolulu, US",Container,LAX,HON,1440000,0,1,587E,,1/20/2014,achadaluri,18074,"115,200.00",10.29,0,2.03,0,0,0,0,0,"115,212.32",1/25/2014,nnoor
+18075,PEND,POV Private,Steven,"Honolulu, US",Container,LAX,HON,1441793,8,1,587E,,1/20/2014,achadaluri,18075,"115,343.44",10.29,0,2.03,0,0,0,0,0,"115,355.76",1/25/2014,nnoor
+18076,PEND,POV Private,Steven,"Honolulu, US",Container,LAX,HON,1444145,0,1259,587E,,1/20/2014,achadaluri,18076,"145,454,284.40",10.29,0,2.03,0,0,0,0,0,"145,454,296.72",1/25/2014,nnoor
+18077,PEND,POV Private,Steven,"Honolulu, US",Container,LAX,HON,1445470,0,0,587E,,1/20/2014,achadaluri,18077,"115,637.60",10.29,0,2.03,0,0,0,0,0,"115,649.92",1/25/2014,nnoor
+18078,PEND,POV Private,Steven,"Honolulu, US",Container,LAX,HON,1446068,0,0,587E,,1/20/2014,achadaluri,18078,"115,685.44",10.29,0,2.03,0,0,0,0,0,"115,697.76",1/25/2014,nnoor
+18079,PEND,POV Private,Steven,"Honolulu, US",Container,LAX,HON,1447479,0,1,587E,,1/20/2014,achadaluri,18079,"115,798.32",10.29,0,2.03,0,0,0,0,0,"115,810.64",1/25/2014,nnoor
+18080,PEND,POV Private,Steven,"Honolulu, US",Container,LAX,HON,1447900,0,1,587E,,1/20/2014,achadaluri,18080,"115,832.00",10.29,0,2.03,0,0,0,0,0,"115,844.32",1/25/2014,nnoor
+18081,PEND,POV Private,Steven,"Honolulu, US",Container,LAX,HON,1449366,0,0,587E,,1/20/2014,achadaluri,18081,"115,949.28",10.29,0,2.03,0,0,0,0,0,"115,961.60",1/25/2014,nnoor
+18082,PEND,POV Private,Steven,"Honolulu, US",Container,LAX,HON,1450000,0,60,587E,,1/20/2014,achadaluri,18082,"6,960,000.00",10.29,0,2.03,0,0,0,0,0,"6,960,012.32",1/25/2014,nnoor
+18083,PEND,POV Private,Steven,"Honolulu, US",Container,LAX,HON,1450000,0,0,587E,,1/20/2014,achadaluri,18083,"116,000.00",10.29,0,2.03,0,0,0,0,0,"116,012.32",1/25/2014,nnoor
+18084,PEND,POV Private,Steven,"Honolulu, US",Container,LAX,HON,1450000,0,0,587E,,1/20/2014,achadaluri,18084,"116,000.00",10.29,0,2.03,0,0,0,0,0,"116,012.32",1/25/2014,nnoor
+18085,PEND,POV Private,Steven,"Honolulu, US",Container,LAX,HON,1450000,0,0,587E,,1/20/2014,achadaluri,18085,"116,000.00",10.29,0,2.03,0,0,0,0,0,"116,012.32",1/25/2014,nnoor
+18086,PEND,POV Private,Steven,"Honolulu, US",Container,SHA,HON,1450000,0,1,587E,,1/20/2014,achadaluri,18086,"116,000.00",10.29,0,2.03,0,0,0,0,0,"116,012.32",1/25/2014,nnoor
+18087,PEND,POV Private,Steven,"Honolulu, US",Container,SHA,HON,1450000,0,1,587E,,1/20/2014,achadaluri,18087,"116,000.00",10.29,0,2.03,0,0,0,0,0,"116,012.32",1/25/2014,nnoor
+18088,PEND,POV Private,Steven,"Honolulu, US",Container,SHA,HON,1450000,0,0,587E,,1/20/2014,achadaluri,18088,"116,000.00",10.29,0,2.03,0,0,0,0,0,"116,012.32",1/25/2014,nnoor
+18089,PEND,POV Private,Steven,"Honolulu, US",Container,SHA,HON,1451249,0,1,587E,,1/20/2014,achadaluri,18089,"116,099.92",10.29,0,2.03,0,0,0,0,0,"116,112.24",1/25/2014,nnoor
+18090,PEND,POV Private,Steven,"Honolulu, US",Container,SHA,HON,1452413,0,0,587E,,1/20/2014,achadaluri,18090,"116,193.04",10.29,0,2.03,0,0,0,0,0,"116,205.36",1/25/2014,nnoor
+18091,PEND,POV Private,Steven,"Honolulu, US",Container,SHA,HON,1454190,8,0,587E,,1/20/2014,achadaluri,18091,"116,335.20",10.29,0,2.03,0,0,0,0,0,"116,347.52",1/25/2014,nnoor
+18092,PEND,POV Private,Steven,"Honolulu, US",Container,SHA,HON,1454226,0,1,587E,,1/20/2014,achadaluri,18092,"116,338.08",10.29,0,2.03,0,0,0,0,0,"116,350.40",1/25/2014,nnoor
+18093,PEND,POV Private,Steven,"Honolulu, US",Container,SHA,HON,1455586,0,1,587E,,1/20/2014,achadaluri,18093,"116,446.88",10.29,0,2.03,0,0,0,0,0,"116,459.20",1/25/2014,nnoor
+18094,PEND,POV Private,Steven,"Honolulu, US",Container,SHA,HON,1455633,0,15,587E,,1/20/2014,achadaluri,18094,"1,746,759.60",10.29,0,2.03,0,0,0,0,0,"1,746,771.92",1/25/2014,nnoor
+18095,PEND,POV Private,Steven,"Honolulu, US",Container,SHA,HON,1457847,0,0,587E,,1/20/2014,achadaluri,18095,"116,627.76",10.29,0,2.03,0,0,0,0,0,"116,640.08",1/25/2014,nnoor
+18096,PEND,POV Private,Steven,"Honolulu, US",Container,SHA,HON,1457880,0,0,587E,,1/20/2014,achadaluri,18096,"116,630.40",10.29,0,2.03,0,0,0,0,0,"116,642.72",1/25/2014,nnoor
+18097,PEND,POV Private,Steven,"Honolulu, US",Container,SHA,HON,1457880,0,0,587E,,1/20/2014,achadaluri,18097,"116,630.40",10.29,0,2.03,0,0,0,0,0,"116,642.72",1/25/2014,nnoor
+18098,PEND,POV Private,Steven,"Honolulu, US",Container,SHA,HON,1457880,0,0,587E,,1/20/2014,achadaluri,18098,"116,630.40",10.29,0,2.03,0,0,0,0,0,"116,642.72",1/25/2014,nnoor
+18099,PEND,POV Private,Steven,"Honolulu, US",Container,SHA,HON,1460000,0,0,587E,,1/20/2014,achadaluri,18099,"116,800.00",10.29,0,2.03,0,0,0,0,0,"116,812.32",1/25/2014,nnoor
+18100,PEND,POV Private,Steven,"Honolulu, US",Container,SHA,HON,1460000,0,1,587E,,1/20/2014,achadaluri,18100,"116,800.00",10.29,0,2.03,0,0,0,0,0,"116,812.32",1/25/2014,nnoor
+18101,PEND,POV Private,Steven,"Honolulu, US",Container,SHA,HON,1462224,0,0,587E,,1/20/2014,achadaluri,18101,"116,977.92",10.29,0,2.03,0,0,0,0,0,"116,990.24",1/25/2014,nnoor
+18102,PEND,POV Private,Steven,"Honolulu, US",Container,SHA,HON,1462375,0,0,587E,,1/20/2014,achadaluri,18102,"116,990.00",10.29,0,2.03,0,0,0,0,0,"117,002.32",1/25/2014,nnoor
+18103,PEND,POV Private,Steven,"Honolulu, US",Container,SHA,HON,1462804,0,0,587E,,1/20/2014,dstark,18103,"117,024.32",10.29,0,2.03,0,0,0,0,0,"117,036.64",1/25/2014,nnoor
+18104,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1463292,0,0,587E,,1/20/2014,rbrad,18104,"117,063.36",10.29,0,2.03,0,0,0,0,0,"117,075.68",1/25/2014,nnoor
+18105,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1463367,0,0,587E,,1/20/2014,rbrad,18105,"117,069.36",10.29,0,2.03,0,0,0,0,0,"117,081.68",1/25/2014,nnoor
+18106,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1465197,0,0,587E,,1/20/2014,rbrad,18106,"117,215.76",10.29,0,2.03,0,0,0,0,0,"117,228.08",1/25/2014,nnoor
+18107,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1465406,2520,0,587E,,1/20/2014,rbrad,18107,"117,232.48",10.29,0,2.03,0,0,0,314.6,0,"117,559.40",1/25/2014,nnoor
+18108,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1465406,2520,0,587E,,1/20/2014,rbrad,18108,"117,232.48",10.29,0,2.03,0,0,0,314.6,0,"117,559.40",1/25/2014,nnoor
+18109,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1465706,2520,0,587E,,1/20/2014,rbrad,18109,"117,256.48",10.29,0,2.03,0,0,0,314.6,0,"117,583.40",1/25/2014,nnoor
+18110,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1466059,0,0,587E,,1/20/2014,rbrad,18110,"117,284.72",10.29,0,2.03,0,0,0,0,0,"117,297.04",1/25/2014,nnoor
+18111,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1467899,0,0,587E,,1/20/2014,rbrad,18111,"117,431.92",10.29,0,2.03,0,0,0,0,0,"117,444.24",1/25/2014,nnoor
+18112,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1469983,0,0,587E,,1/20/2014,rbrad,18112,"117,598.64",10.29,0,2.03,0,0,0,0,0,"117,610.96",1/25/2014,nnoor
+18113,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1470165,0,0,587E,,1/20/2014,rbrad,18113,"117,613.20",10.29,0,2.03,0,0,0,0,0,"117,625.52",1/25/2014,nnoor
+18114,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1470171,0,0,587E,,1/20/2014,rbrad,18114,"117,613.68",10.29,0,2.03,0,0,0,0,0,"117,626.00",1/25/2014,nnoor
+18115,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1470468,0,0,587E,,1/20/2014,rbrad,18115,"117,637.44",10.29,0,2.03,0,0,0,0,0,"117,649.76",1/25/2014,nnoor
+18116,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1470890,0,0,587E,,1/20/2014,rbrad,18116,"117,671.20",10.29,0,2.03,0,0,0,0,0,"117,683.52",1/25/2014,nnoor
+18117,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1472064,0,0,587E,,1/20/2014,rbrad,18117,"117,765.12",10.29,0,2.03,0,0,0,0,0,"117,777.44",1/25/2014,nnoor
+18118,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1474021,0,0,587E,,1/20/2014,rbrad,18118,"117,921.68",10.29,0,2.03,0,0,0,0,0,"117,934.00",1/25/2014,nnoor
+18119,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1474715,0,0,587E,,1/20/2014,rbrad,18119,"117,977.20",10.29,0,2.03,0,0,0,0,0,"117,989.52",1/25/2014,nnoor
+18120,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1475393,0,0,587E,,1/20/2014,rbrad,18120,"118,031.44",10.29,0,2.03,0,0,0,0,0,"118,043.76",1/25/2014,nnoor
+18121,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1476002,0,0,587E,,1/20/2014,rbrad,18121,"118,080.16",10.29,0,2.03,0,0,0,0,0,"118,092.48",1/25/2014,nnoor
+18122,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1479477,0,0,587E,,1/20/2014,rbrad,18122,"118,358.16",10.29,0,2.03,0,0,0,0,0,"118,370.48",1/25/2014,nnoor
+18123,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1479995,0,0,587E,,1/20/2014,rbrad,18123,"118,399.60",10.29,0,2.03,0,0,0,0,0,"118,411.92",1/25/2014,nnoor
+18124,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1480000,0,0,587E,,1/20/2014,rbrad,18124,"118,400.00",10.29,0,2.03,0,0,0,0,0,"118,412.32",1/25/2014,nnoor
+18125,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1480194,0,0,587E,,1/20/2014,achadaluri,18125,"118,415.52",10.29,0,2.03,0,0,0,0,0,"118,427.84",1/25/2014,nnoor
+18126,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1480808,0,0,587E,,1/20/2014,achadaluri,18126,"118,464.64",10.29,0,2.03,0,0,0,0,0,"118,476.96",1/25/2014,nnoor
+18127,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1483449,0,0,587E,,1/20/2014,achadaluri,18127,"118,675.92",10.29,0,2.03,0,0,0,0,0,"118,688.24",1/25/2014,nnoor
+18128,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1483999,0,0,587E,,1/20/2014,achadaluri,18128,"118,719.92",10.29,0,2.03,0,0,0,0,0,"118,732.24",1/25/2014,nnoor
+18129,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1484637,0,0,587E,,1/20/2014,achadaluri,18129,"118,770.96",10.29,0,2.03,0,0,0,0,0,"118,783.28",1/25/2014,nnoor
+18130,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1492254,0,0,587E,,1/20/2014,achadaluri,18130,"119,380.32",10.29,0,2.03,0,0,0,0,0,"119,392.64",1/25/2014,nnoor
+18131,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1493565,63030,0,587E,,1/20/2014,achadaluri,18131,"119,485.20",10.29,0,2.03,0,0,0,"8,180.90",0,"127,678.42",1/25/2014,nnoor
+18132,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1493883,0,0,587E,,1/20/2014,achadaluri,18132,"119,510.64",10.29,0,2.03,0,0,0,0,0,"119,522.96",1/25/2014,nnoor
+18133,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1499859,0,0,587E,,1/20/2014,achadaluri,18133,"119,988.72",10.29,0,2.03,0,0,0,0,0,"120,001.04",1/25/2014,nnoor
+18134,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1500000,0,0,587E,,1/20/2014,achadaluri,18134,"120,000.00",10.29,0,2.03,0,0,0,0,0,"120,012.32",1/25/2014,nnoor
+18135,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1500000,0,0,587E,,1/20/2014,achadaluri,18135,"120,000.00",10.29,0,2.03,0,0,0,0,0,"120,012.32",1/25/2014,nnoor
+18136,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1500000,0,0,587E,,1/20/2014,achadaluri,18136,"120,000.00",10.29,0,2.03,0,0,0,0,0,"120,012.32",1/25/2014,nnoor
+18137,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1500000,0,0,587E,,1/20/2014,achadaluri,18137,"120,000.00",10.29,0,2.03,0,0,0,0,0,"120,012.32",1/25/2014,nnoor
+18138,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1500000,0,0,587E,,1/20/2014,achadaluri,18138,"120,000.00",10.29,0,2.03,0,0,0,0,0,"120,012.32",1/25/2014,nnoor
+18139,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1500000,0,0,587E,,1/20/2014,achadaluri,18139,"120,000.00",10.29,0,2.03,0,0,0,0,0,"120,012.32",1/25/2014,nnoor
+18140,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1500000,0,0,587E,,1/20/2014,achadaluri,18140,"120,000.00",10.29,0,2.03,0,0,0,0,0,"120,012.32",1/25/2014,nnoor
+18141,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1500000,0,0,587E,,1/20/2014,achadaluri,18141,"120,000.00",10.29,0,2.03,0,0,0,0,0,"120,012.32",1/25/2014,nnoor
+18142,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1503160,0,0,587E,,1/20/2014,achadaluri,18142,"120,252.80",10.29,0,2.03,0,0,0,0,0,"120,265.12",1/25/2014,nnoor
+18143,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1503160,0,0,587E,,1/20/2014,achadaluri,18143,"120,252.80",10.29,0,2.03,0,0,0,0,0,"120,265.12",1/25/2014,nnoor
+18144,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1505585,0,0,587E,,1/20/2014,achadaluri,18144,"120,446.80",10.29,0,2.03,0,0,0,0,0,"120,459.12",1/25/2014,nnoor
+18145,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1511625,0,0,587E,,1/20/2014,achadaluri,18145,"120,930.00",10.29,0,2.03,0,0,0,0,0,"120,942.32",1/25/2014,nnoor
+18146,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1511625,0,0,587E,,1/20/2014,achadaluri,18146,"120,930.00",10.29,0,2.03,0,0,0,0,0,"120,942.32",1/25/2014,nnoor
+18147,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1511625,0,0,587E,,1/20/2014,achadaluri,18147,"120,930.00",10.29,0,2.03,0,0,0,0,0,"120,942.32",1/25/2014,nnoor
+18148,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1512446,0,0,587E,,1/20/2014,achadaluri,18148,"120,995.68",10.29,0,2.03,0,0,0,0,0,"121,008.00",1/25/2014,nnoor
+18149,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1515133,0,0,587E,,1/20/2014,achadaluri,18149,"121,210.64",10.29,0,2.03,0,0,0,0,0,"121,222.96",1/25/2014,nnoor
+18150,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1515410,0,0,587E,,1/20/2014,achadaluri,18150,"121,232.80",10.29,0,2.03,0,0,0,0,0,"121,245.12",1/25/2014,nnoor
+18151,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1517915,0,145,587E,,1/20/2014,achadaluri,18151,"17,607,814.00",10.29,0,2.03,0,0,0,0,0,"17,607,826.32",1/25/2014,nnoor
+18152,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1519297,0,1,587E,,1/20/2014,achadaluri,18152,"121,543.76",10.29,0,2.03,0,0,0,0,0,"121,556.08",1/25/2014,nnoor
+18153,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1520000,0,1,587E,,1/20/2014,achadaluri,18153,"121,600.00",10.29,0,2.03,0,0,0,0,0,"121,612.32",1/25/2014,nnoor
+18154,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1520000,0,0,587E,,1/20/2014,achadaluri,18154,"121,600.00",10.29,0,2.03,0,0,0,0,0,"121,612.32",1/25/2014,nnoor
+18155,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1526090,0,0,587E,,1/20/2014,achadaluri,18155,"122,087.20",10.29,0,2.03,0,0,0,0,0,"122,099.52",1/25/2014,nnoor
+18156,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1526828,0,0,587E,,1/20/2014,achadaluri,18156,"122,146.24",10.29,0,2.03,0,0,0,0,0,"122,158.56",1/25/2014,nnoor
+18157,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1530612,0,0,587E,,1/20/2014,achadaluri,18157,"122,448.96",10.29,0,2.03,0,0,0,0,0,"122,461.28",1/25/2014,nnoor
+18158,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1532302,0,0,587E,,1/20/2014,achadaluri,18158,"122,584.16",10.29,0,2.03,0,0,0,0,0,"122,596.48",1/25/2014,nnoor
+18159,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1532303,0,1,587E,,1/20/2014,achadaluri,18159,"122,584.24",10.29,0,2.03,0,0,0,0,0,"122,596.56",1/25/2014,nnoor
+18160,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1532750,0,0,587E,,1/20/2014,achadaluri,18160,"122,620.00",10.29,0,2.03,0,0,0,0,0,"122,632.32",1/25/2014,nnoor
+18161,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1532943,0,0,587E,,1/20/2014,achadaluri,18161,"122,635.44",10.29,0,2.03,0,0,0,0,0,"122,647.76",1/25/2014,nnoor
+18162,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1533841,0,0,587E,,1/20/2014,achadaluri,18162,"122,707.28",10.29,0,2.03,0,0,0,0,0,"122,719.60",1/25/2014,nnoor
+18163,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1534173,0,0,587E,,1/20/2014,achadaluri,18163,"122,733.84",10.29,0,2.03,0,0,0,0,0,"122,746.16",1/25/2014,nnoor
+18164,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1534944,0,0,587E,,1/20/2014,achadaluri,18164,"122,795.52",10.29,0,2.03,0,0,0,0,0,"122,807.84",1/25/2014,nnoor
+18165,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1534944,0,0,587E,,1/20/2014,achadaluri,18165,"122,795.52",10.29,0,2.03,0,0,0,0,0,"122,807.84",1/25/2014,nnoor
+18166,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1535503,0,0,587E,,1/20/2014,achadaluri,18166,"122,840.24",10.29,0,2.03,0,0,0,0,0,"122,852.56",1/25/2014,nnoor
+18167,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1538568,0,1660,587E,,1/20/2014,achadaluri,18167,"204,321,830.40",10.29,0,2.03,0,0,0,0,0,"204,321,842.72",1/25/2014,nnoor
+18168,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1538756,0,0,587E,,1/20/2014,achadaluri,18168,"123,100.48",10.29,0,2.03,0,0,0,0,0,"123,112.80",1/25/2014,nnoor
+18169,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1539956,0,1,587E,,1/20/2014,achadaluri,18169,"123,196.48",10.29,0,2.03,0,0,0,0,0,"123,208.80",1/25/2014,nnoor
+18170,PEND,POV Private,Steven,"Seattle, US",Container,SHA,SEA,1541708,0,1,587E,,1/20/2014,achadaluri,18170,"123,336.64",10.29,0,2.03,0,0,0,0,0,"123,348.96",1/25/2014,nnoor
+18171,PEND,POV Private,Pavan,"Shanghai, China",Container,SHA,SHA,1544119,138975,0,IND,,1/17/2014,rhodes,18171,"123,529.52",10.29,4.09,2.03,0,0,0,"18,053.75",0,"141,599.68",1/22/2014,fnoor
+18172,PEND,POV Private,Pavan,"Shanghai, China",Container,SHA,SHA,1544119,138975,0,IND,,1/17/2014,rhodes,18172,"123,529.52",10.29,4.09,2.03,0,0,0,"18,053.75",0,"141,599.68",1/22/2014,fnoor
+18173,PEND,POV Private,Pavan,"Shanghai, China",Container,SHA,SHA,1545691,0,0,IND,,1/17/2014,rhodes,18173,"123,655.28",10.29,4.09,2.03,0,0,0,0,0,"123,671.69",1/22/2014,fnoor
+18174,PEND,POV Private,Pavan,"Shanghai, China",Container,SHA,SHA,1550000,0,2040,IND,,1/17/2014,rhodes,18174,"252,960,000.00",10.29,4.09,2.03,0,9,0,0,0,"252,960,025.41",1/22/2014,fnoor
+18175,PEND,POV Private,Pavan,"Shanghai, China",Container,SHA,SHA,1550000,0,0,IND,,1/17/2014,rhodes,18175,"124,000.00",10.29,4.09,2.03,0,0,0,0,0,"124,016.41",1/22/2014,fnoor
+18176,PEND,POV Private,Pavan,"Shanghai, China",Container,SHA,SHA,1550000,0,0,IND,,1/17/2014,rhodes,18176,"124,000.00",10.29,4.09,2.03,0,0,0,0,0,"124,016.41",1/22/2014,fnoor
+18177,PEND,POV Private,Pavan,"Shanghai, China",Container,SHA,SHA,1550000,0,0,IND,,1/17/2014,rhodes,18177,"124,000.00",10.29,4.09,2.03,0,0,0,0,0,"124,016.41",1/22/2014,fnoor
+18178,PEND,POV Private,Pavan,"Shanghai, China",Container,SHA,SHA,1550000,0,0,IND,,1/17/2014,rhodes,18178,"124,000.00",10.29,4.09,2.03,0,0,0,0,0,"124,016.41",1/22/2014,fnoor
+18179,PEND,POV Private,Pavan,"Shanghai, China",Container,SHA,SHA,1550000,0,0,IND,,1/17/2014,rhodes,18179,"124,000.00",10.29,4.09,2.03,0,0,0,0,0,"124,016.41",1/22/2014,fnoor
+18180,PEND,POV Private,Pavan,"Shanghai, China",Container,SHA,SHA,1552634,0,0,IND,,1/17/2014,rhodes,18180,"124,210.72",10.29,4.09,2.03,0,0,0,0,0,"124,227.13",1/22/2014,fnoor
+18181,PEND,POV Private,Sam,"Sydney, Australia",Container,SHA,SYD,1552882,1,1,IND,LDS,1/17/2014,rhodes,18181,"124,230.56",10.29,8.03,2.03,0,0,100,0,0,"124,350.91",1/22/2014,nnoor
+18182,PEND,POV Private,Sam,"Sydney, Australia",Container,SHA,SYD,1554336,1,1,IND,LDS,1/17/2014,rhodes,18182,"124,346.88",10.29,8.03,2.03,0,0,100,0,0,"124,467.23",1/22/2014,nnoor
+18183,PEND,POV Private,Sam,"Sydney, Australia",Container,SHA,SYD,1558000,1,1,IND,LDS,1/17/2014,rhodes,18183,"124,640.00",10.29,8.03,2.03,0,0,100,0,0,"124,760.35",1/22/2014,nnoor
+18184,PEND,POV Private,Sam,"Sydney, Australia",Container,SHA,SYD,1560000,1,1,IND,LDS,1/17/2014,rhodes,18184,"124,800.00",10.29,8.03,2.03,0,0,100,0,0,"124,920.35",1/22/2014,nnoor
+18185,PEND,POV Private,Pavan,"Shanghai, China",Container,SHA,SHA,1561069,0,0,IND,,1/17/2014,rhodes,18185,"124,885.52",10.29,4.09,2.03,0,0,0,0,0,"124,901.93",1/22/2014,fnoor
+18186,PEND,POV Private,Sam,"Sydney, Australia",Container,SHA,SYD,1561069,1,1,IND,LDS,1/17/2014,rhodes,18186,"124,885.52",10.29,8.03,2.03,0,0,100,0,0,"125,005.87",1/22/2014,nnoor
+18187,PEND,POV Private,Sam,"Sydney, Australia",Container,SHA,SYD,1563750,1,1,IND,LDS,1/17/2014,rhodes,18187,"125,100.00",10.29,8.03,2.03,0,0,100,0,0,"125,220.35",1/22/2014,nnoor
+18188,PEND,POV Private,Sam,"Sydney, Australia",Container,SHA,SYD,1563750,1,1,IND,LDS,1/17/2014,rhodes,18188,"125,100.00",10.29,8.03,2.03,0,0,100,0,0,"125,220.35",1/22/2014,nnoor
+18189,PEND,POV Private,Sam,"Sydney, Australia",Container,SHA,SYD,1573223,1,1,IND,LDS,1/17/2014,rhodes,18189,"125,857.84",10.29,8.03,2.03,0,0,100,0,0,"125,978.19",1/22/2014,nnoor
+18190,PEND,POV Private,Sam,"Sydney, Australia",Container,SHA,SYD,1573416,1,1,IND,LDS,1/17/2014,rhodes,18190,"125,873.28",10.29,8.03,2.03,0,0,100,0,0,"125,993.63",1/22/2014,nnoor
+18191,PEND,POV Private,Sam,"Sydney, Australia",Container,SHA,SYD,1575220,1,1,IND,LDS,1/17/2014,rhodes,18191,"126,017.60",10.29,8.03,2.03,0,0,100,0,0,"126,137.95",1/22/2014,nnoor
+18192,PEND,POV Private,Sam,"Sydney, Australia",Container,SHA,SYD,1576982,1,1,IND,LDS,1/17/2014,rhodes,18192,"126,158.56",10.29,8.03,2.03,0,0,100,0,0,"126,278.91",1/22/2014,nnoor
+18193,PEND,POV Private,Sam,"Sydney, Australia",Container,SHA,SYD,1581421,1,1,IND,LDS,1/17/2014,rhodes,18193,"126,513.68",10.29,8.03,2.03,0,0,100,0,0,"126,634.03",1/22/2014,nnoor
+18194,PEND,POV Private,Sam,"Sydney, Australia",Container,SHA,SYD,1584065,1,1,IND,LDS,1/17/2014,rhodes,18194,"126,725.20",10.29,8.03,2.03,0,0,100,0,0,"126,845.55",1/22/2014,nnoor
+18195,PEND,POV Private,Sam,"Sydney, Australia",Container,SHA,SYD,1585320,1,1,IND,LDS,1/17/2014,rhodes,18195,"126,825.60",10.29,8.03,2.03,0,0,100,0,0,"126,945.95",1/22/2014,nnoor
+18196,PEND,Alex Corp,Alex,"Sydney, Australia",Container,SHA,SYD,1585320,1,1,IND,LDS,1/17/2014,rhodes,18196,"126,825.60",10.29,8.03,2.03,0,0,100,0,0,"126,945.95",1/22/2014,nnoor
+18197,PEND,Alex Corp,Alex,"Sydney, Australia",Container,SHA,SYD,1587671,1,1,IND,LDS,1/17/2014,rhodes,18197,"127,013.68",10.29,8.03,2.03,0,0,100,0,0,"127,134.03",1/22/2014,nnoor
+18198,PEND,Alex Corp,Alex,"Sydney, Australia",Container,SHA,SYD,1591398,1,1,IND,LDS,1/17/2014,rhodes,18198,"127,311.84",10.29,8.03,2.03,0,0,100,0,0,"127,432.19",1/22/2014,nnoor
+18199,PEND,Alex Corp,Alex,"Sydney, Australia",Container,SHA,SYD,1592638,1,1,IND,LDS,1/17/2014,rhodes,18199,"127,411.04",10.29,8.03,2.03,0,0,100,0,0,"127,531.39",1/22/2014,nnoor
+18200,PEND,Alex Corp,Alex,"Sydney, Australia",Container,SHA,SYD,1593705,1,1,IND,LDS,1/17/2014,rhodes,18200,"127,496.40",10.29,8.03,2.03,0,0,100,0,0,"127,616.75",1/22/2014,nnoor
+18201,PEND,Alex Corp,Alex,"Sydney, Australia",Container,SHA,SYD,1594168,1,1,IND,LDS,1/17/2014,rhodes,18201,"127,533.44",10.29,8.03,2.03,0,0,100,0,0,"127,653.79",1/22/2014,nnoor
+18202,PEND,Alex Corp,Alex,"Sydney, Australia",Container,SHA,SYD,1594173,1,1,IND,LDS,1/17/2014,rhodes,18202,"127,533.84",10.29,8.03,2.03,0,0,100,0,0,"127,654.19",1/22/2014,nnoor
+18203,PEND,Alex Corp,Alex,"Sydney, Australia",Container,SHA,SYD,1599000,1,1,IND,LDS,1/17/2014,rhodes,18203,"127,920.00",10.29,8.03,2.03,0,0,100,0,0,"128,040.35",1/22/2014,nnoor
+18204,PEND,Alex Corp,Alex,"Sydney, Australia",Container,SHA,SYD,1599000,1,1,IND,LDS,1/17/2014,rhodes,18204,"127,920.00",10.29,8.03,2.03,0,0,100,0,0,"128,040.35",1/22/2014,nnoor
+18205,PEND,Alex Corp,Alex,"Sydney, Australia",Container,SHA,SYD,1599000,1,1,IND,LDS,1/17/2014,rhodes,18205,"127,920.00",10.29,8.03,2.03,0,0,100,0,0,"128,040.35",1/22/2014,nnoor
+18206,PEND,Alex Corp,Alex,"Sydney, Australia",Container,SHA,SYD,1599000,1,1,IND,LDS,1/17/2014,rhodes,18206,"127,920.00",10.29,8.03,2.03,0,0,100,0,0,"128,040.35",1/22/2014,nnoor
+18207,PEND,Alex Corp,Alex,"Sydney, Australia",Container,SHA,SYD,1599000,1,1,IND,LDS,1/17/2014,rhodes,18207,"127,920.00",10.29,8.03,2.03,0,0,100,0,0,"128,040.35",1/22/2014,nnoor
+18208,PEND,Alex Corp,Alex,"Sydney, Australia",Container,SHA,SYD,1600000,1,1,IND,LDS,1/17/2014,rhodes,18208,"128,000.00",10.29,8.03,2.03,0,0,100,0,0,"128,120.35",1/22/2014,nnoor
+18209,PEND,Alex Corp,Alex,"Sydney, Australia",Container,SHA,SYD,1600000,1,1,IND,LDS,1/17/2014,rhodes,18209,"128,000.00",10.29,8.03,2.03,0,0,100,0,0,"128,120.35",1/22/2014,nnoor
+18211,PEND,Alex Corp,Alex,"Sydney, Australia",Container,SHA,SYD,1600000,1,1,IND,LDS,1/17/2014,rhodes,18211,"128,000.00",10.29,8.03,2.03,0,0,100,0,0,"128,120.35",1/22/2014,nnoor
+18212,PEND,Alex Corp,Alex,"Sydney, Australia",Container,SHA,SYD,1600000,1,1,IND,LDS,1/17/2014,rhodes,18212,"128,000.00",10.29,8.03,2.03,0,0,100,0,0,"128,120.35",1/22/2014,nnoor
+18213,PEND,Alex Corp,Alex,"Sydney, Australia",Container,SHA,SYD,1600000,1,1,IND,LDS,1/17/2014,rhodes,18213,"128,000.00",10.29,8.03,2.03,0,0,100,0,0,"128,120.35",1/22/2014,nnoor
+18214,PEND,Alex Corp,Alex,"Sydney, Australia",Container,SHA,SYD,1600000,1,1,IND,LDS,1/17/2014,rhodes,18214,"128,000.00",10.29,8.03,2.03,0,0,100,0,0,"128,120.35",1/22/2014,nnoor
+18215,PEND,Alex Corp,Alex,"Shanghai, China",Container,SHA,SHA,1600000,0,0,IND,,1/17/2014,rhodes,18215,"128,000.00",10.29,4.09,2.03,0,0,0,0,0,"128,016.41",1/22/2014,fnoor
+18216,PEND,Alex Corp,Alex,"Shanghai, China",Container,SHA,SHA,1602244,0,0,IND,,1/17/2014,rhodes,18216,"128,179.52",10.29,4.09,2.03,0,0,0,0,0,"128,195.93",1/22/2014,fnoor
+18217,PEND,Alex Corp,Alex,"Shanghai, China",Container,SHA,SHA,1602244,0,0,IND,,1/17/2014,rhodes,18217,"128,179.52",10.29,4.09,2.03,0,0,0,0,0,"128,195.93",1/22/2014,fnoor
+18218,PEND,Alex Corp,Alex,"Shanghai, China",Container,SHA,SHA,1606099,0,0,IND,,1/17/2014,rhodes,18218,"128,487.92",10.29,4.09,2.03,0,0,0,0,0,"128,504.33",1/22/2014,fnoor
+18219,PEND,Alex Corp,Alex,"Shanghai, China",Container,SHA,SHA,1614332,0,0,IND,,1/17/2014,rhodes,18219,"129,146.56",10.29,4.09,2.03,0,0,0,0,0,"129,162.97",1/22/2014,fnoor
+18220,PEND,Alex Corp,Alex,"Shanghai, China",Container,SHA,SHA,1614884,1,1,IND,,1/17/2014,rhodes,18220,"129,190.72",10.29,4.09,2.03,0,0,0,0,0,"129,207.13",1/22/2014,fnoor
+18221,PEND,Alex Corp,Alex,"Shanghai, China",Container,SHA,SHA,1614884,1,0,IND,,1/17/2014,rhodes,18221,"129,190.72",10.29,4.09,2.03,0,0,0,0,0,"129,207.13",1/22/2014,fnoor
+18222,PEND,Alex Corp,Alex,"Shanghai, China",Container,SHA,SHA,1614884,1,0,IND,,1/17/2014,rhodes,18222,"129,190.72",10.29,4.09,2.03,0,0,0,0,0,"129,207.13",1/22/2014,fnoor
+18223,PEND,Alex Corp,Alex,"Shanghai, China",Container,SHA,SHA,1614884,1,0,IND,,1/17/2014,rhodes,18223,"129,190.72",10.29,4.09,2.03,0,0,0,0,0,"129,207.13",1/22/2014,fnoor
+18224,PEND,Alex Corp,Alex,"Shanghai, China",Container,SHA,SHA,1614884,1,0,IND,,1/17/2014,rhodes,18224,"129,190.72",10.29,4.09,2.03,0,0,0,0,0,"129,207.13",1/22/2014,fnoor
+18225,PEND,Alex Corp,Alex,"Shanghai, China",Container,SHA,SHA,1614884,1,0,IND,,1/17/2014,rhodes,18225,"129,190.72",10.29,4.09,2.03,0,0,0,0,0,"129,207.13",1/22/2014,fnoor
+18226,PEND,Alex Corp,Alex,"Shanghai, China",Container,SHA,SHA,1614884,1,0,IND,,1/17/2014,rhodes,18226,"129,190.72",10.29,4.09,2.03,0,0,0,0,0,"129,207.13",1/22/2014,fnoor
+18227,PEND,Alex Corp,Alex,"Shanghai, China",Container,SHA,SHA,1614884,1,0,IND,,1/17/2014,rhodes,18227,"129,190.72",10.29,4.09,2.03,0,0,0,0,0,"129,207.13",1/22/2014,fnoor
+18228,PEND,Alex Corp,Alex,"Shanghai, China",Container,SHA,SHA,1614884,1,0,IND,,1/17/2014,rhodes,18228,"129,190.72",10.29,4.09,2.03,0,0,0,0,0,"129,207.13",1/22/2014,fnoor
+18229,PEND,Alex Corp,Alex,"Shanghai, China",Container,SHA,SHA,1614884,1,0,IND,,1/17/2014,rhodes,18229,"129,190.72",10.29,4.09,2.03,0,0,0,0,0,"129,207.13",1/22/2014,fnoor
+18232,PEND,Alex Corp,Alex,"Shanghai, China",Container,SHA,SHA,1614884,1,1,IND,,1/17/2014,rhodes,18232,"129,190.72",10.29,4.09,2.03,0,0,0,0,0,"129,207.13",1/22/2014,fnoor
+18233,PEND,Alex Corp,Alex,"Shanghai, China",Container,SHA,SHA,1614884,1,0,IND,,1/17/2014,rhodes,18233,"129,190.72",10.29,4.09,2.03,0,0,0,0,0,"129,207.13",1/22/2014,fnoor
+18234,PEND,Alex Corp,Alex,"Shanghai, China",Container,SHA,SHA,1614884,1,0,IND,,1/17/2014,rhodes,18234,"129,190.72",10.29,4.09,2.03,0,0,0,0,0,"129,207.13",1/22/2014,fnoor
+18235,PEND,Alex Corp,Alex,"Shanghai, China",Container,SHA,SHA,1614884,1,0,IND,,1/17/2014,rhodes,18235,"129,190.72",10.29,4.09,2.03,0,0,0,0,0,"129,207.13",1/22/2014,fnoor
+18236,PEND,Alex Corp,Alex,"Shanghai, China",Container,SHA,SHA,1614884,1,0,IND,,1/17/2014,rhodes,18236,"129,190.72",10.29,4.09,2.03,0,0,0,0,0,"129,207.13",1/22/2014,fnoor
+18237,PEND,POV Public,Edward,"Anchorage, US",Container,SHA,ANK,1614884,1,1,1AK,,1/20/2014,achadaluri,18237,"129,190.72",10.29,2,2.03,0,0,0,0,0,"129,205.04",1/25/2014,nnoor
+18238,PEND,POV Public,Edward,"Anchorage, US",Container,SHA,ANK,1614884,1,1,1AK,,1/20/2014,achadaluri,18238,"129,190.72",10.29,2,2.03,0,0,0,0,0,"129,205.04",1/25/2014,nnoor
+18239,PEND,POV Public,Edward,"Anchorage, US",Container,SHA,ANK,1614884,1,3,1AK,,1/20/2014,achadaluri,18239,"387,572.16",10.29,2,2.03,0,9,0,0,0,"387,595.48",1/25/2014,nnoor
+18240,PEND,POV Public,Edward,"Anchorage, US",Container,SHA,ANK,1614884,1,0,1AK,,1/20/2014,achadaluri,18240,"129,190.72",10.29,2,2.03,0,0,0,0,0,"129,205.04",1/25/2014,nnoor
+18241,PEND,POV Public,Edward,"Anchorage, US",Container,SHA,ANK,1614884,1,0,1AK,,1/20/2014,achadaluri,18241,"129,190.72",10.29,2,2.03,0,0,0,0,0,"129,205.04",1/25/2014,nnoor
+18242,PEND,POV Public,Edward,"Anchorage, US",Container,SHA,ANK,1614884,1,1,1AK,,1/20/2014,achadaluri,18242,"129,190.72",10.29,2,2.03,0,0,0,0,0,"129,205.04",1/25/2014,nnoor
+18243,PEND,POV Public,Edward,"Anchorage, US",Container,SHA,ANK,1614884,1,1,1AK,,1/20/2014,achadaluri,18243,"129,190.72",10.29,2,2.03,0,0,0,0,0,"129,205.04",1/25/2014,nnoor
+18244,PEND,POV Public,Edward,"Anchorage, US",Container,SHA,ANK,1614884,1,86,1AK,,1/20/2014,achadaluri,18244,"11,110,401.92",10.29,2,2.03,0,9,0,0,0,"11,110,425.24",1/25/2014,nnoor
+18245,PEND,POV Public,Edward,"Anchorage, US",Container,SHA,ANK,1614884,1,0,1AK,,1/20/2014,achadaluri,18245,"129,190.72",10.29,2,2.03,0,0,0,0,0,"129,205.04",1/25/2014,nnoor
+18246,PEND,POV Public,Edward,"Anchorage, US",Container,SHA,ANK,1614884,1,0,1AK,,1/20/2014,achadaluri,18246,"129,190.72",10.29,2,2.03,0,0,0,0,0,"129,205.04",1/25/2014,nnoor
+18247,PEND,POV Public,Edward,"Anchorage, US",Container,SHA,ANK,1614885,1,0,1AK,,1/20/2014,achadaluri,18247,"129,190.80",10.29,2,2.03,0,0,0,0,0,"129,205.12",1/25/2014,nnoor
+18248,PEND,POV Public,Edward,"Anchorage, US",Container,SHA,ANK,1614885,1,0,1AK,,1/20/2014,achadaluri,18248,"129,190.80",10.29,2,2.03,0,0,0,0,0,"129,205.12",1/25/2014,nnoor
+18250,PEND,POV Public,Edward,"Anchorage, US",Container,SHA,ANK,1615708,0,0,1AK,,1/20/2014,achadaluri,18250,"129,256.64",10.29,2,2.03,0,0,0,0,0,"129,270.96",1/25/2014,nnoor
+18251,PEND,POV Public,Edward,"Anchorage, US",Container,SHA,ANK,1615875,0,0,1AK,,1/20/2014,achadaluri,18251,"129,270.00",10.29,2,2.03,0,0,0,0,0,"129,284.32",1/25/2014,nnoor
+18252,PEND,POV Public,Edward,"Anchorage, US",Container,SHA,ANK,1620000,0,0,1AK,,1/20/2014,achadaluri,18252,"129,600.00",10.29,2,2.03,0,0,0,0,0,"129,614.32",1/25/2014,nnoor
+18253,PEND,POV Public,Edward,"Anchorage, US",Container,SHA,ANK,1629718,68997,0,1AK,,1/20/2014,achadaluri,18253,"130,377.44",10.29,2,2.03,0,0,0,"8,956.61",0,"139,348.37",1/25/2014,nnoor
+18254,PEND,POV Public,Edward,"Anchorage, US",Container,SHA,ANK,1632378,0,0,1AK,,1/20/2014,achadaluri,18254,"130,590.24",10.29,2,2.03,0,0,0,0,0,"130,604.56",1/25/2014,nnoor
+18255,PEND,POV Public,Edward,"Anchorage, US",Container,SHA,ANK,1636274,0,0,1AK,,1/20/2014,achadaluri,18255,"130,901.92",10.29,2,2.03,0,0,0,0,0,"130,916.24",1/25/2014,nnoor
+18256,PEND,POV Public,Edward,"Anchorage, US",Container,SHA,ANK,1638446,0,0,1AK,,1/20/2014,achadaluri,18256,"131,075.68",10.29,2,2.03,0,0,0,0,0,"131,090.00",1/25/2014,nnoor
+18257,PEND,POV Public,Edward,"Anchorage, US",Container,SHA,ANK,1641985,0,0,1AK,,1/20/2014,achadaluri,18257,"131,358.80",10.29,2,2.03,0,0,0,0,0,"131,373.12",1/25/2014,nnoor
+18258,PEND,POV Public,Edward,"Anchorage, US",Container,SHA,ANK,1646081,0,0,1AK,,1/20/2014,achadaluri,18258,"131,686.48",10.29,2,2.03,0,0,0,0,0,"131,700.80",1/25/2014,nnoor
+18259,PEND,POV Public,Edward,"Anchorage, US",Container,SHA,ANK,1650000,0,1,1AK,,1/20/2014,achadaluri,18259,"132,000.00",10.29,2,2.03,0,0,0,0,0,"132,014.32",1/25/2014,nnoor
+18260,PEND,POV Public,Edward,"Anchorage, US",Container,SHA,ANK,1650000,0,0,1AK,,1/20/2014,achadaluri,18260,"132,000.00",10.29,2,2.03,0,0,0,0,0,"132,014.32",1/25/2014,nnoor
+18261,PEND,POV Public,Edward,"Anchorage, US",Container,SHA,ANK,1650000,0,0,1AK,,1/20/2014,achadaluri,18261,"132,000.00",10.29,2,2.03,0,0,0,0,0,"132,014.32",1/25/2014,nnoor
+18262,PEND,POV Public,Edward,"Anchorage, US",Container,SHA,ANK,1650000,0,0,1AK,,1/20/2014,achadaluri,18262,"132,000.00",10.29,2,2.03,0,0,0,0,0,"132,014.32",1/25/2014,nnoor
+18263,PEND,POV Public,Edward,"Anchorage, US",Container,SHA,ANK,1650000,0,1,1AK,,1/20/2014,achadaluri,18263,"132,000.00",10.29,2,2.03,0,0,0,0,0,"132,014.32",1/25/2014,nnoor
+18264,PEND,POV Public,Edward,"Anchorage, US",Container,SHA,ANK,1650000,0,1,1AK,,1/20/2014,achadaluri,18264,"132,000.00",10.29,2,2.03,0,0,0,0,0,"132,014.32",1/25/2014,nnoor
+18265,PEND,POV Public,Edward,"Anchorage, US",Container,SHA,ANK,1653004,3890,0,1AK,,1/20/2014,achadaluri,18265,"132,240.32",10.29,2,2.03,0,0,0,492.7,0,"132,747.34",1/25/2014,nnoor
+18266,PEND,POV Public,Edward,"Anchorage, US",Container,SHA,ANK,1653603,0,0,1AK,,1/20/2014,achadaluri,18266,"132,288.24",10.29,2,2.03,0,0,0,0,0,"132,302.56",1/25/2014,nnoor
+18267,PEND,POV Public,Edward,"Anchorage, US",Container,SHA,ANK,1653831,0,0,1AK,,1/20/2014,achadaluri,18267,"132,306.48",10.29,2,2.03,0,0,0,0,0,"132,320.80",1/25/2014,nnoor
+18268,PEND,POV Public,Edward,"Anchorage, US",Container,SHA,ANK,1656964,0,0,1AK,,1/20/2014,achadaluri,18268,"132,557.12",10.29,2,2.03,0,0,0,0,0,"132,571.44",1/25/2014,nnoor
+18269,PEND,POV Public,Edward,"Anchorage, US",Container,SHA,ANK,1665630,0,0,1AK,,1/20/2014,achadaluri,18269,"133,250.40",10.29,2,2.03,0,0,0,0,0,"133,264.72",1/25/2014,nnoor
+18270,PEND,POV Public,Edward,"Anchorage, US",Container,SHA,ANK,1665630,0,0,1AK,,1/20/2014,achadaluri,18270,"133,250.40",10.29,2,2.03,0,0,0,0,0,"133,264.72",1/25/2014,nnoor
+18271,PEND,POV Public,Edward,"Anchorage, US",Container,SHA,ANK,1665630,0,0,1AK,,1/20/2014,achadaluri,18271,"133,250.40",10.29,2,2.03,0,0,0,0,0,"133,264.72",1/25/2014,nnoor
+18272,PEND,POV Public,Edward,"Anchorage, US",Container,SHA,ANK,1665630,0,0,1AK,,1/20/2014,achadaluri,18272,"133,250.40",10.29,2,2.03,0,0,0,0,0,"133,264.72",1/25/2014,nnoor
+18273,PEND,POV Public,Edward,"Honolulu, US",Container,SHA,HON,1665630,0,0,554I,,1/20/2014,dstark,18273,"133,250.40",10.29,0,2.03,0,0,0,0,0,"133,262.72",1/25/2014,nnoor
+18274,PEND,POV Public,Edward,"Honolulu, US",Container,SHA,HON,1665630,0,0,554I,,1/20/2014,dstark,18274,"133,250.40",10.29,0,2.03,0,0,0,0,0,"133,262.72",1/25/2014,nnoor
+18275,PEND,POV Public,Edward,"Honolulu, US",Container,SHA,HON,1668000,0,0,554I,,1/20/2014,dstark,18275,"133,440.00",10.29,0,2.03,0,0,0,0,0,"133,452.32",1/25/2014,nnoor
+18276,PEND,POV Public,Edward,"Honolulu, US",Container,SHA,HON,1670860,0,0,554I,,1/20/2014,dstark,18276,"133,668.80",10.29,0,2.03,0,0,0,0,0,"133,681.12",1/25/2014,nnoor
+18277,PEND,POV Public,Edward,"Honolulu, US",Container,SHA,HON,1689023,0,0,554I,,1/20/2014,dstark,18277,"135,121.84",10.29,0,2.03,0,0,0,0,0,"135,134.16",1/25/2014,nnoor
+18278,PEND,POV Public,Edward,"Honolulu, US",Container,SHA,HON,1696000,0,0,554I,,1/20/2014,dstark,18278,"135,680.00",10.29,0,2.03,0,0,0,0,0,"135,692.32",1/25/2014,nnoor
+18279,PEND,POV Public,Edward,"Honolulu, US",Container,SHA,HON,1696000,0,0,554I,,1/20/2014,dstark,18279,"135,680.00",10.29,0,2.03,0,0,0,0,0,"135,692.32",1/25/2014,nnoor
+18280,PEND,POV Public,Edward,"Honolulu, US",Container,SHA,HON,1696000,0,0,554I,,1/20/2014,dstark,18280,"135,680.00",10.29,0,2.03,0,0,0,0,0,"135,692.32",1/25/2014,nnoor
+18281,PEND,POV Public,Edward,"Honolulu, US",Container,SHA,HON,1697883,0,0,554I,,1/20/2014,dstark,18281,"135,830.64",10.29,0,2.03,0,0,0,0,0,"135,842.96",1/25/2014,nnoor
+18282,PEND,POV Public,Edward,"Honolulu, US",Container,SHA,HON,1700000,0,0,554I,,1/20/2014,dstark,18282,"136,000.00",10.29,0,2.03,0,0,0,0,0,"136,012.32",1/25/2014,nnoor
+18283,PEND,POV Public,Edward,"Honolulu, US",Container,SHA,HON,1700000,0,0,554I,,1/20/2014,dstark,18283,"136,000.00",10.29,0,2.03,0,0,0,0,0,"136,012.32",1/25/2014,nnoor
+18284,PEND,POV Public,Edward,"Honolulu, US",Container,SHA,HON,1700000,0,0,554I,,1/20/2014,dstark,18284,"136,000.00",10.29,0,2.03,0,0,0,0,0,"136,012.32",1/25/2014,nnoor
+18285,PEND,POV Public,Edward,"Honolulu, US",Container,SHA,HON,1700000,0,0,554I,,1/20/2014,dstark,18285,"136,000.00",10.29,0,2.03,0,0,0,0,0,"136,012.32",1/25/2014,nnoor
+18286,PEND,POV Public,Edward,"Honolulu, US",Container,SHA,HON,1700000,0,0,554I,,1/20/2014,dstark,18286,"136,000.00",10.29,0,2.03,0,0,0,0,0,"136,012.32",1/25/2014,nnoor
+18287,PEND,POV Public,Edward,"Honolulu, US",Container,SHA,HON,1700000,0,0,554I,,1/20/2014,dstark,18287,"136,000.00",10.29,0,2.03,0,0,0,0,0,"136,012.32",1/25/2014,nnoor
+18288,PEND,POV Public,Edward,"Honolulu, US",Container,SHA,HON,1700000,0,0,554I,,1/20/2014,dstark,18288,"136,000.00",10.29,0,2.03,0,0,0,0,0,"136,012.32",1/25/2014,nnoor
+18289,PEND,POV Public,Edward,"Honolulu, US",Container,SHA,HON,1700000,0,0,554I,,1/20/2014,dstark,18289,"136,000.00",10.29,0,2.03,0,0,0,0,0,"136,012.32",1/25/2014,nnoor
+18290,PEND,POV Public,Edward,"Honolulu, US",Container,SHA,HON,1700000,0,0,554I,,1/20/2014,dstark,18290,"136,000.00",10.29,0,2.03,0,0,0,0,0,"136,012.32",1/25/2014,nnoor
+18291,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1700000,0,1,554I,,1/20/2014,dstark,18291,"136,000.00",10.29,0,2.03,0,0,0,0,0,"136,012.32",1/25/2014,nnoor
+18292,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1707096,0,0,554I,,1/20/2014,dstark,18292,"136,567.68",10.29,0,2.03,0,0,0,0,0,"136,580.00",1/25/2014,nnoor
+18293,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1713050,0,0,554I,,1/20/2014,dstark,18293,"137,044.00",10.29,0,2.03,0,0,0,0,0,"137,056.32",1/25/2014,nnoor
+18294,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1718748,0,0,554I,,1/20/2014,dstark,18294,"137,499.84",10.29,0,2.03,0,0,0,0,0,"137,512.16",1/25/2014,nnoor
+18295,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1718748,0,0,554I,,1/20/2014,dstark,18295,"137,499.84",10.29,0,2.03,0,0,0,0,0,"137,512.16",1/25/2014,nnoor
+18296,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1720000,0,76,554I,,1/20/2014,dstark,18296,"10,457,600.00",10.29,0,2.03,0,9,0,0,0,"10,457,621.32",1/25/2014,nnoor
+18297,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1723370,0,1,554I,,1/20/2014,dstark,18297,"137,869.60",10.29,0,2.03,0,0,0,0,0,"137,881.92",1/25/2014,nnoor
+18298,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1732591,0,0,554I,,1/20/2014,dstark,18298,"138,607.28",10.29,0,2.03,0,0,0,0,0,"138,619.60",1/25/2014,nnoor
+18299,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1741672,0,0,554I,,1/20/2014,dstark,18299,"139,333.76",10.29,0,2.03,0,0,0,0,0,"139,346.08",1/25/2014,nnoor
+18300,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1744319,0,0,554I,,1/20/2014,dstark,18300,"139,545.52",10.29,0,2.03,0,0,0,0,0,"139,557.84",1/25/2014,nnoor
+18301,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1750000,0,0,554I,,1/20/2014,dstark,18301,"140,000.00",10.29,0,2.03,0,0,0,0,0,"140,012.32",1/25/2014,nnoor
+18302,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1750000,0,0,554I,,1/20/2014,dstark,18302,"140,000.00",10.29,0,2.03,0,0,0,0,0,"140,012.32",1/25/2014,nnoor
+18303,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1750000,0,0,554I,,1/20/2014,dstark,18303,"140,000.00",10.29,0,2.03,0,0,0,0,0,"140,012.32",1/25/2014,nnoor
+18304,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1750000,0,0,554I,,1/20/2014,dstark,18304,"140,000.00",10.29,0,2.03,0,0,0,0,0,"140,012.32",1/25/2014,nnoor
+18305,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1750000,0,0,554I,,1/20/2014,dstark,18305,"140,000.00",10.29,0,2.03,0,0,0,0,0,"140,012.32",1/25/2014,nnoor
+18306,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1750000,0,0,554I,,1/20/2014,dstark,18306,"140,000.00",10.29,0,2.03,0,0,0,0,0,"140,012.32",1/25/2014,nnoor
+18307,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1750000,0,0,554I,,1/20/2014,dstark,18307,"140,000.00",10.29,0,2.03,0,0,0,0,0,"140,012.32",1/25/2014,nnoor
+18308,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1750000,0,0,554I,,1/20/2014,dstark,18308,"140,000.00",10.29,0,2.03,0,0,0,0,0,"140,012.32",1/25/2014,nnoor
+18309,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1753370,0,0,554I,,1/20/2014,dstark,18309,"140,269.60",10.29,0,2.03,0,0,0,0,0,"140,281.92",1/25/2014,nnoor
+18310,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1755500,13056,1101,554I,,1/20/2014,dstark,18310,"154,624,440.00",10.29,0,2.03,0,9,0,"1,684.28",0,"154,626,145.60",1/25/2014,nnoor
+18311,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1756459,0,2040,554I,,1/20/2014,dstark,18311,"286,654,108.80",10.29,0,2.03,0,9,0,0,0,"286,654,130.12",1/25/2014,nnoor
+18312,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1766554,0,0,554I,,1/20/2014,dstark,18312,"141,324.32",10.29,0,2.03,0,0,0,0,0,"141,336.64",1/25/2014,nnoor
+18313,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1772250,0,0,554I,,1/20/2014,dstark,18313,"141,780.00",10.29,0,2.03,0,0,0,0,0,"141,792.32",1/25/2014,nnoor
+18314,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1780000,0,0,554I,,1/20/2014,dstark,18314,"142,400.00",10.29,0,2.03,0,0,0,0,0,"142,412.32",1/25/2014,nnoor
+18315,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1780000,0,0,554I,,1/20/2014,dstark,18315,"142,400.00",10.29,0,2.03,0,0,0,0,0,"142,412.32",1/25/2014,nnoor
+18316,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1792834,0,0,554I,,1/20/2014,dstark,18316,"143,426.72",10.29,0,2.03,0,0,0,0,0,"143,439.04",1/25/2014,nnoor
+18317,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1800000,0,1,554I,,1/20/2014,dstark,18317,"144,000.00",10.29,0,2.03,0,0,0,0,0,"144,012.32",1/25/2014,nnoor
+18318,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1800000,0,0,554I,,1/20/2014,dstark,18318,"144,000.00",10.29,0,2.03,0,0,0,0,0,"144,012.32",1/25/2014,nnoor
+18319,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1800000,0,0,554I,,1/20/2014,dstark,18319,"144,000.00",10.29,0,2.03,0,0,0,0,0,"144,012.32",1/25/2014,nnoor
+18320,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1800000,0,0,554I,,1/20/2014,dstark,18320,"144,000.00",10.29,0,2.03,0,0,0,0,0,"144,012.32",1/25/2014,nnoor
+18321,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1800000,0,0,554I,,1/20/2014,dstark,18321,"144,000.00",10.29,0,2.03,0,0,0,0,0,"144,012.32",1/25/2014,nnoor
+18322,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1800000,0,0,554I,,1/20/2014,dstark,18322,"144,000.00",10.29,0,2.03,0,0,0,0,0,"144,012.32",1/25/2014,nnoor
+18323,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1800000,0,1,554I,,1/20/2014,dstark,18323,"144,000.00",10.29,0,2.03,0,0,0,0,0,"144,012.32",1/25/2014,nnoor
+18324,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1800000,0,1515,554I,,1/20/2014,dstark,18324,"218,160,000.00",10.29,0,2.03,0,9,0,0,0,"218,160,021.32",1/25/2014,nnoor
+18325,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1800000,0,1,554I,,1/20/2014,dstark,18325,"144,000.00",10.29,0,2.03,0,0,0,0,0,"144,012.32",1/25/2014,nnoor
+18326,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1800000,0,1,554I,,1/20/2014,dstark,18326,"144,000.00",10.29,0,2.03,0,0,0,0,0,"144,012.32",1/25/2014,nnoor
+18327,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1800000,0,6860,554I,,1/20/2014,dstark,18327,"987,840,000.00",10.29,0,2.03,0,9,0,0,0,"987,840,021.32",1/25/2014,nnoor
+18328,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1800000,0,0,554I,,1/20/2014,dstark,18328,"144,000.00",10.29,0,2.03,0,0,0,0,0,"144,012.32",1/25/2014,nnoor
+18329,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1800000,0,2040,554I,,1/20/2014,dstark,18329,"293,760,000.00",10.29,0,2.03,0,9,0,0,0,"293,760,021.32",1/25/2014,nnoor
+18330,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1800000,0,0,554I,,1/20/2014,dstark,18330,"144,000.00",10.29,0,2.03,0,0,0,0,0,"144,012.32",1/25/2014,nnoor
+18331,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1825272,0,0,554I,,1/20/2014,dstark,18331,"146,021.76",10.29,0,2.03,0,0,0,0,0,"146,034.08",1/25/2014,nnoor
+18332,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1840000,0,0,554I,,1/20/2014,dstark,18332,"147,200.00",10.29,0,2.03,0,0,0,0,0,"147,212.32",1/25/2014,nnoor
+18333,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1850000,0,0,554I,,1/20/2014,dstark,18333,"148,000.00",10.29,0,2.03,0,0,0,0,0,"148,012.32",1/25/2014,nnoor
+18334,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1850000,0,0,554I,,1/20/2014,dstark,18334,"148,000.00",10.29,0,2.03,0,0,0,0,0,"148,012.32",1/25/2014,nnoor
+18335,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1850000,0,0,554I,,1/20/2014,dstark,18335,"148,000.00",10.29,0,2.03,0,0,0,0,0,"148,012.32",1/25/2014,nnoor
+18336,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1850000,0,0,554I,,1/20/2014,dstark,18336,"148,000.00",10.29,0,2.03,0,0,0,0,0,"148,012.32",1/25/2014,nnoor
+18337,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1850000,0,0,554I,,1/20/2014,dstark,18337,"148,000.00",10.29,0,2.03,0,0,0,0,0,"148,012.32",1/25/2014,nnoor
+18338,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1850000,0,0,554I,,1/20/2014,dstark,18338,"148,000.00",10.29,0,2.03,0,0,0,0,0,"148,012.32",1/25/2014,nnoor
+18339,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1850000,0,1,554I,,1/20/2014,dstark,18339,"148,000.00",10.29,0,2.03,0,0,0,0,0,"148,012.32",1/25/2014,nnoor
+18340,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1850000,0,0,554I,,1/20/2014,dstark,18340,"148,000.00",10.29,0,2.03,0,0,0,0,0,"148,012.32",1/25/2014,nnoor
+18341,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1856327,52500,0,554I,,1/20/2014,dstark,18341,"148,506.16",10.29,0,2.03,0,0,0,"6,812.00",0,"155,330.48",1/25/2014,nnoor
+18342,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1870000,0,1,554I,,1/20/2014,dstark,18342,"149,600.00",10.29,0,2.03,0,0,0,0,0,"149,612.32",1/25/2014,nnoor
+18343,PEND,POV GATES,Edward,"Honolulu, US",Container,SHA,HON,1870382,0,0,554I,,1/20/2014,dstark,18343,"149,630.56",10.29,0,2.03,0,0,0,0,0,"149,642.88",1/25/2014,nnoor
+18344,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,1870382,0,0,554I,,1/20/2014,dstark,18344,"149,630.56",10.29,0,2.03,0,0,0,0,0,"149,642.88",1/25/2014,nnoor
+18345,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,1900000,0,0,554I,,1/20/2014,dstark,18345,"152,000.00",10.29,0,2.03,0,0,0,0,0,"152,012.32",1/25/2014,nnoor
+18346,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,1900000,0,0,554I,,1/20/2014,dstark,18346,"152,000.00",10.29,0,2.03,0,0,0,0,0,"152,012.32",1/25/2014,nnoor
+18347,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,1900000,0,0,554I,,1/20/2014,dstark,18347,"152,000.00",10.29,0,2.03,0,0,0,0,0,"152,012.32",1/25/2014,nnoor
+18348,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,1900000,0,0,554I,,1/20/2014,dstark,18348,"152,000.00",10.29,0,2.03,0,0,0,0,0,"152,012.32",1/25/2014,nnoor
+18349,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,1900000,0,0,554I,,1/20/2014,dstark,18349,"152,000.00",10.29,0,2.03,0,0,0,0,0,"152,012.32",1/25/2014,nnoor
+18350,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,1900000,0,0,554I,,1/20/2014,dstark,18350,"152,000.00",10.29,0,2.03,0,0,0,0,0,"152,012.32",1/25/2014,nnoor
+18351,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,1900000,0,0,554I,,1/20/2014,dstark,18351,"152,000.00",10.29,0,2.03,0,0,0,0,0,"152,012.32",1/25/2014,nnoor
+18352,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,1900000,0,0,554I,,1/20/2014,dstark,18352,"152,000.00",10.29,0,2.03,0,0,0,0,0,"152,012.32",1/25/2014,nnoor
+18353,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,1900000,0,0,554I,,1/20/2014,dstark,18353,"152,000.00",10.29,0,2.03,0,0,0,0,0,"152,012.32",1/25/2014,nnoor
+18354,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,1900000,0,0,554I,,1/20/2014,dstark,18354,"152,000.00",10.29,0,2.03,0,0,0,0,0,"152,012.32",1/25/2014,nnoor
+18355,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,1900000,0,0,554I,,1/20/2014,dstark,18355,"152,000.00",10.29,0,2.03,0,0,0,0,0,"152,012.32",1/25/2014,nnoor
+18356,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,1900000,0,1,554I,,1/20/2014,dstark,18356,"152,000.00",10.29,0,2.03,0,0,0,0,0,"152,012.32",1/25/2014,nnoor
+18357,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,1900000,0,0,554I,,1/20/2014,dstark,18357,"152,000.00",10.29,0,2.03,0,0,0,0,0,"152,012.32",1/25/2014,nnoor
+18358,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,1900000,0,0,554I,,1/20/2014,dstark,18358,"152,000.00",10.29,0,2.03,0,0,0,0,0,"152,012.32",1/25/2014,nnoor
+18359,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,1900000,0,495,554I,,1/20/2014,dstark,18359,"75,240,000.00",10.29,0,2.03,0,9,0,0,0,"75,240,021.32",1/25/2014,nnoor
+18360,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,1900000,0,1,554I,,1/20/2014,dstark,18360,"152,000.00",10.29,0,2.03,0,0,0,0,0,"152,012.32",1/25/2014,nnoor
+18361,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,1904000,0,3600,554I,,1/20/2014,dstark,18361,"548,352,000.00",10.29,0,2.03,0,9,0,0,0,"548,352,021.32",1/25/2014,nnoor
+18362,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,1910000,0,0,554I,,1/20/2014,dstark,18362,"152,800.00",10.29,0,2.03,0,0,0,0,0,"152,812.32",1/25/2014,nnoor
+18363,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,1913824,0,0,554I,,1/20/2014,dstark,18363,"153,105.92",10.29,0,2.03,0,0,0,0,0,"153,118.24",1/25/2014,nnoor
+18364,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,1920000,0,0,554I,,1/20/2014,dstark,18364,"153,600.00",10.29,0,2.03,0,0,0,0,0,"153,612.32",1/25/2014,nnoor
+18365,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,1930000,0,0,554I,,1/20/2014,dstark,18365,"154,400.00",10.29,0,2.03,0,0,0,0,0,"154,412.32",1/25/2014,nnoor
+18366,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,1935190,94003,0,554I,,1/20/2014,dstark,18366,"154,815.20",10.29,0,2.03,0,0,0,"12,207.39",0,"167,034.91",1/25/2014,nnoor
+18367,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,1950000,0,0,554I,,1/20/2014,dstark,18367,"156,000.00",10.29,0,2.03,0,0,0,0,0,"156,012.32",1/25/2014,nnoor
+18368,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,1950000,0,0,554I,,1/20/2014,dstark,18368,"156,000.00",10.29,0,2.03,0,0,0,0,0,"156,012.32",1/25/2014,nnoor
+18369,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,1950000,0,2,554I,,1/20/2014,dstark,18369,"312,000.00",10.29,0,2.03,0,9,0,0,0,"312,021.32",1/25/2014,nnoor
+18370,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,1950000,0,0,554I,,1/20/2014,dstark,18370,"156,000.00",10.29,0,2.03,0,0,0,0,0,"156,012.32",1/25/2014,nnoor
+18371,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,1950000,0,18,554I,,1/20/2014,dstark,18371,"2,808,000.00",10.29,0,2.03,0,9,0,0,0,"2,808,021.32",1/25/2014,nnoor
+18372,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,1950000,0,2,554I,,1/20/2014,dstark,18372,"312,000.00",10.29,0,2.03,0,9,0,0,0,"312,021.32",1/25/2014,nnoor
+18373,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,1950000,0,0,554I,,1/20/2014,dstark,18373,"156,000.00",10.29,0,2.03,0,0,0,0,0,"156,012.32",1/25/2014,nnoor
+18374,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,1950000,0,0,554I,,1/20/2014,dstark,18374,"156,000.00",10.29,0,2.03,0,0,0,0,0,"156,012.32",1/25/2014,nnoor
+18375,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,1950000,0,0,554I,,1/20/2014,dstark,18375,"156,000.00",10.29,0,2.03,0,0,0,0,0,"156,012.32",1/25/2014,nnoor
+18376,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,1950000,0,0,554I,,1/20/2014,dstark,18376,"156,000.00",10.29,0,2.03,0,0,0,0,0,"156,012.32",1/25/2014,nnoor
+18377,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,1968000,0,0,554I,,1/20/2014,dstark,18377,"157,440.00",10.29,0,2.03,0,0,0,0,0,"157,452.32",1/25/2014,nnoor
+18378,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,1970000,0,1,554I,,1/20/2014,dstark,18378,"157,600.00",10.29,0,2.03,0,0,0,0,0,"157,612.32",1/25/2014,nnoor
+18379,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,1970000,0,0,554I,,1/20/2014,dstark,18379,"157,600.00",10.29,0,2.03,0,0,0,0,0,"157,612.32",1/25/2014,nnoor
+18380,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,1980000,0,0,554I,,1/20/2014,dstark,18380,"158,400.00",10.29,0,2.03,0,0,0,0,0,"158,412.32",1/25/2014,nnoor
+18381,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,1980780,0,0,554I,,1/20/2014,dstark,18381,"158,462.40",10.29,0,2.03,0,0,0,0,0,"158,474.72",1/25/2014,nnoor
+18382,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,1983742,0,0,554I,,1/20/2014,dstark,18382,"158,699.36",10.29,0,2.03,0,0,0,0,0,"158,711.68",1/25/2014,nnoor
+18383,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,1989796,0,0,554I,,1/20/2014,dstark,18383,"159,183.68",10.29,0,2.03,0,0,0,0,0,"159,196.00",1/25/2014,nnoor
+18384,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,1990000,0,0,554I,,1/20/2014,dstark,18384,"159,200.00",10.29,0,2.03,0,0,0,0,0,"159,212.32",1/25/2014,nnoor
+18385,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,1992605,0,1,554I,,1/20/2014,dstark,18385,"159,408.40",10.29,0,2.03,0,0,0,0,0,"159,420.72",1/25/2014,nnoor
+18386,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,2000000,0,2,554I,,1/20/2014,dstark,18386,"320,000.00",10.29,0,2.03,0,9,0,0,0,"320,021.32",1/25/2014,nnoor
+18387,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,2000000,0,1,554I,,1/20/2014,dstark,18387,"160,000.00",10.29,0,2.03,0,0,0,0,0,"160,012.32",1/25/2014,nnoor
+18388,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,2000000,0,1,554I,,1/20/2014,dstark,18388,"160,000.00",10.29,0,2.03,0,0,0,0,0,"160,012.32",1/25/2014,nnoor
+18389,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,2000000,0,1,554I,,1/20/2014,dstark,18389,"160,000.00",10.29,0,2.03,0,0,0,0,0,"160,012.32",1/25/2014,nnoor
+18390,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,2000000,0,0,554I,,1/20/2014,dstark,18390,"160,000.00",10.29,0,2.03,0,0,0,0,0,"160,012.32",1/25/2014,nnoor
+18391,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,2000000,0,0,554I,,1/20/2014,dstark,18391,"160,000.00",10.29,0,2.03,0,0,0,0,0,"160,012.32",1/25/2014,nnoor
+18392,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,2000000,0,1,554I,,1/20/2014,dstark,18392,"160,000.00",10.29,0,2.03,0,0,0,0,0,"160,012.32",1/25/2014,nnoor
+18393,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,2000000,0,0,554I,,1/20/2014,dstark,18393,"160,000.00",10.29,0,2.03,0,0,0,0,0,"160,012.32",1/25/2014,nnoor
+18394,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,2000000,0,3441,554I,,1/20/2014,dstark,18394,"550,560,000.00",10.29,0,2.03,0,9,0,0,0,"550,560,021.32",1/25/2014,nnoor
+18395,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,2000000,0,0,554I,,1/20/2014,dstark,18395,"160,000.00",10.29,0,2.03,0,0,0,0,0,"160,012.32",1/25/2014,nnoor
+18396,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,2000000,0,0,554I,,1/20/2014,dstark,18396,"160,000.00",10.29,0,2.03,0,0,0,0,0,"160,012.32",1/25/2014,nnoor
+18397,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,2000000,0,0,554I,,1/20/2014,dstark,18397,"160,000.00",10.29,0,2.03,0,0,0,0,0,"160,012.32",1/25/2014,nnoor
+18398,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,2000000,0,0,554I,,1/20/2014,dstark,18398,"160,000.00",10.29,0,2.03,0,0,0,0,0,"160,012.32",1/25/2014,nnoor
+18399,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,2000000,0,0,554I,,1/20/2014,dstark,18399,"160,000.00",10.29,0,2.03,0,0,0,0,0,"160,012.32",1/25/2014,nnoor
+18400,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,2000000,0,0,554I,,1/20/2014,dstark,18400,"160,000.00",10.29,0,2.03,0,0,0,0,0,"160,012.32",1/25/2014,nnoor
+18401,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,2006000,0,0,554I,,1/20/2014,dstark,18401,"160,480.00",10.29,0,2.03,0,0,0,0,0,"160,492.32",1/25/2014,nnoor
+18402,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,2010000,0,0,554I,,1/20/2014,dstark,18402,"160,800.00",10.29,0,2.03,0,0,0,0,0,"160,812.32",1/25/2014,nnoor
+18403,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,2018150,181016,0,554I,,1/20/2014,dstark,18403,"161,452.00",10.29,0,2.03,0,0,0,"23,519.08",0,"184,983.40",1/25/2014,nnoor
+18404,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,2020000,0,0,554I,,1/20/2014,dstark,18404,"161,600.00",10.29,0,2.03,0,0,0,0,0,"161,612.32",1/25/2014,nnoor
+18405,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,2022496,0,0,554I,,1/20/2014,dstark,18405,"161,799.68",10.29,0,2.03,0,0,0,0,0,"161,812.00",1/25/2014,nnoor
+18406,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,2036098,0,0,554I,,1/20/2014,dstark,18406,"162,887.84",10.29,0,2.03,0,0,0,0,0,"162,900.16",1/25/2014,nnoor
+18407,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,2040000,0,1,554I,,1/20/2014,dstark,18407,"163,200.00",10.29,0,2.03,0,0,0,0,0,"163,212.32",1/25/2014,nnoor
+18408,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,2040000,0,0,554I,,1/20/2014,dstark,18408,"163,200.00",10.29,0,2.03,0,0,0,0,0,"163,212.32",1/25/2014,nnoor
+18409,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,2041364,171862,0,554I,,1/20/2014,dstark,18409,"163,309.12",10.29,0,2.03,0,0,0,"22,329.06",0,"185,650.50",1/25/2014,nnoor
+18410,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,2050000,0,0,554I,,1/20/2014,dstark,18410,"164,000.00",10.29,0,2.03,0,0,0,0,0,"164,012.32",1/25/2014,nnoor
+18411,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,2050000,0,0,554I,,1/20/2014,dstark,18411,"164,000.00",10.29,0,2.03,0,0,0,0,0,"164,012.32",1/25/2014,nnoor
+18412,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,2050000,0,0,554I,,1/20/2014,dstark,18412,"164,000.00",10.29,0,2.03,0,0,0,0,0,"164,012.32",1/25/2014,nnoor
+18413,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,2050000,0,0,554I,,1/20/2014,dstark,18413,"164,000.00",10.29,0,2.03,0,0,0,0,0,"164,012.32",1/25/2014,nnoor
+18414,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,2050000,0,10,554I,,1/20/2014,dstark,18414,"1,640,000.00",10.29,0,2.03,0,9,0,0,0,"1,640,021.32",1/25/2014,nnoor
+18415,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,2050000,0,5,554I,,1/20/2014,dstark,18415,"820,000.00",10.29,0,2.03,0,9,0,0,0,"820,021.32",1/25/2014,nnoor
+18416,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,2050000,0,0,554I,,1/20/2014,dstark,18416,"164,000.00",10.29,0,2.03,0,0,0,0,0,"164,012.32",1/25/2014,nnoor
+18417,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,2050000,0,1005,554I,,1/20/2014,dstark,18417,"164,820,000.00",10.29,0,2.03,0,9,0,0,0,"164,820,021.32",1/25/2014,nnoor
+18418,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,2050000,0,0,554I,,1/20/2014,dstark,18418,"164,000.00",10.29,0,2.03,0,0,0,0,0,"164,012.32",1/25/2014,nnoor
+18419,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,2050000,0,0,554I,,1/20/2014,dstark,18419,"164,000.00",10.29,0,2.03,0,0,0,0,0,"164,012.32",1/25/2014,nnoor
+18420,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,2050000,0,0,554I,,1/20/2014,dstark,18420,"164,000.00",10.29,0,2.03,0,0,0,0,0,"164,012.32",1/25/2014,nnoor
+18421,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,2050000,0,0,554I,,1/20/2014,dstark,18421,"164,000.00",10.29,0,2.03,0,0,0,0,0,"164,012.32",1/25/2014,nnoor
+18422,PEND,Alex Corp,Alex,"Honolulu, US",Container,SHA,HON,2050000,0,0,554I,,1/20/2014,dstark,18422,"164,000.00",10.29,0,2.03,0,0,0,0,0,"164,012.32",1/25/2014,nnoor
+18423,PEND,Alex Corp,Alex,"Seattle, US",Container,SHA,SEA,2051313,0,0,554I,,1/20/2014,achadaluri,18423,"164,105.04",10.29,0,2.03,0,0,0,0,0,"164,117.36",1/25/2014,nnoor
+18424,PEND,Alex Corp,Alex,"Seattle, US",Container,SHA,SEA,2056000,0,0,554I,,1/20/2014,achadaluri,18424,"164,480.00",10.29,0,2.03,0,0,0,0,0,"164,492.32",1/25/2014,nnoor
+18425,PEND,Alex Corp,Alex,"Seattle, US",Container,SHA,SEA,2070000,0,0,554I,,1/20/2014,achadaluri,18425,"165,600.00",10.29,0,2.03,0,0,0,0,0,"165,612.32",1/25/2014,nnoor
+18426,PEND,Alex Corp,Alex,"Seattle, US",Container,SHA,SEA,2070000,0,0,554I,,1/20/2014,achadaluri,18426,"165,600.00",10.29,0,2.03,0,0,0,0,0,"165,612.32",1/25/2014,nnoor
+18427,PEND,Alex Corp,Alex,"Seattle, US",Container,SYD,SEA,2070000,0,0,554I,,1/20/2014,achadaluri,18427,"165,600.00",10.29,0,2.03,0,0,0,0,0,"165,612.32",1/25/2014,nnoor
+18428,PEND,One timer 3,Edward,"Seattle, US",Container,SYD,SEA,2080000,0,0,554I,,1/20/2014,achadaluri,18428,"166,400.00",10.29,0,2.03,0,0,0,0,0,"166,412.32",1/25/2014,nnoor
+18429,PEND,One timer 4,Edward,"Seattle, US",Container,SYD,SEA,2085000,0,0,554I,,1/20/2014,achadaluri,18429,"166,800.00",10.29,0,2.03,0,0,0,0,0,"166,812.32",1/25/2014,nnoor
+18430,PEND,One timer 5,Edward,"Seattle, US",Container,SYD,SEA,2085000,0,0,554I,,1/20/2014,achadaluri,18430,"166,800.00",10.29,0,2.03,0,0,0,0,0,"166,812.32",1/25/2014,nnoor
+18431,PEND,One timer 6,Edward,"Seattle, US",Container,SYD,SEA,2096599,0,0,554I,,1/20/2014,achadaluri,18431,"167,727.92",10.29,0,2.03,0,0,0,0,0,"167,740.24",1/25/2014,nnoor
+18432,PEND,One timer 7,Edward,"Seattle, US",Container,SYD,SEA,2100000,0,0,554I,,1/20/2014,achadaluri,18432,"168,000.00",10.29,0,2.03,0,0,0,0,0,"168,012.32",1/25/2014,nnoor
+18433,PEND,One timer 8,Edward,"Seattle, US",Container,SYD,SEA,2100000,0,0,554I,,1/20/2014,achadaluri,18433,"168,000.00",10.29,0,2.03,0,0,0,0,0,"168,012.32",1/25/2014,nnoor
+18434,PEND,One timer 9,Edward,"Seattle, US",Container,SYD,SEA,2100000,0,0,554I,,1/20/2014,achadaluri,18434,"168,000.00",10.29,0,2.03,0,0,0,0,0,"168,012.32",1/25/2014,nnoor
+18435,PEND,One timer 10,Edward,"Seattle, US",Container,SYD,SEA,2100000,0,0,554I,,1/20/2014,achadaluri,18435,"168,000.00",10.29,0,2.03,0,0,0,0,0,"168,012.32",1/25/2014,nnoor
+18436,PEND,One timer 11,Edward,"Seattle, US",Container,SYD,SEA,2100000,0,0,554I,,1/20/2014,achadaluri,18436,"168,000.00",10.29,0,2.03,0,0,0,0,0,"168,012.32",1/25/2014,nnoor
+18437,PEND,One timer 12,Edward,"Seattle, US",Container,SYD,SEA,2100000,0,0,554I,,1/20/2014,achadaluri,18437,"168,000.00",10.29,0,2.03,0,0,0,0,0,"168,012.32",1/25/2014,nnoor
+18438,PEND,One timer 13,Edward,"Seattle, US",Container,SYD,SEA,2100000,0,0,554I,,1/20/2014,achadaluri,18438,"168,000.00",10.29,0,2.03,0,0,0,0,0,"168,012.32",1/25/2014,nnoor
+18439,PEND,One timer 14,Edward,"Seattle, US",Container,SYD,SEA,2100000,0,0,554I,,1/20/2014,achadaluri,18439,"168,000.00",10.29,0,2.03,0,0,0,0,0,"168,012.32",1/25/2014,nnoor
+18440,PEND,One timer 15,Edward,"Seattle, US",Container,SYD,SEA,2100000,0,0,554I,,1/20/2014,achadaluri,18440,"168,000.00",10.29,0,2.03,0,0,0,0,0,"168,012.32",1/25/2014,nnoor
+18441,PEND,One timer 16,Edward,"Seattle, US",Container,SYD,SEA,2100000,0,0,554I,,1/20/2014,achadaluri,18441,"168,000.00",10.29,0,2.03,0,0,0,0,0,"168,012.32",1/25/2014,nnoor
+18442,PEND,One timer 17,Edward,"Seattle, US",Container,SYD,SEA,2100000,0,0,554I,,1/20/2014,achadaluri,18442,"168,000.00",10.29,0,2.03,0,0,0,0,0,"168,012.32",1/25/2014,nnoor
+18443,PEND,One timer 18,Edward,"Seattle, US",Container,SYD,SEA,2102844,0,0,554I,,1/20/2014,achadaluri,18443,"168,227.52",10.29,0,2.03,0,0,0,0,0,"168,239.84",1/25/2014,nnoor
+18444,PEND,One timer 19,Edward,"Seattle, US",Container,SYD,SEA,2114680,0,0,554I,,1/20/2014,achadaluri,18444,"169,174.40",10.29,0,2.03,0,0,0,0,0,"169,186.72",1/25/2014,nnoor
+18445,PEND,One timer 20,Edward,"Seattle, US",Container,SYD,SEA,2114680,0,0,554I,,1/20/2014,achadaluri,18445,"169,174.40",10.29,0,2.03,0,0,0,0,0,"169,186.72",1/25/2014,nnoor
+18446,PEND,One timer 21,Edward,"Seattle, US",Container,SYD,SEA,2114680,0,0,554I,,1/20/2014,achadaluri,18446,"169,174.40",10.29,0,2.03,0,0,0,0,0,"169,186.72",1/25/2014,nnoor
+18447,PEND,One timer 22,Edward,"Seattle, US",Container,SYD,SEA,2132000,0,0,554I,,1/20/2014,achadaluri,18447,"170,560.00",10.29,0,2.03,0,0,0,0,0,"170,572.32",1/25/2014,nnoor
+18448,PEND,One timer 23,Edward,"Seattle, US",Container,SYD,SEA,2132000,0,0,554I,,1/20/2014,achadaluri,18448,"170,560.00",10.29,0,2.03,0,0,0,0,0,"170,572.32",1/25/2014,nnoor
+18449,PEND,One timer 24,Edward,"Seattle, US",Container,SYD,SEA,2132000,0,0,554I,,1/20/2014,achadaluri,18449,"170,560.00",10.29,0,2.03,0,0,0,0,0,"170,572.32",1/25/2014,nnoor
+18450,PEND,One timer 25,Edward,"Seattle, US",Container,SYD,SEA,2132000,0,0,554I,,1/20/2014,achadaluri,18450,"170,560.00",10.29,0,2.03,0,0,0,0,0,"170,572.32",1/25/2014,nnoor
+18451,PEND,One timer 26,Edward,"Seattle, US",Container,SYD,SEA,2132000,0,0,554I,,1/20/2014,achadaluri,18451,"170,560.00",10.29,0,2.03,0,0,0,0,0,"170,572.32",1/25/2014,nnoor
+18452,PEND,One timer 27,Edward,"Seattle, US",Container,SYD,SEA,2132000,0,0,554I,,1/20/2014,achadaluri,18452,"170,560.00",10.29,0,2.03,0,0,0,0,0,"170,572.32",1/25/2014,nnoor
+18453,PEND,One timer 28,Edward,"Seattle, US",Container,SYD,SEA,2140000,0,0,554I,,1/20/2014,achadaluri,18453,"171,200.00",10.29,0,2.03,0,0,0,0,0,"171,212.32",1/25/2014,nnoor
+18454,PEND,One timer 29,Edward,"Seattle, US",Container,SYD,SEA,2150000,0,0,554I,,1/20/2014,achadaluri,18454,"172,000.00",10.29,0,2.03,0,0,0,0,0,"172,012.32",1/25/2014,nnoor
+18455,PEND,One timer 30,Edward,"Seattle, US",Container,SYD,SEA,2150000,0,0,554I,,1/20/2014,achadaluri,18455,"172,000.00",10.29,0,2.03,0,0,0,0,0,"172,012.32",1/25/2014,nnoor
+18456,PEND,One timer 31,Edward,"Seattle, US",Container,SYD,SEA,2150000,0,0,554I,,1/20/2014,achadaluri,18456,"172,000.00",10.29,0,2.03,0,0,0,0,0,"172,012.32",1/25/2014,nnoor
+18457,PEND,One timer 32,Edward,"Seattle, US",Container,SYD,SEA,2150000,0,0,554I,,1/20/2014,achadaluri,18457,"172,000.00",10.29,0,2.03,0,0,0,0,0,"172,012.32",1/25/2014,nnoor
+18458,PEND,One timer 33,Edward,"Seattle, US",Container,SYD,SEA,2150000,0,0,554I,,1/20/2014,achadaluri,18458,"172,000.00",10.29,0,2.03,0,0,0,0,0,"172,012.32",1/25/2014,nnoor
+18459,PEND,One timer 34,Edward,"Seattle, US",Container,SYD,SEA,2150000,0,0,554I,,1/20/2014,achadaluri,18459,"172,000.00",10.29,0,2.03,0,0,0,0,0,"172,012.32",1/25/2014,nnoor
+18460,PEND,One timer 35,Edward,"Seattle, US",Container,SYD,SEA,2150000,0,0,554I,,1/20/2014,achadaluri,18460,"172,000.00",10.29,0,2.03,0,0,0,0,0,"172,012.32",1/25/2014,nnoor
+18461,PEND,One timer 36,Edward,"Seattle, US",Container,SYD,SEA,2150000,0,0,554I,,1/20/2014,achadaluri,18461,"172,000.00",10.29,0,2.03,0,0,0,0,0,"172,012.32",1/25/2014,nnoor
+18462,PEND,One timer 37,Edward,"Seattle, US",Container,SYD,SEA,2150000,0,0,554I,,1/20/2014,achadaluri,18462,"172,000.00",10.29,0,2.03,0,0,0,0,0,"172,012.32",1/25/2014,nnoor
+18463,PEND,One timer 38,Edward,"Seattle, US",Container,SYD,SEA,2168000,0,0,554I,,1/20/2014,achadaluri,18463,"173,440.00",10.29,0,2.03,0,0,0,0,0,"173,452.32",1/25/2014,nnoor
+18464,PEND,One timer 39,Edward,"Seattle, US",Container,SYD,SEA,2168877,0,0,554I,,1/20/2014,achadaluri,18464,"173,510.16",10.29,0,2.03,0,0,0,0,0,"173,522.48",1/25/2014,nnoor
+18465,PEND,One timer 40,Edward,"Seattle, US",Container,SYD,SEA,2168877,0,0,554I,,1/20/2014,achadaluri,18465,"173,510.16",10.29,0,2.03,0,0,0,0,0,"173,522.48",1/25/2014,nnoor
+18466,PEND,One timer 41,Edward,"Seattle, US",Container,SYD,SEA,2168877,0,0,554I,,1/20/2014,achadaluri,18466,"173,510.16",10.29,0,2.03,0,0,0,0,0,"173,522.48",1/25/2014,nnoor
+18467,PEND,One timer 42,Edward,"Seattle, US",Container,SYD,SEA,2170000,0,0,554I,,1/20/2014,achadaluri,18467,"173,600.00",10.29,0,2.03,0,0,0,0,0,"173,612.32",1/25/2014,nnoor
+18468,PEND,One timer 43,Edward,"Seattle, US",Container,SYD,SEA,2172856,0,0,554I,,1/20/2014,achadaluri,18468,"173,828.48",10.29,0,2.03,0,0,0,0,0,"173,840.80",1/25/2014,nnoor
+18469,PEND,One timer 44,Edward,"Seattle, US",Container,SYD,SEA,2179906,176611,0,554I,,1/20/2014,achadaluri,18469,"174,392.48",10.29,0,2.03,0,0,0,"22,946.43",0,"197,351.23",1/25/2014,nnoor
+18470,PEND,One timer 45,Edward,"Seattle, US",Container,SYD,SEA,2180000,0,0,554I,,1/20/2014,achadaluri,18470,"174,400.00",10.29,0,2.03,0,0,0,0,0,"174,412.32",1/25/2014,nnoor
+18471,PEND,One timer 46,Edward,"Seattle, US",Container,SYD,SEA,2190728,0,0,554I,,1/20/2014,achadaluri,18471,"175,258.24",10.29,0,2.03,0,0,0,0,0,"175,270.56",1/25/2014,nnoor
+18472,PEND,One timer 47,Edward,"Seattle, US",Container,HON,SEA,2200000,0,0,554I,,1/20/2014,achadaluri,18472,"176,000.00",10.29,0,2.03,0,0,0,0,0,"176,012.32",1/25/2014,nnoor
+18473,PEND,One timer 48,Edward,"Seattle, US",Container,HON,SEA,2200000,0,0,554I,,1/20/2014,achadaluri,18473,"176,000.00",10.29,0,2.03,0,0,0,0,0,"176,012.32",1/25/2014,nnoor
+18474,PEND,One timer 49,Edward,"Seattle, US",Container,HON,SEA,2200000,0,0,554I,,1/20/2014,achadaluri,18474,"176,000.00",10.29,0,2.03,0,0,0,0,0,"176,012.32",1/25/2014,nnoor
+18475,PEND,One timer 50,Edward,"Seattle, US",Container,HON,SEA,2200000,0,0,554I,,1/20/2014,achadaluri,18475,"176,000.00",10.29,0,2.03,0,0,0,0,0,"176,012.32",1/25/2014,nnoor
+18476,PEND,One timer 51,Edward,"Seattle, US",Container,HON,SEA,2200000,0,0,554I,,1/20/2014,achadaluri,18476,"176,000.00",10.29,0,2.03,0,0,0,0,0,"176,012.32",1/25/2014,nnoor
+18477,PEND,One timer 52,Edward,"Seattle, US",Container,HON,SEA,2200000,0,0,554I,,1/20/2014,achadaluri,18477,"176,000.00",10.29,0,2.03,0,0,0,0,0,"176,012.32",1/25/2014,nnoor
+18478,PEND,One timer 53,Edward,"Seattle, US",Container,HON,SEA,2200000,0,0,554I,,1/20/2014,achadaluri,18478,"176,000.00",10.29,0,2.03,0,0,0,0,0,"176,012.32",1/25/2014,nnoor
+18479,PEND,One timer 54,Edward,"Seattle, US",Container,HON,SEA,2200000,0,0,554I,,1/20/2014,achadaluri,18479,"176,000.00",10.29,0,2.03,0,0,0,0,0,"176,012.32",1/25/2014,nnoor
+18480,PEND,One timer 55,Edward,"Seattle, US",Container,HON,SEA,2200000,0,0,554I,,1/20/2014,achadaluri,18480,"176,000.00",10.29,0,2.03,0,0,0,0,0,"176,012.32",1/25/2014,nnoor
+18481,PEND,One timer 56,Edward,"Seattle, US",Container,HON,SEA,2200000,0,0,554I,,1/20/2014,achadaluri,18481,"176,000.00",10.29,0,2.03,0,0,0,0,0,"176,012.32",1/25/2014,nnoor
+18482,PEND,One timer 57,Edward,"Seattle, US",Container,HON,SEA,2200000,0,0,554I,,1/20/2014,achadaluri,18482,"176,000.00",10.29,0,2.03,0,0,0,0,0,"176,012.32",1/25/2014,nnoor
+18483,PEND,One timer 58,Edward,"Seattle, US",Container,HON,SEA,2219153,0,0,554I,,1/20/2014,achadaluri,18483,"177,532.24",10.29,0,2.03,0,0,0,0,0,"177,544.56",1/25/2014,nnoor
+18484,PEND,One timer 59,Edward,"Seattle, US",Container,HON,SEA,2224000,0,0,554I,,1/20/2014,achadaluri,18484,"177,920.00",10.29,0,2.03,0,0,0,0,0,"177,932.32",1/25/2014,nnoor
+18485,PEND,One timer 60,Edward,"Seattle, US",Container,HON,SEA,2242000,0,0,554I,,1/20/2014,achadaluri,18485,"179,360.00",10.29,0,2.03,0,0,0,0,0,"179,372.32",1/25/2014,nnoor
+18486,PEND,One timer 61,Edward,"Seattle, US",Container,HON,SEA,2250000,0,0,554I,,1/20/2014,achadaluri,18486,"180,000.00",10.29,0,2.03,0,0,0,0,0,"180,012.32",1/25/2014,nnoor
+18487,PEND,One timer 62,Edward,"Seattle, US",Container,HON,SEA,2250000,0,31,554I,,1/20/2014,achadaluri,18487,"5,580,000.00",10.29,0,2.03,0,9,0,0,0,"5,580,021.32",1/25/2014,nnoor
+18488,PEND,One timer 63,Edward,"Seattle, US",Container,HON,SEA,2250000,0,0,554I,,1/20/2014,achadaluri,18488,"180,000.00",10.29,0,2.03,0,0,0,0,0,"180,012.32",1/25/2014,nnoor
+18489,PEND,One timer 64,Edward,"Seattle, US",Container,HON,SEA,2250000,0,0,554I,,1/20/2014,achadaluri,18489,"180,000.00",10.29,0,2.03,0,0,0,0,0,"180,012.32",1/25/2014,nnoor
+18490,PEND,One timer 65,Edward,"Seattle, US",Container,HON,SEA,2250000,0,0,554I,,1/20/2014,achadaluri,18490,"180,000.00",10.29,0,2.03,0,0,0,0,0,"180,012.32",1/25/2014,nnoor
+18491,PEND,One timer 66,Edward,"Seattle, US",Container,HON,SEA,2250000,0,0,554I,,1/20/2014,achadaluri,18491,"180,000.00",10.29,0,2.03,0,0,0,0,0,"180,012.32",1/25/2014,nnoor
+18492,PEND,One timer 67,Edward,"Seattle, US",Container,SEA,SEA,2250000,0,0,554I,,1/20/2014,achadaluri,18492,"180,000.00",10.29,0,2.03,0,0,0,0,0,"180,012.32",1/25/2014,nnoor
+18493,PEND,One timer 68,Edward,"Seattle, US",Container,SEA,SEA,2250000,0,0,554I,,1/20/2014,achadaluri,18493,"180,000.00",10.29,0,2.03,0,0,0,0,0,"180,012.32",1/25/2014,nnoor
+18494,PEND,One timer 69,Edward,"Seattle, US",Container,SEA,SEA,2255000,0,0,554I,,1/20/2014,achadaluri,18494,"180,400.00",10.29,0,2.03,0,0,0,0,0,"180,412.32",1/25/2014,nnoor
+18495,PEND,One timer 70,Edward,"Seattle, US",Container,SEA,SEA,2286000,0,0,554I,,1/20/2014,achadaluri,18495,"182,880.00",10.29,0,2.03,0,0,0,0,0,"182,892.32",1/25/2014,nnoor
+18496,PEND,One timer 71,Edward,"Seattle, US",Container,SEA,SEA,2290000,0,0,554I,,1/20/2014,achadaluri,18496,"183,200.00",10.29,0,2.03,0,0,0,0,0,"183,212.32",1/25/2014,nnoor
+18497,PEND,One timer 72,Edward,"Seattle, US",Container,SEA,SEA,2300000,0,0,554I,,1/20/2014,achadaluri,18497,"184,000.00",10.29,0,2.03,0,0,0,0,0,"184,012.32",1/25/2014,nnoor
+18498,PEND,One timer 73,Edward,"Seattle, US",Container,SEA,SEA,2300000,0,0,554I,,1/20/2014,achadaluri,18498,"184,000.00",10.29,0,2.03,0,0,0,0,0,"184,012.32",1/25/2014,nnoor
+18499,PEND,One timer 74,Edward,"Seattle, US",Container,SEA,SEA,2300000,0,0,554I,,1/20/2014,achadaluri,18499,"184,000.00",10.29,0,2.03,0,0,0,0,0,"184,012.32",1/25/2014,nnoor
+18500,PEND,One timer 75,Edward,"Seattle, US",Container,SEA,SEA,2300000,0,0,554I,,1/20/2014,achadaluri,18500,"184,000.00",10.29,0,2.03,0,0,0,0,0,"184,012.32",1/25/2014,nnoor
+18501,PEND,One timer 76,Edward,"Seattle, US",Container,SEA,SEA,2300000,0,0,554I,,1/20/2014,achadaluri,18501,"184,000.00",10.29,0,2.03,0,0,0,0,0,"184,012.32",1/25/2014,nnoor
+18502,PEND,One timer 77,Edward,"Seattle, US",Container,SEA,SEA,2300000,0,0,554I,,1/20/2014,achadaluri,18502,"184,000.00",10.29,0,2.03,0,0,0,0,0,"184,012.32",1/25/2014,nnoor
+18503,PEND,One timer 78,Edward,"Seattle, US",Container,SEA,SEA,2300000,0,0,554I,,1/20/2014,achadaluri,18503,"184,000.00",10.29,0,2.03,0,0,0,0,0,"184,012.32",1/25/2014,nnoor
+18504,PEND,One timer 79,Edward,"Seattle, US",Container,SEA,SEA,2300000,0,0,554I,,1/20/2014,achadaluri,18504,"184,000.00",10.29,0,2.03,0,0,0,0,0,"184,012.32",1/25/2014,nnoor
+18505,PEND,One timer 80,Edward,"Seattle, US",Container,SEA,SEA,2304000,0,0,554I,,1/20/2014,achadaluri,18505,"184,320.00",10.29,0,2.03,0,0,0,0,0,"184,332.32",1/25/2014,nnoor
+18506,PEND,One timer 81,Edward,"Seattle, US",Container,SEA,SEA,2304445,31213.26,0,554I,,1/20/2014,achadaluri,18506,"184,355.60",10.29,0,2.03,0,0,0,"4,044.72",0,"188,412.64",1/25/2014,nnoor
+18507,PEND,One timer 82,Edward,"Seattle, US",Container,SEA,SEA,2330000,0,0,554I,,1/20/2014,achadaluri,18507,"186,400.00",10.29,0,2.03,0,0,0,0,0,"186,412.32",1/25/2014,nnoor
+18508,PEND,One timer 83,Edward,"Seattle, US",Container,SEA,SEA,2330000,0,0,554I,,1/20/2014,achadaluri,18508,"186,400.00",10.29,0,2.03,0,0,0,0,0,"186,412.32",1/25/2014,nnoor
+18509,PEND,One timer 84,Edward,"Seattle, US",Container,SEA,SEA,2350000,0,0,554I,,1/20/2014,achadaluri,18509,"188,000.00",10.29,0,2.03,0,0,0,0,0,"188,012.32",1/25/2014,nnoor
+18510,PEND,One timer 85,Edward,"Seattle, US",Container,SEA,SEA,2350000,0,0,554I,,1/20/2014,achadaluri,18510,"188,000.00",10.29,0,2.03,0,0,0,0,0,"188,012.32",1/25/2014,nnoor
+18511,PEND,One timer 86,Edward,"Seattle, US",Container,SEA,SEA,2350000,0,6,554I,,1/20/2014,achadaluri,18511,"1,128,000.00",10.29,0,2.03,0,9,0,0,0,"1,128,021.32",1/25/2014,nnoor
+18512,PEND,One timer 87,Edward,"Seattle, US",Container,SEA,SEA,2350000,0,0,554I,,1/20/2014,achadaluri,18512,"188,000.00",10.29,0,2.03,0,0,0,0,0,"188,012.32",1/25/2014,nnoor
+18513,PEND,One timer 88,Edward,"Seattle, US",Container,SEA,SEA,2350000,0,0,554I,,1/20/2014,achadaluri,18513,"188,000.00",10.29,0,2.03,0,0,0,0,0,"188,012.32",1/25/2014,nnoor
+18514,PEND,One timer 89,Edward,"Seattle, US",Container,SEA,SEA,2350000,0,0,554I,,1/20/2014,achadaluri,18514,"188,000.00",10.29,0,2.03,0,0,0,0,0,"188,012.32",1/25/2014,nnoor
+18515,PEND,One timer 90,Edward,"Seattle, US",Container,SEA,SEA,2350000,0,0,554I,,1/20/2014,achadaluri,18515,"188,000.00",10.29,0,2.03,0,0,0,0,0,"188,012.32",1/25/2014,nnoor
+18516,PEND,One timer 91,Edward,"Seattle, US",Container,SEA,SEA,2350000,0,0,554I,,1/20/2014,achadaluri,18516,"188,000.00",10.29,0,2.03,0,0,0,0,0,"188,012.32",1/25/2014,nnoor
+18517,PEND,One timer 92,Edward,"Seattle, US",Container,SEA,SEA,2350000,0,0,554I,,1/20/2014,achadaluri,18517,"188,000.00",10.29,0,2.03,0,0,0,0,0,"188,012.32",1/25/2014,nnoor
+18518,PEND,One timer 93,Edward,"Seattle, US",Container,SEA,SEA,2350000,0,0,554I,,1/20/2014,achadaluri,18518,"188,000.00",10.29,0,2.03,0,0,0,0,0,"188,012.32",1/25/2014,nnoor
+18519,PEND,One timer 94,Edward,"Seattle, US",Container,SEA,SEA,2350000,0,0,554I,,1/20/2014,achadaluri,18519,"188,000.00",10.29,0,2.03,0,0,0,0,0,"188,012.32",1/25/2014,nnoor
+18520,PEND,One timer 95,Edward,"Seattle, US",Container,SEA,SEA,2350000,0,0,554I,,1/20/2014,achadaluri,18520,"188,000.00",10.29,0,2.03,0,0,0,0,0,"188,012.32",1/25/2014,nnoor
+18521,PEND,One timer 96,Edward,"Seattle, US",Container,SEA,SEA,2350000,0,0,554I,,1/20/2014,achadaluri,18521,"188,000.00",10.29,0,2.03,0,0,0,0,0,"188,012.32",1/25/2014,nnoor
+18522,PEND,One timer 97,Edward,"Seattle, US",Container,SEA,SEA,2350000,0,0,554I,,1/20/2014,achadaluri,18522,"188,000.00",10.29,0,2.03,0,0,0,0,0,"188,012.32",1/25/2014,nnoor
+18523,PEND,One timer 98,Edward,"Seattle, US",Container,SEA,SEA,2350000,0,0,554I,,1/20/2014,achadaluri,18523,"188,000.00",10.29,0,2.03,0,0,0,0,0,"188,012.32",1/25/2014,nnoor
+18524,PEND,One timer 99,Edward,"Seattle, US",Container,SEA,SEA,2352000,0,90,554I,,1/20/2014,achadaluri,18524,"16,934,400.00",10.29,0,2.03,0,9,0,0,0,"16,934,421.32",1/25/2014,nnoor
+18525,PEND,One timer 100,Edward,"Seattle, US",Container,SEA,SEA,2370000,0,0,554I,,1/20/2014,achadaluri,18525,"189,600.00",10.29,0,2.03,0,0,0,0,0,"189,612.32",1/25/2014,nnoor
+18526,PEND,One timer 101,Edward,"Seattle, US",Container,SEA,SEA,2374000,0,0,554I,,1/20/2014,achadaluri,18526,"189,920.00",10.29,0,2.03,0,0,0,0,0,"189,932.32",1/25/2014,nnoor
+18527,PEND,One timer 102,Edward,"Seattle, US",Container,SEA,SEA,2382900,0,0,554I,,1/20/2014,achadaluri,18527,"190,632.00",10.29,0,2.03,0,0,0,0,0,"190,644.32",1/25/2014,nnoor
+18528,PEND,One timer 103,Edward,"Seattle, US",Container,SEA,SEA,2384000,0,0,554I,,1/20/2014,achadaluri,18528,"190,720.00",10.29,0,2.03,0,0,0,0,0,"190,732.32",1/25/2014,nnoor
+18529,PEND,One timer 104,Edward,"Seattle, US",Container,SEA,SEA,2390000,0,0,554I,,1/20/2014,achadaluri,18529,"191,200.00",10.29,0,2.03,0,0,0,0,0,"191,212.32",1/25/2014,nnoor
+18530,PEND,One timer 105,Edward,"Seattle, US",Container,SEA,SEA,2397750,0,0,554I,,1/20/2014,achadaluri,18530,"191,820.00",10.29,0,2.03,0,0,0,0,0,"191,832.32",1/25/2014,nnoor
+18531,PEND,One timer 106,Edward,"Seattle, US",Container,SEA,SEA,2398000,0,0,554I,,1/20/2014,achadaluri,18531,"191,840.00",10.29,0,2.03,0,0,0,0,0,"191,852.32",1/25/2014,nnoor
+18532,PEND,One timer 107,Edward,"Seattle, US",Container,SEA,SEA,2400000,0,0,554I,,1/20/2014,achadaluri,18532,"192,000.00",10.29,0,2.03,0,0,0,0,0,"192,012.32",1/25/2014,nnoor
+18533,PEND,One timer 108,Edward,"Seattle, US",Container,SEA,SEA,2400000,0,0,554I,,1/20/2014,achadaluri,18533,"192,000.00",10.29,0,2.03,0,0,0,0,0,"192,012.32",1/25/2014,nnoor
+18534,PEND,One timer 109,Edward,"Seattle, US",Container,SEA,SEA,2400000,0,0,554I,,1/20/2014,achadaluri,18534,"192,000.00",10.29,0,2.03,0,0,0,0,0,"192,012.32",1/25/2014,nnoor
+18535,PEND,One timer 110,Edward,"Seattle, US",Container,SEA,SEA,2400000,0,0,554I,,1/20/2014,achadaluri,18535,"192,000.00",10.29,0,2.03,0,0,0,0,0,"192,012.32",1/25/2014,nnoor
+18536,PEND,One timer 111,Edward,"Seattle, US",Container,SEA,SEA,2400000,0,0,554I,,1/20/2014,achadaluri,18536,"192,000.00",10.29,0,2.03,0,0,0,0,0,"192,012.32",1/25/2014,nnoor
+18537,PEND,One timer 112,Edward,"Seattle, US",Container,SEA,SEA,2400000,0,0,554I,,1/20/2014,achadaluri,18537,"192,000.00",10.29,0,2.03,0,0,0,0,0,"192,012.32",1/25/2014,nnoor
+18538,PEND,One timer 113,Edward,"Seattle, US",Container,SEA,SEA,2400000,0,0,554I,,1/20/2014,achadaluri,18538,"192,000.00",10.29,0,2.03,0,0,0,0,0,"192,012.32",1/25/2014,nnoor
+18539,PEND,One timer 114,Edward,"Seattle, US",Container,SEA,SEA,2400000,0,0,554I,,1/20/2014,achadaluri,18539,"192,000.00",10.29,0,2.03,0,0,0,0,0,"192,012.32",1/25/2014,nnoor
+18540,PEND,One timer 115,Edward,"Seattle, US",Container,SEA,SEA,2400000,0,0,554I,,1/20/2014,achadaluri,18540,"192,000.00",10.29,0,2.03,0,0,0,0,0,"192,012.32",1/25/2014,nnoor
+18541,PEND,One timer 116,Edward,"Seattle, US",Container,SEA,SEA,2400000,0,0,554I,,1/20/2014,achadaluri,18541,"192,000.00",10.29,0,2.03,0,0,0,0,0,"192,012.32",1/25/2014,nnoor
+18542,PEND,One timer 117,Edward,"Seattle, US",Container,SEA,SEA,2400000,0,0,554I,,1/20/2014,achadaluri,18542,"192,000.00",10.29,0,2.03,0,0,0,0,0,"192,012.32",1/25/2014,nnoor
+18543,PEND,One timer 118,Edward,"Seattle, US",Container,SEA,SEA,2400000,0,0,554I,,1/20/2014,achadaluri,18543,"192,000.00",10.29,0,2.03,0,0,0,0,0,"192,012.32",1/25/2014,nnoor
+18544,PEND,One timer 119,Edward,"Seattle, US",Container,SEA,SEA,2400000,0,0,554I,,1/20/2014,achadaluri,18544,"192,000.00",10.29,0,2.03,0,0,0,0,0,"192,012.32",1/25/2014,nnoor
+18545,PEND,One timer 120,Edward,"Seattle, US",Container,SEA,SEA,2400000,0,0,554I,,1/20/2014,achadaluri,18545,"192,000.00",10.29,0,2.03,0,0,0,0,0,"192,012.32",1/25/2014,nnoor
+18546,PEND,One timer 121,Edward,"Seattle, US",Container,SEA,SEA,2400000,0,0,554I,,1/20/2014,achadaluri,18546,"192,000.00",10.29,0,2.03,0,0,0,0,0,"192,012.32",1/25/2014,nnoor
+18547,PEND,One timer 122,Edward,"Seattle, US",Container,SEA,SEA,2400000,0,0,554I,,1/20/2014,achadaluri,18547,"192,000.00",10.29,0,2.03,0,0,0,0,0,"192,012.32",1/25/2014,nnoor
+18548,PEND,One timer 123,Edward,"Seattle, US",Container,SEA,SEA,2410000,0,0,554I,,1/20/2014,achadaluri,18548,"192,800.00",10.29,0,2.03,0,0,0,0,0,"192,812.32",1/25/2014,nnoor
+18549,PEND,One timer 124,Edward,"Seattle, US",Container,SEA,SEA,2410000,0,1,554I,,1/20/2014,achadaluri,18549,"192,800.00",10.29,0,2.03,0,0,0,0,0,"192,812.32",1/25/2014,nnoor
+18550,PEND,One timer 125,Edward,"Seattle, US",Container,SEA,SEA,2420000,0,0,554I,,1/20/2014,achadaluri,18550,"193,600.00",10.29,0,2.03,0,0,0,0,0,"193,612.32",1/25/2014,nnoor
+18551,PEND,One timer 126,Edward,"Seattle, US",Container,SEA,SEA,2430000,0,0,554I,,1/20/2014,achadaluri,18551,"194,400.00",10.29,0,2.03,0,0,0,0,0,"194,412.32",1/25/2014,nnoor
+18552,PEND,One timer 127,Edward,"Seattle, US",Container,SEA,SEA,2438000,0,0,554I,,1/20/2014,achadaluri,18552,"195,040.00",10.29,0,2.03,0,0,0,0,0,"195,052.32",1/25/2014,nnoor
+18553,PEND,One timer 128,Edward,"Seattle, US",Container,SEA,SEA,2450000,0,0,554I,,1/20/2014,achadaluri,18553,"196,000.00",10.29,0,2.03,0,0,0,0,0,"196,012.32",1/25/2014,nnoor
+18554,PEND,One timer 129,Edward,"Seattle, US",Container,SEA,SEA,2450000,0,0,554I,,1/20/2014,achadaluri,18554,"196,000.00",10.29,0,2.03,0,0,0,0,0,"196,012.32",1/25/2014,nnoor
+18555,PEND,One timer 130,Edward,"Seattle, US",Container,SEA,SEA,2450000,0,0,554I,,1/20/2014,achadaluri,18555,"196,000.00",10.29,0,2.03,0,0,0,0,0,"196,012.32",1/25/2014,nnoor
+18556,PEND,One timer 131,Edward,"Seattle, US",Container,SEA,SEA,2450000,0,0,554I,,1/20/2014,achadaluri,18556,"196,000.00",10.29,0,2.03,0,0,0,0,0,"196,012.32",1/25/2014,nnoor
+18557,PEND,One timer 132,Edward,"Seattle, US",Container,SEA,SEA,2450000,0,0,554I,,1/20/2014,achadaluri,18557,"196,000.00",10.29,0,2.03,0,0,0,0,0,"196,012.32",1/25/2014,nnoor
+18558,PEND,One timer 133,Edward,"Seattle, US",Container,SEA,SEA,2450000,0,0,554I,,1/20/2014,achadaluri,18558,"196,000.00",10.29,0,2.03,0,0,0,0,0,"196,012.32",1/25/2014,nnoor
+18559,PEND,One timer 134,Edward,"Seattle, US",Container,SEA,SEA,2450000,0,0,554I,,1/20/2014,achadaluri,18559,"196,000.00",10.29,0,2.03,0,0,0,0,0,"196,012.32",1/25/2014,nnoor
+18560,PEND,One timer 135,Edward,"Seattle, US",Container,SEA,SEA,2450000,0,0,554I,,1/20/2014,achadaluri,18560,"196,000.00",10.29,0,2.03,0,0,0,0,0,"196,012.32",1/25/2014,nnoor
+18561,PEND,One timer 136,Edward,"Seattle, US",Container,SEA,SEA,2450000,0,0,554I,,1/20/2014,achadaluri,18561,"196,000.00",10.29,0,2.03,0,0,0,0,0,"196,012.32",1/25/2014,nnoor
+18562,PEND,One timer 137,Edward,"Seattle, US",Container,SEA,SEA,2450000,0,0,554I,,1/20/2014,achadaluri,18562,"196,000.00",10.29,0,2.03,0,0,0,0,0,"196,012.32",1/25/2014,nnoor
+18563,PEND,One timer 138,Edward,"Seattle, US",Container,SEA,SEA,2450000,0,0,554I,,1/20/2014,achadaluri,18563,"196,000.00",10.29,0,2.03,0,0,0,0,0,"196,012.32",1/25/2014,nnoor
+18564,PEND,One timer 139,Edward,"Seattle, US",Container,SEA,SEA,2460000,0,0,554I,,1/20/2014,achadaluri,18564,"196,800.00",10.29,0,2.03,0,0,0,0,0,"196,812.32",1/25/2014,nnoor
+18565,PEND,One timer 140,Edward,"Seattle, US",Container,SEA,SEA,2460000,14850,0,554I,,1/20/2014,achadaluri,18565,"196,800.00",10.29,0,2.03,0,0,0,"1,917.50",0,"198,729.82",1/25/2014,nnoor
+18566,PEND,One timer 141,Edward,"Los Angeles, US",Container,SEA,LAX,2470000,0,1,554I,,1/20/2014,achadaluri,18566,"197,600.00",10.29,0,2.03,0,0,0,0,0,"197,612.32",1/25/2014,nnoor
+18567,PEND,One timer 142,Edward,"Los Angeles, US",Container,SEA,LAX,2480000,0,1,554I,,1/20/2014,achadaluri,18567,"198,400.00",10.29,0,2.03,0,0,0,0,0,"198,412.32",1/25/2014,nnoor
+18568,PEND,One timer 143,Edward,"Los Angeles, US",Container,SEA,LAX,2490500,0,0,554I,,1/20/2014,achadaluri,18568,"199,240.00",10.29,0,2.03,0,0,0,0,0,"199,252.32",1/25/2014,nnoor
+18569,PEND,One timer 144,Edward,"Los Angeles, US",Container,SEA,LAX,2500000,0,0,554I,,1/20/2014,achadaluri,18569,"200,000.00",10.29,0,2.03,0,0,0,0,0,"200,012.32",1/25/2014,nnoor
+18570,PEND,One timer 145,Edward,"Los Angeles, US",Container,SEA,LAX,2500000,0,0,554I,,1/20/2014,achadaluri,18570,"200,000.00",10.29,0,2.03,0,0,0,0,0,"200,012.32",1/25/2014,nnoor
+18571,PEND,One timer 146,Edward,"Los Angeles, US",Container,SEA,LAX,2500000,0,0,554I,,1/20/2014,achadaluri,18571,"200,000.00",10.29,0,2.03,0,0,0,0,0,"200,012.32",1/25/2014,nnoor
+18572,PEND,One timer 147,Edward,"Los Angeles, US",Container,SEA,LAX,2500000,0,0,554I,,1/20/2014,achadaluri,18572,"200,000.00",10.29,0,2.03,0,0,0,0,0,"200,012.32",1/25/2014,nnoor
+18573,PEND,One timer 148,Edward,"Los Angeles, US",Container,SEA,LAX,2500000,0,0,554I,,1/20/2014,achadaluri,18573,"200,000.00",10.29,0,2.03,0,0,0,0,0,"200,012.32",1/25/2014,nnoor
+18574,PEND,One timer 149,Edward,"Los Angeles, US",Container,SEA,LAX,2500000,0,0,554I,,1/20/2014,achadaluri,18574,"200,000.00",10.29,0,2.03,0,0,0,0,0,"200,012.32",1/25/2014,nnoor
+18575,PEND,One timer 150,Edward,"Los Angeles, US",Container,SEA,LAX,2500000,0,0,554I,,1/20/2014,achadaluri,18575,"200,000.00",10.29,0,2.03,0,0,0,0,0,"200,012.32",1/25/2014,nnoor
+18576,PEND,One timer 151,Edward,"Los Angeles, US",Container,SEA,LAX,2500000,0,0,554I,,1/20/2014,achadaluri,18576,"200,000.00",10.29,0,2.03,0,0,0,0,0,"200,012.32",1/25/2014,nnoor
+18577,PEND,One timer 152,Edward,"Los Angeles, US",Container,SEA,LAX,2510000,0,0,554I,,1/20/2014,achadaluri,18577,"200,800.00",10.29,0,2.03,0,0,0,0,0,"200,812.32",1/25/2014,nnoor
+18578,PEND,One timer 153,Edward,"Los Angeles, US",Container,SEA,LAX,2510000,0,0,554I,,1/20/2014,achadaluri,18578,"200,800.00",10.29,0,2.03,0,0,0,0,0,"200,812.32",1/25/2014,nnoor
+18579,PEND,One timer 154,Edward,"Los Angeles, US",Container,SEA,LAX,2530000,0,0,554I,,1/20/2014,achadaluri,18579,"202,400.00",10.29,0,2.03,0,0,0,0,0,"202,412.32",1/25/2014,nnoor
+18580,PEND,One timer 155,Edward,"Los Angeles, US",Container,SEA,LAX,2550000,0,0,554I,,1/20/2014,achadaluri,18580,"204,000.00",10.29,0,2.03,0,0,0,0,0,"204,012.32",1/25/2014,nnoor
+18581,PEND,One timer 156,Edward,"Oakland, US",Container,SEA,OAK,2550000,0,0,554I,,1/20/2014,achadaluri,18581,"204,000.00",10.29,0,2.03,0,0,0,0,0,"204,012.32",1/25/2014,nnoor
+18582,PEND,One timer 157,Edward,"Oakland, US",Container,SEA,OAK,2550000,0,0,554I,,1/20/2014,achadaluri,18582,"204,000.00",10.29,0,2.03,0,0,0,0,0,"204,012.32",1/25/2014,nnoor
+18583,PEND,One timer 158,Edward,"Oakland, US",Container,SEA,OAK,2550000,0,0,554I,,1/20/2014,achadaluri,18583,"204,000.00",10.29,0,2.03,0,0,0,0,0,"204,012.32",1/25/2014,nnoor
+18584,PEND,One timer 159,Edward,"Oakland, US",Container,SEA,OAK,2550000,0,0,554I,,1/20/2014,achadaluri,18584,"204,000.00",10.29,0,2.03,0,0,0,0,0,"204,012.32",1/25/2014,nnoor
+18585,PEND,One timer 160,Edward,"Oakland, US",Container,SEA,OAK,2550000,0,0,554I,,1/20/2014,achadaluri,18585,"204,000.00",10.29,0,2.03,0,0,0,0,0,"204,012.32",1/25/2014,nnoor
+18586,PEND,One timer 161,Edward,"Oakland, US",Container,SEA,OAK,2550000,0,984,554I,,1/20/2014,achadaluri,18586,"200,736,000.00",10.29,0,2.03,0,9,0,0,0,"200,736,021.32",1/25/2014,nnoor
+18587,PEND,One timer 162,Edward,"Oakland, US",Container,SEA,OAK,2550000,0,1703,554I,,1/20/2014,achadaluri,18587,"347,412,000.00",10.29,0,2.03,0,9,0,0,0,"347,412,021.32",1/25/2014,nnoor
+18588,PEND,One timer 163,Edward,"Oakland, US",Container,SEA,OAK,2570000,0,1791,554I,,1/20/2014,achadaluri,18588,"368,229,600.00",10.29,0,2.03,0,9,0,0,0,"368,229,621.32",1/25/2014,nnoor
+18589,PEND,One timer 164,Edward,"Oakland, US",Container,SEA,OAK,2580000,0,1768,554I,,1/20/2014,achadaluri,18589,"364,915,200.00",10.29,0,2.03,0,9,0,0,0,"364,915,221.32",1/25/2014,nnoor
+18590,PEND,One timer 165,Edward,"Oakland, US",Container,SEA,OAK,2585512,0,1621,554I,,1/20/2014,achadaluri,18590,"335,289,196.16",10.29,0,2.03,0,9,0,0,0,"335,289,217.48",1/25/2014,nnoor
+18591,PEND,One timer 166,Edward,"Oakland, US",Container,SEA,OAK,2595145,192396,0,554I,,1/20/2014,achadaluri,18591,"207,611.60",10.29,0,2.03,0,0,0,"24,998.48",0,"232,622.40",1/25/2014,nnoor
+18592,PEND,One timer 167,Edward,"Oakland, US",Container,SEA,OAK,2595145,192396,0,554I,,1/20/2014,achadaluri,18592,"207,611.60",10.29,0,2.03,0,0,0,"24,998.48",0,"232,622.40",1/25/2014,nnoor
+18593,PEND,One timer 168,Edward,"Oakland, US",Container,SEA,OAK,2600000,0,798,554I,,1/20/2014,achadaluri,18593,"165,984,000.00",10.29,0,2.03,0,9,0,0,0,"165,984,021.32",1/25/2014,nnoor
+18594,PEND,One timer 169,Edward,"Oakland, US",Container,SEA,OAK,2600000,0,81,554I,,1/20/2014,achadaluri,18594,"16,848,000.00",10.29,0,2.03,0,9,0,0,0,"16,848,021.32",1/25/2014,nnoor
+18595,PEND,One timer 170,Edward,"Oakland, US",Container,SEA,OAK,2600000,0,71,554I,,1/20/2014,achadaluri,18595,"14,768,000.00",10.29,0,2.03,0,9,0,0,0,"14,768,021.32",1/25/2014,nnoor
+18596,PEND,One timer 171,Edward,"Oakland, US",Container,SEA,OAK,2600000,0,0,554I,,1/20/2014,achadaluri,18596,"208,000.00",10.29,0,2.03,0,0,0,0,0,"208,012.32",1/25/2014,nnoor
+18597,PEND,One timer 172,Edward,"Oakland, US",Container,SEA,OAK,2600000,0,861,554I,,1/20/2014,achadaluri,18597,"179,088,000.00",10.29,0,2.03,0,9,0,0,0,"179,088,021.32",1/25/2014,nnoor
+18598,PEND,One timer 173,Edward,"Oakland, US",Container,SEA,OAK,2600000,0,563,554I,,1/20/2014,achadaluri,18598,"117,104,000.00",10.29,0,2.03,0,9,0,0,0,"117,104,021.32",1/25/2014,nnoor
+18599,PEND,One timer 174,Edward,"Oakland, US",Container,SEA,OAK,2600000,0,938,554I,,1/20/2014,achadaluri,18599,"195,104,000.00",10.29,0,2.03,0,9,0,0,0,"195,104,021.32",1/25/2014,nnoor
+18600,PEND,One timer 175,Edward,"Oakland, US",Container,SEA,OAK,2600000,0,0,554I,,1/20/2014,achadaluri,18600,"208,000.00",10.29,0,2.03,0,0,0,0,0,"208,012.32",1/25/2014,nnoor
+18601,PEND,One timer 176,Edward,"Oakland, US",Container,SEA,OAK,2600000,0,78,554I,,1/20/2014,achadaluri,18601,"16,224,000.00",10.29,0,2.03,0,9,0,0,0,"16,224,021.32",1/25/2014,nnoor
+18602,PEND,POV Private,Steven,"Anchorage, US",Unit,SEA,ANK,2600000,0,0,1E,,1/20/2014,achadaluri,18602,"104,000.00",5,2,2.03,0,0,0,0,0,"104,009.03",1/25/2014,pcr
+18603,PEND,POV Private,Steven,"Anchorage, US",Unit,SEA,ANK,2611700,0,77,1E,,1/20/2014,achadaluri,18603,"8,044,036.00",5,2,2.03,0,9,0,0,0,"8,044,054.03",1/25/2014,pcr
+18604,PEND,POV Private,Steven,"Anchorage, US",Unit,SEA,ANK,2624000,0,681,1E,,1/20/2014,achadaluri,18604,"71,477,760.00",5,2,2.03,0,9,0,0,0,"71,477,778.03",1/25/2014,pcr
+18605,PEND,POV Private,Steven,"Anchorage, US",Unit,SEA,ANK,2628000,0,564,1E,,1/20/2014,achadaluri,18605,"59,287,680.00",5,2,2.03,0,9,0,0,0,"59,287,698.03",1/25/2014,pcr
+18606,PEND,POV Private,Steven,"Anchorage, US",Unit,SEA,ANK,2632112,0,0,1E,,1/20/2014,achadaluri,18606,"105,284.48",5,2,2.03,0,0,0,0,0,"105,293.51",1/25/2014,pcr
+18607,PEND,POV Private,Steven,"Anchorage, US",Unit,SEA,ANK,2638424,0,0,1E,,1/20/2014,achadaluri,18607,"105,536.96",5,2,2.03,0,0,0,0,0,"105,545.99",1/25/2014,pcr
+18608,PEND,POV Private,Steven,"Anchorage, US",Unit,SEA,ANK,2640000,0,0,1E,,1/20/2014,achadaluri,18608,"105,600.00",5,2,2.03,0,0,0,0,0,"105,609.03",1/25/2014,pcr
+18609,PEND,POV Private,Steven,"Anchorage, US",Unit,SEA,ANK,2650000,0,0,1E,,1/20/2014,achadaluri,18609,"106,000.00",5,2,2.03,0,0,0,0,0,"106,009.03",1/25/2014,pcr
+18610,PEND,POV Private,Steven,"Anchorage, US",Unit,SEA,ANK,2650000,0,0,1E,,1/20/2014,achadaluri,18610,"106,000.00",5,2,2.03,0,0,0,0,0,"106,009.03",1/25/2014,pcr
+18611,PEND,POV Private,Steven,"Anchorage, US",Unit,SEA,ANK,2650000,0,0,1E,,1/20/2014,achadaluri,18611,"106,000.00",5,2,2.03,0,0,0,0,0,"106,009.03",1/25/2014,pcr
+18612,PEND,POV Private,Steven,"Anchorage, US",Unit,SEA,ANK,2650000,0,0,1E,,1/20/2014,achadaluri,18612,"106,000.00",5,2,2.03,0,0,0,0,0,"106,009.03",1/25/2014,pcr
+18613,PEND,POV Private,Steven,"Anchorage, US",Unit,SEA,ANK,2650000,0,0,1E,,1/20/2014,achadaluri,18613,"106,000.00",5,2,2.03,0,0,0,0,0,"106,009.03",1/25/2014,pcr
+18614,PEND,POV Private,Steven,"Anchorage, US",Unit,SEA,ANK,2665000,0,0,1E,,1/20/2014,achadaluri,18614,"106,600.00",5,2,2.03,0,0,0,0,0,"106,609.03",1/25/2014,pcr
+18615,PEND,POV Private,Steven,"Anchorage, US",Unit,SEA,ANK,2665000,0,0,1E,,1/20/2014,achadaluri,18615,"106,600.00",5,2,2.03,0,0,0,0,0,"106,609.03",1/25/2014,pcr
+18616,PEND,POV Private,Steven,"Anchorage, US",Unit,SEA,ANK,2680160,0,0,1E,,1/20/2014,achadaluri,18616,"107,206.40",5,2,2.03,0,0,0,0,0,"107,215.43",1/25/2014,pcr
+18617,PEND,POV Private,Steven,"Anchorage, US",Unit,SEA,ANK,2686392,0,0,1E,,1/20/2014,achadaluri,18617,"107,455.68",5,2,2.03,0,0,0,0,0,"107,464.71",1/25/2014,pcr
+18618,PEND,POV Private,Steven,"Anchorage, US",Unit,SEA,ANK,2692000,0,0,1E,,1/20/2014,achadaluri,18618,"107,680.00",5,2,2.03,0,0,0,0,0,"107,689.03",1/25/2014,pcr
+18619,PEND,POV Private,Steven,"Anchorage, US",Unit,SEA,ANK,2700000,0,1565,1E,,1/20/2014,achadaluri,18619,"169,020,000.00",5,2,2.03,0,9,0,0,0,"169,020,018.03",1/25/2014,pcr
+18620,PEND,POV Private,Steven,"Anchorage, US",Unit,SEA,ANK,2700000,0,0,1E,,1/20/2014,achadaluri,18620,"108,000.00",5,2,2.03,0,0,0,0,0,"108,009.03",1/25/2014,pcr
+18621,PEND,POV Private,Steven,"Anchorage, US",Unit,SEA,ANK,2700000,0,0,1E,,1/20/2014,achadaluri,18621,"108,000.00",5,2,2.03,0,0,0,0,0,"108,009.03",1/25/2014,pcr
+18622,PEND,POV Private,Steven,"Anchorage, US",Unit,SEA,ANK,2700000,0,0,1E,,1/20/2014,achadaluri,18622,"108,000.00",5,2,2.03,0,0,0,0,0,"108,009.03",1/25/2014,pcr
+18623,PEND,POV Private,Steven,"Honolulu, US",Unit,SEA,HON,2700000,0,0,1E,,1/20/2014,dstark,18623,"108,000.00",5,0,2.03,0,0,0,0,0,"108,007.03",1/25/2014,rnoor
+18624,PEND,POV Private,Steven,"Honolulu, US",Unit,SEA,HON,2700000,0,0,1E,,1/20/2014,dstark,18624,"108,000.00",5,0,2.03,0,0,0,0,0,"108,007.03",1/25/2014,rnoor
+18625,PEND,POV Private,Steven,"Honolulu, US",Unit,SEA,HON,2742600,0,1970,1E,,1/20/2014,dstark,18625,"216,116,880.00",5,0,2.03,0,9,0,0,0,"216,116,896.03",1/25/2014,rnoor
+18626,PEND,POV Private,Steven,"Honolulu, US",Unit,SEA,HON,2750000,0,0,1E,,1/20/2014,dstark,18626,"110,000.00",5,0,2.03,0,0,0,0,0,"110,007.03",1/25/2014,rnoor
+18627,PEND,POV Private,Steven,"Honolulu, US",Unit,SEA,HON,2750000,0,0,1E,,1/20/2014,dstark,18627,"110,000.00",5,0,2.03,0,0,0,0,0,"110,007.03",1/25/2014,rnoor
+18628,PEND,POV Private,Steven,"Honolulu, US",Unit,SEA,HON,2750000,0,0,1E,,1/20/2014,dstark,18628,"110,000.00",5,0,2.03,0,0,0,0,0,"110,007.03",1/25/2014,rnoor
+18629,PEND,POV Private,Steven,"Honolulu, US",Unit,SEA,HON,2751200,0,0,1E,,1/20/2014,dstark,18629,"110,048.00",5,0,2.03,0,0,0,0,0,"110,055.03",1/25/2014,rnoor
+18630,PEND,POV Private,Steven,"Honolulu, US",Unit,SEA,HON,2752640,0,0,1E,,1/20/2014,dstark,18630,"110,105.60",5,0,2.03,0,0,0,0,0,"110,112.63",1/25/2014,rnoor
+18631,PEND,POV Private,Steven,"Honolulu, US",Unit,SEA,HON,2760000,0,0,1E,,1/20/2014,dstark,18631,"110,400.00",5,0,2.03,0,0,0,0,0,"110,407.03",1/25/2014,rnoor
+18632,PEND,POV Private,Steven,"Honolulu, US",Unit,SEA,HON,2760000,0,0,1E,,1/20/2014,dstark,18632,"110,400.00",5,0,2.03,0,0,0,0,0,"110,407.03",1/25/2014,rnoor
+18633,PEND,POV Private,Steven,"Honolulu, US",Unit,SEA,HON,2776022,0,0,1E,,1/20/2014,dstark,18633,"111,040.88",5,0,2.03,0,0,0,0,0,"111,047.91",1/25/2014,rnoor
+18634,PEND,POV Private,Steven,"Honolulu, US",Unit,SEA,HON,2779096,0,0,1E,,1/20/2014,dstark,18634,"111,163.84",5,0,2.03,0,0,0,0,0,"111,170.87",1/25/2014,rnoor
+18635,PEND,POV Private,Steven,"Honolulu, US",Unit,SEA,HON,2779752,0,0,1E,,1/20/2014,dstark,18635,"111,190.08",5,0,2.03,0,0,0,0,0,"111,197.11",1/25/2014,rnoor
+18636,PEND,POV Private,Steven,"Honolulu, US",Unit,SEA,HON,2783861,0,0,1E,,1/20/2014,dstark,18636,"111,354.44",5,0,2.03,0,0,0,0,0,"111,361.47",1/25/2014,rnoor
+18637,PEND,POV Private,Steven,"Honolulu, US",Unit,SEA,HON,2793199,0,0,1E,,1/20/2014,dstark,18637,"111,727.96",5,0,2.03,0,0,0,0,0,"111,734.99",1/25/2014,rnoor
+18638,PEND,POV Private,Steven,"Honolulu, US",Unit,SEA,HON,2800000,0,0,1E,,1/20/2014,dstark,18638,"112,000.00",5,0,2.03,0,0,0,0,0,"112,007.03",1/25/2014,rnoor
+18639,PEND,POV Private,Steven,"Honolulu, US",Unit,SEA,HON,2800000,0,0,1E,,1/20/2014,dstark,18639,"112,000.00",5,0,2.03,0,0,0,0,0,"112,007.03",1/25/2014,rnoor
+18640,PEND,POV Private,Steven,"Honolulu, US",Unit,SEA,HON,2800000,0,0,1E,,1/20/2014,dstark,18640,"112,000.00",5,0,2.03,0,0,0,0,0,"112,007.03",1/25/2014,rnoor
+18641,PEND,POV Private,Steven,"Honolulu, US",Unit,SEA,HON,2800000,0,0,1E,,1/20/2014,dstark,18641,"112,000.00",5,0,2.03,0,0,0,0,0,"112,007.03",1/25/2014,rnoor
+18642,PEND,POV Private,Steven,"Honolulu, US",Unit,SEA,HON,2800000,0,0,1E,,1/20/2014,dstark,18642,"112,000.00",5,0,2.03,0,0,0,0,0,"112,007.03",1/25/2014,rnoor
+18643,PEND,POV Private,Steven,"Los Angeles, US",Unit,SEA,LAX,2802000,0,0,1E,,1/20/2014,achadaluri,18643,"112,080.00",5,0,2.03,0,0,0,0,0,"112,087.03",1/25/2014,pcr
+18644,PEND,POV Private,Steven,"Los Angeles, US",Unit,SEA,LAX,2804000,0,0,1E,,1/20/2014,achadaluri,18644,"112,160.00",5,0,2.03,0,0,0,0,0,"112,167.03",1/25/2014,pcr
+18645,PEND,POV Private,Steven,"Los Angeles, US",Unit,SEA,LAX,2805500,0,0,1E,,1/20/2014,achadaluri,18645,"112,220.00",5,0,2.03,0,0,0,0,0,"112,227.03",1/25/2014,pcr
+18646,PEND,POV Private,Steven,"Los Angeles, US",Unit,SEA,LAX,2810000,0,0,1E,,1/20/2014,achadaluri,18646,"112,400.00",5,0,2.03,0,0,0,0,0,"112,407.03",1/25/2014,pcr
+18647,PEND,POV Private,Steven,"Los Angeles, US",Unit,SEA,LAX,2810000,0,1,1E,,1/20/2014,achadaluri,18647,"112,400.00",5,0,2.03,0,0,0,0,0,"112,407.03",1/25/2014,pcr
+18648,PEND,POV Private,Steven,"Los Angeles, US",Unit,SEA,LAX,2810000,0,0,1E,,1/20/2014,achadaluri,18648,"112,400.00",5,0,2.03,0,0,0,0,0,"112,407.03",1/25/2014,pcr
+18649,PEND,POV Private,Steven,"Los Angeles, US",Unit,SEA,LAX,2837540,0,0,1E,,1/20/2014,achadaluri,18649,"113,501.60",5,0,2.03,0,0,0,0,0,"113,508.63",1/25/2014,pcr
+18650,PEND,POV Private,Steven,"Los Angeles, US",Unit,SEA,LAX,2850000,0,0,1E,,1/20/2014,achadaluri,18650,"114,000.00",5,0,2.03,0,0,0,0,0,"114,007.03",1/25/2014,pcr
+18651,PEND,POV Private,Steven,"Los Angeles, US",Unit,SEA,LAX,2850000,0,6,1E,,1/20/2014,achadaluri,18651,"684,000.00",5,0,2.03,0,9,0,0,0,"684,016.03",1/25/2014,pcr
+18652,PEND,POV Private,Steven,"Los Angeles, US",Unit,SEA,LAX,2850000,0,2046,1E,,1/20/2014,achadaluri,18652,"233,244,000.00",5,0,2.03,0,9,0,0,0,"233,244,016.03",1/25/2014,pcr
+18653,PEND,POV Private,Steven,"Los Angeles, US",Unit,SEA,LAX,2850000,0,1956,1E,,1/20/2014,achadaluri,18653,"222,984,000.00",5,0,2.03,0,9,0,0,0,"222,984,016.03",1/25/2014,pcr
+18654,PEND,POV Private,Steven,"Los Angeles, US",Unit,SEA,LAX,2850000,0,700,1E,,1/20/2014,achadaluri,18654,"79,800,000.00",5,0,2.03,0,9,0,0,0,"79,800,016.03",1/25/2014,pcr
+18655,PEND,POV Private,Steven,"Los Angeles, US",Unit,SEA,LAX,2850000,0,900,1E,,1/20/2014,achadaluri,18655,"102,600,000.00",5,0,2.03,0,9,0,0,0,"102,600,016.03",1/25/2014,pcr
+18656,PEND,POV Private,Steven,"Los Angeles, US",Unit,SEA,LAX,2850460,0,649,1E,,1/20/2014,achadaluri,18656,"73,997,941.60",5,0,2.03,0,9,0,0,0,"73,997,957.63",1/25/2014,pcr
+18657,PEND,POV Private,Steven,"Los Angeles, US",Unit,SEA,LAX,2850760,0,2048,1E,,1/20/2014,achadaluri,18657,"233,534,259.20",5,0,2.03,0,9,0,0,0,"233,534,275.23",1/25/2014,pcr
+18658,PEND,POV Private,Steven,"Los Angeles, US",Unit,SEA,LAX,2855008,0,2000,1E,,1/20/2014,achadaluri,18658,"228,400,640.00",5,0,2.03,0,9,0,0,0,"228,400,656.03",1/25/2014,pcr
+18659,PEND,POV Private,Steven,"Los Angeles, US",Unit,SEA,LAX,2855986,0,1,1E,,1/20/2014,achadaluri,18659,"114,239.44",5,0,2.03,0,0,0,0,0,"114,246.47",1/25/2014,pcr
+18660,PEND,POV Private,Steven,"Los Angeles, US",Unit,SEA,LAX,2860000,0,1,1E,,1/20/2014,achadaluri,18660,"114,400.00",5,0,2.03,0,0,0,0,0,"114,407.03",1/25/2014,pcr
+18661,PEND,POV Private,Steven,"Seattle, US",Unit,SEA,SEA,2864000,0,0,1E,,1/20/2014,achadaluri,18661,"114,560.00",5,0,2.03,0,0,0,0,0,"114,567.03",1/25/2014,pcr
+18662,PEND,POV Private,Steven,"Seattle, US",Unit,SEA,SEA,2864000,0,0,1E,,1/20/2014,achadaluri,18662,"114,560.00",5,0,2.03,0,0,0,0,0,"114,567.03",1/25/2014,pcr
+18663,PEND,POV Private,Steven,"Seattle, US",Unit,SEA,SEA,2865756,0,0,1E,,1/20/2014,achadaluri,18663,"114,630.24",5,0,2.03,0,0,0,0,0,"114,637.27",1/25/2014,pcr
+18664,PEND,POV Private,Steven,"Seattle, US",Unit,SEA,SEA,2871620,0,0,1E,,1/20/2014,achadaluri,18664,"114,864.80",5,0,2.03,0,0,0,0,0,"114,871.83",1/25/2014,pcr
+18665,PEND,POV Private,Steven,"Seattle, US",Unit,SEA,SEA,2889996,0,0,1E,,1/20/2014,achadaluri,18665,"115,599.84",5,0,2.03,0,0,0,0,0,"115,606.87",1/25/2014,pcr
+18666,PEND,POV Private,Steven,"Seattle, US",Unit,HON,SEA,2900000,66,2,1E,HAZ,1/20/2014,userHaz,18666,"232,000.00",5,0,2.03,0,9,7.08,0,0,"232,023.11",1/25/2014,pcr
+18667,PEND,POV Private,Steven,"Seattle, US",Unit,HON,SEA,2900000,66,2,1E,HAZ,1/20/2014,userHaz,18667,"232,000.00",5,0,2.03,0,9,7.08,0,0,"232,023.11",1/25/2014,pcr
+18668,PEND,POV Private,Steven,"Seattle, US",Unit,HON,SEA,2900000,66,2,1E,HAZ,1/20/2014,userHaz,18668,"232,000.00",5,0,2.03,0,9,7.08,0,0,"232,023.11",1/25/2014,pcr
+18669,PEND,POV Private,Steven,"Seattle, US",Unit,HON,SEA,2900000,66,2,1E,HAZ,1/20/2014,userHaz,18669,"232,000.00",5,0,2.03,0,9,7.08,0,0,"232,023.11",1/25/2014,pcr
+18670,PEND,POV Private,Steven,"Oakland, US",Unit,HON,OAK,2900000,0,0,1E,,1/20/2014,achadaluri,18670,"116,000.00",5,0,2.03,0,0,0,0,0,"116,007.03",1/25/2014,pcr
+18671,PEND,POV Private,Steven,"Oakland, US",Unit,HON,OAK,2902586,0,2117,1E,,1/20/2014,achadaluri,18671,"245,790,982.48",5,0,2.03,0,9,0,0,0,"245,790,998.51",1/25/2014,pcr
+18672,PEND,POV Private,Steven,"Oakland, US",Unit,HON,OAK,2905520,0,0,1E,,1/20/2014,achadaluri,18672,"116,220.80",5,0,2.03,0,0,0,0,0,"116,227.83",1/25/2014,pcr
+18673,PEND,POV Private,Steven,"Oakland, US",Unit,HON,OAK,2906652,0,0,1E,,1/20/2014,achadaluri,18673,"116,266.08",5,0,2.03,0,0,0,0,0,"116,273.11",1/25/2014,pcr
+18674,PEND,POV Private,Steven,"Oakland, US",Unit,HON,OAK,2919820,0,0,1E,,1/20/2014,achadaluri,18674,"116,792.80",5,0,2.03,0,0,0,0,0,"116,799.83",1/25/2014,pcr
+18675,PEND,POV Private,Steven,"Oakland, US",Unit,HON,OAK,2920000,0,0,1E,,1/20/2014,achadaluri,18675,"116,800.00",5,0,2.03,0,0,0,0,0,"116,807.03",1/25/2014,pcr
+18676,PEND,POV Private,Pavan,"Shanghai, China",Unit,HON,SHA,2920000,0,0,IND,,1/17/2014,rhodes,18676,"116,800.00",5,4.09,2.03,0,0,0,0,0,"116,811.12",1/22/2014,mshahab
+18677,PEND,POV Private,Pavan,"Shanghai, China",Unit,HON,SHA,2926708,0,0,IND,,1/17/2014,rhodes,18677,"117,068.32",5,4.09,2.03,0,0,0,0,0,"117,079.44",1/22/2014,mshahab
+18678,PEND,POV Private,Pavan,"Shanghai, China",Unit,HON,SHA,2938000,0,0,IND,,1/17/2014,rhodes,18678,"117,520.00",5,4.09,2.03,0,0,0,0,0,"117,531.12",1/22/2014,mshahab
+18679,PEND,POV Private,Pavan,"Shanghai, China",Unit,HON,SHA,2945244,0,0,IND,,1/17/2014,rhodes,18679,"117,809.76",5,4.09,2.03,0,0,0,0,0,"117,820.88",1/22/2014,mshahab
+18680,PEND,POV Private,Pavan,"Shanghai, China",Unit,HON,SHA,2950000,0,0,IND,,1/17/2014,rhodes,18680,"118,000.00",5,4.09,2.03,0,0,0,0,0,"118,011.12",1/22/2014,mshahab
+18681,PEND,POV Private,Pavan,"Shanghai, China",Unit,HON,SHA,2954554,0,0,IND,,1/17/2014,rhodes,18681,"118,182.16",5,4.09,2.03,0,0,0,0,0,"118,193.28",1/22/2014,mshahab
+18682,PEND,POV Private,Pavan,"Shanghai, China",Unit,HON,SHA,2967060,0,0,IND,,1/17/2014,rhodes,18682,"118,682.40",5,4.09,2.03,0,0,0,0,0,"118,693.52",1/22/2014,mshahab
+18683,PEND,POV Private,Pavan,"Shanghai, China",Unit,HON,SHA,2968400,0,0,IND,,1/17/2014,rhodes,18683,"118,736.00",5,4.09,2.03,0,0,0,0,0,"118,747.12",1/22/2014,mshahab
+18684,PEND,POV Private,Pavan,"Shanghai, China",Unit,HON,SHA,2974150,0,0,IND,,1/17/2014,rhodes,18684,"118,966.00",5,4.09,2.03,0,0,0,0,0,"118,977.12",1/22/2014,mshahab
+18685,PEND,POV Private,Pavan,"Shanghai, China",Unit,HON,SHA,2975568,0,0,IND,,1/17/2014,rhodes,18685,"119,022.72",5,4.09,2.03,0,0,0,0,0,"119,033.84",1/22/2014,mshahab
+18686,PEND,POV Private,Pavan,"Shanghai, China",Unit,HON,SHA,2978000,0,0,IND,,1/17/2014,rhodes,18686,"119,120.00",5,4.09,2.03,0,0,0,0,0,"119,131.12",1/22/2014,mshahab
+18687,PEND,POV Private,Pavan,"Shanghai, China",Unit,HON,SHA,2980912,0,0,IND,,1/17/2014,rhodes,18687,"119,236.48",5,4.09,2.03,0,0,0,0,0,"119,247.60",1/22/2014,mshahab
+18688,PEND,POV Private,Pavan,"Shanghai, China",Unit,HON,SHA,2981000,0,0,IND,,1/17/2014,rhodes,18688,"119,240.00",5,4.09,2.03,0,0,0,0,0,"119,251.12",1/22/2014,mshahab
+18689,PEND,POV Private,Pavan,"Shanghai, China",Unit,HON,SHA,2981000,0,0,IND,,1/17/2014,rhodes,18689,"119,240.00",5,4.09,2.03,0,0,0,0,0,"119,251.12",1/22/2014,mshahab
+18690,PEND,POV Private,Pavan,"Shanghai, China",Unit,HON,SHA,2986000,0,0,IND,,1/17/2014,rhodes,18690,"119,440.00",5,4.09,2.03,0,0,0,0,0,"119,451.12",1/22/2014,mshahab
+18691,PEND,POV Private,Sam,"Sydney, Australia",Unit,HON,SYD,3000000,1,1,IND,LDS,1/17/2014,rhodes,18691,"120,000.00",5,8.03,2.03,0,0,100,0,0,"120,115.06",1/22/2014,pcr
+18692,PEND,POV Private,Sam,"Sydney, Australia",Unit,HON,SYD,3000000,1,1,IND,LDS,1/17/2014,rhodes,18692,"120,000.00",5,8.03,2.03,0,0,100,0,0,"120,115.06",1/22/2014,pcr
+18693,PEND,POV Private,Sam,"Sydney, Australia",Unit,HON,SYD,3000000,1,1,IND,LDS,1/17/2014,rhodes,18693,"120,000.00",5,8.03,2.03,0,0,100,0,0,"120,115.06",1/22/2014,pcr
+18694,PEND,POV Private,Sam,"Sydney, Australia",Unit,HON,SYD,3000000,1,2163,IND,LDS,1/17/2014,rhodes,18694,"259,560,000.00",5,8.03,2.03,0,9,100,0,0,"259,560,124.06",1/22/2014,pcr
+18695,PEND,POV Private,Sam,"Sydney, Australia",Unit,HON,SYD,3000000,1,1,IND,LDS,1/17/2014,rhodes,18695,"120,000.00",5,8.03,2.03,0,0,100,0,0,"120,115.06",1/22/2014,pcr
+18696,PEND,POV Private,Sam,"Sydney, Australia",Unit,HON,SYD,3000000,1,2015,IND,LDS,1/17/2014,rhodes,18696,"241,800,000.00",5,8.03,2.03,0,9,100,0,0,"241,800,124.06",1/22/2014,pcr
+18697,PEND,POV Private,Sam,"Sydney, Australia",Unit,HON,SYD,3000000,1,1,IND,LDS,1/17/2014,rhodes,18697,"120,000.00",5,8.03,2.03,0,0,100,0,0,"120,115.06",1/22/2014,pcr
+18698,PEND,POV Private,Sam,"Sydney, Australia",Unit,HON,SYD,3002380,1,1,IND,LDS,1/17/2014,rhodes,18698,"120,095.20",5,8.03,2.03,0,0,100,0,0,"120,210.26",1/22/2014,pcr
+18699,PEND,POV Private,Sam,"Sydney, Australia",Unit,HON,SYD,3004000,1,1,IND,LDS,1/17/2014,rhodes,18699,"120,160.00",5,8.03,2.03,0,0,100,0,0,"120,275.06",1/22/2014,pcr
+18700,PEND,POV Private,Sam,"Sydney, Australia",Unit,HON,SYD,3004160,1,1,IND,LDS,1/17/2014,rhodes,18700,"120,166.40",5,8.03,2.03,0,0,100,0,0,"120,281.46",1/22/2014,pcr
+18701,PEND,POV Private,Sam,"Sydney, Australia",Unit,HON,SYD,3005460,1,1,IND,LDS,1/17/2014,rhodes,18701,"120,218.40",5,8.03,2.03,0,0,100,0,0,"120,333.46",1/22/2014,pcr
+18702,PEND,POV Private,Sam,"Sydney, Australia",Unit,HON,SYD,3006000,1,1,IND,LDS,1/17/2014,rhodes,18702,"120,240.00",5,8.03,2.03,0,0,100,0,0,"120,355.06",1/22/2014,pcr
+18703,PEND,POV Private,Sam,"Sydney, Australia",Unit,HON,SYD,3006400,1,1,IND,LDS,1/17/2014,rhodes,18703,"120,256.00",5,8.03,2.03,0,0,100,0,0,"120,371.06",1/22/2014,pcr
+18704,PEND,POV Private,Sam,"Sydney, Australia",Unit,HON,SYD,3008400,1,1,IND,LDS,1/17/2014,rhodes,18704,"120,336.00",5,8.03,2.03,0,0,100,0,0,"120,451.06",1/22/2014,pcr
+18705,PEND,POV Private,Sam,"Sydney, Australia",Unit,HON,SYD,3009340,1,1,IND,LDS,1/17/2014,rhodes,18705,"120,373.60",5,8.03,2.03,0,0,100,0,0,"120,488.66",1/22/2014,pcr
+18706,PEND,Alex Corp,Alex,"Sydney, Australia",Unit,HON,SYD,3010000,1,1,IND,LDS,1/17/2014,rhodes,18706,"120,400.00",5,8.03,2.03,0,0,100,0,0,"120,515.06",1/22/2014,pcr
+18707,PEND,Alex Corp,Alex,"Sydney, Australia",Unit,HON,SYD,3011682,1,1,IND,LDS,1/17/2014,rhodes,18707,"120,467.28",5,8.03,2.03,0,0,100,0,0,"120,582.34",1/22/2014,pcr
+18708,PEND,Alex Corp,Alex,"Sydney, Australia",Unit,HON,SYD,3011682,1,1,IND,LDS,1/17/2014,rhodes,18708,"120,467.28",5,8.03,2.03,0,0,100,0,0,"120,582.34",1/22/2014,pcr
+18709,PEND,Alex Corp,Alex,"Sydney, Australia",Unit,HON,SYD,3020460,1,1,IND,LDS,1/17/2014,rhodes,18709,"120,818.40",5,8.03,2.03,0,0,100,0,0,"120,933.46",1/22/2014,pcr
+18710,PEND,Alex Corp,Alex,"Sydney, Australia",Unit,HON,SYD,3021554,1,1,IND,LDS,1/17/2014,rhodes,18710,"120,862.16",5,8.03,2.03,0,0,100,0,0,"120,977.22",1/22/2014,pcr
+18711,PEND,Alex Corp,Alex,"Sydney, Australia",Unit,HON,SYD,3024000,1,1,IND,LDS,1/17/2014,rhodes,18711,"120,960.00",5,8.03,2.03,0,0,100,0,0,"121,075.06",1/22/2014,pcr
+18712,PEND,Alex Corp,Alex,"Sydney, Australia",Unit,HON,SYD,3025656,1,1,IND,LDS,1/17/2014,rhodes,18712,"121,026.24",5,8.03,2.03,0,0,100,0,0,"121,141.30",1/22/2014,pcr
+18713,PEND,Alex Corp,Alex,"Sydney, Australia",Unit,HON,SYD,3027200,1,1,IND,LDS,1/17/2014,rhodes,18713,"121,088.00",5,8.03,2.03,0,0,100,0,0,"121,203.06",1/22/2014,pcr
+18714,PEND,Alex Corp,Alex,"Sydney, Australia",Unit,HON,SYD,3030176,1,935,IND,LDS,1/17/2014,rhodes,18714,"113,328,582.40",5,8.03,2.03,0,9,100,0,0,"113,328,706.46",1/22/2014,pcr
+18715,PEND,Alex Corp,Alex,"Sydney, Australia",Unit,HON,SYD,3033738,1,1,IND,LDS,1/17/2014,rhodes,18715,"121,349.52",5,8.03,2.03,0,0,100,0,0,"121,464.58",1/22/2014,pcr
+18716,PEND,Alex Corp,Alex,"Sydney, Australia",Unit,HON,SYD,3035822,1,1,IND,LDS,1/17/2014,rhodes,18716,"121,432.88",5,8.03,2.03,0,0,100,0,0,"121,547.94",1/22/2014,pcr
+18717,PEND,Alex Corp,Alex,"Sydney, Australia",Unit,HON,SYD,3042540,1,1,IND,LDS,1/17/2014,rhodes,18717,"121,701.60",5,8.03,2.03,0,0,100,0,0,"121,816.66",1/22/2014,pcr
+18718,PEND,Alex Corp,Alex,"Sydney, Australia",Unit,HON,SYD,3046110,1,307,IND,LDS,1/17/2014,rhodes,18718,"37,406,230.80",5,8.03,2.03,0,9,100,0,0,"37,406,354.86",1/22/2014,pcr
+18719,PEND,Alex Corp,Alex,"Sydney, Australia",Unit,HON,SYD,3049370,1,1,IND,LDS,1/17/2014,rhodes,18719,"121,974.80",5,8.03,2.03,0,0,100,0,0,"122,089.86",1/22/2014,pcr
+18720,PEND,Alex Corp,Alex,"Shanghai, China",Unit,HON,SHA,3050000,0,0,IND,,1/17/2014,rhodes,18720,"122,000.00",5,4.09,2.03,0,0,0,0,0,"122,011.12",1/22/2014,mshahab
+18721,PEND,Alex Corp,Alex,"Shanghai, China",Unit,HON,SHA,3050000,0,0,IND,,1/17/2014,rhodes,18721,"122,000.00",5,4.09,2.03,0,0,0,0,0,"122,011.12",1/22/2014,mshahab
+18722,PEND,Alex Corp,Alex,"Shanghai, China",Unit,HON,SHA,3050000,0,0,IND,,1/17/2014,rhodes,18722,"122,000.00",5,4.09,2.03,0,0,0,0,0,"122,011.12",1/22/2014,mshahab
+18723,PEND,Alex Corp,Alex,"Shanghai, China",Unit,HON,SHA,3050000,0,1881,IND,,1/17/2014,rhodes,18723,"229,482,000.00",5,4.09,2.03,0,9,0,0,0,"229,482,020.12",1/22/2014,mshahab
+18724,PEND,Alex Corp,Alex,"Shanghai, China",Unit,HON,SHA,3050000,0,1996,IND,,1/17/2014,rhodes,18724,"243,512,000.00",5,4.09,2.03,0,9,0,0,0,"243,512,020.12",1/22/2014,mshahab
+18725,PEND,Alex Corp,Alex,"Shanghai, China",Unit,HON,SHA,3050000,0,1878,IND,,1/17/2014,rhodes,18725,"229,116,000.00",5,4.09,2.03,0,9,0,0,0,"229,116,020.12",1/22/2014,mshahab
+18726,PEND,Alex Corp,Alex,"Shanghai, China",Unit,HON,SHA,3051166,0,747,IND,,1/17/2014,rhodes,18726,"91,168,840.08",5,4.09,2.03,0,9,0,0,0,"91,168,860.20",1/22/2014,mshahab
+18727,PEND,Alex Corp,Alex,"Shanghai, China",Unit,HON,SHA,3051370,0,1,IND,,1/17/2014,rhodes,18727,"122,054.80",5,4.09,2.03,0,0,0,0,0,"122,065.92",1/22/2014,mshahab
+18728,PEND,Alex Corp,Alex,"Shanghai, China",Unit,HON,SHA,3051800,0,907,IND,,1/17/2014,rhodes,18728,"110,719,304.00",5,4.09,2.03,0,9,0,0,0,"110,719,324.12",1/22/2014,mshahab
+18730,PEND,Alex Corp,Alex,"Shanghai, China",Unit,HON,SHA,3054090,0,81,IND,,1/17/2014,rhodes,18730,"9,895,251.60",5,4.09,2.03,0,9,0,0,0,"9,895,271.72",1/22/2014,mshahab
+18731,PEND,Alex Corp,Alex,"Shanghai, China",Unit,HON,SHA,3056280,0,87,IND,,1/17/2014,rhodes,18731,"10,635,854.40",5,4.09,2.03,0,9,0,0,0,"10,635,874.52",1/22/2014,mshahab
+18732,PEND,Alex Corp,Alex,"Shanghai, China",Unit,HON,SHA,3059296,0,70,IND,,1/17/2014,rhodes,18732,"8,566,028.80",5,4.09,2.03,0,9,0,0,0,"8,566,048.92",1/22/2014,mshahab
+18734,PEND,POV GATES,Edward,"Anchorage, US",Unit,HON,ANK,3060488,0,0,1AK,,1/20/2014,achadaluri,18734,"122,419.52",5,2,2.03,0,0,0,0,0,"122,428.55",1/25/2014,pcr
+18735,PEND,POV GATES,Edward,"Anchorage, US",Unit,HON,ANK,3060924,0,0,1AK,,1/20/2014,achadaluri,18735,"122,436.96",5,2,2.03,0,0,0,0,0,"122,445.99",1/25/2014,pcr
+18736,PEND,POV GATES,Edward,"Anchorage, US",Unit,HON,ANK,3061690,0,0,1AK,,1/20/2014,achadaluri,18736,"122,467.60",5,2,2.03,0,0,0,0,0,"122,476.63",1/25/2014,pcr
+18737,PEND,POV GATES,Edward,"Anchorage, US",Unit,HON,ANK,3061710,0,0,1AK,,1/20/2014,achadaluri,18737,"122,468.40",5,2,2.03,0,0,0,0,0,"122,477.43",1/25/2014,pcr
+18738,PEND,POV GATES,Edward,"Anchorage, US",Unit,HON,ANK,3063060,0,0,1AK,,1/20/2014,achadaluri,18738,"122,522.40",5,2,2.03,0,0,0,0,0,"122,531.43",1/25/2014,pcr
+18739,PEND,POV GATES,Edward,"Anchorage, US",Unit,HON,ANK,3064476,0,0,1AK,,1/20/2014,achadaluri,18739,"122,579.04",5,2,2.03,0,0,0,0,0,"122,588.07",1/25/2014,pcr
+18740,PEND,POV GATES,Edward,"Anchorage, US",Unit,HON,ANK,3065616,0,0,1AK,,1/20/2014,achadaluri,18740,"122,624.64",5,2,2.03,0,0,0,0,0,"122,633.67",1/25/2014,pcr
+18741,PEND,POV GATES,Edward,"Anchorage, US",Unit,HON,ANK,3068734,0,0,1AK,,1/20/2014,achadaluri,18741,"122,749.36",5,2,2.03,0,0,0,0,0,"122,758.39",1/25/2014,pcr
+18742,PEND,POV GATES,Edward,"Anchorage, US",Unit,HON,ANK,3071855,171360,858,1AK,,1/20/2014,achadaluri,18742,"105,426,063.60",5,2,2.03,0,9,0,"22,263.80",0,"105,448,345.43",1/25/2014,pcr
+18743,PEND,POV GATES,Edward,"Anchorage, US",Unit,HON,ANK,3075329,0,0,1AK,,1/20/2014,achadaluri,18743,"123,013.16",5,2,2.03,0,0,0,0,0,"123,022.19",1/25/2014,pcr
+18744,PEND,POV GATES,Edward,"Anchorage, US",Unit,HON,ANK,3075329,0,0,1AK,,1/20/2014,achadaluri,18744,"123,013.16",5,2,2.03,0,0,0,0,0,"123,022.19",1/25/2014,pcr
+18745,PEND,POV GATES,Edward,"Anchorage, US",Unit,HON,ANK,3075716,0,0,1AK,,1/20/2014,achadaluri,18745,"123,028.64",5,2,2.03,0,0,0,0,0,"123,037.67",1/25/2014,pcr
+18746,PEND,POV GATES,Edward,"Anchorage, US",Unit,HON,ANK,3086852,0,0,1AK,,1/20/2014,achadaluri,18746,"123,474.08",5,2,2.03,0,0,0,0,0,"123,483.11",1/25/2014,pcr
+18747,PEND,POV GATES,Edward,"Anchorage, US",Unit,HON,ANK,3087260,0,0,1AK,,1/20/2014,achadaluri,18747,"123,490.40",5,2,2.03,0,0,0,0,0,"123,499.43",1/25/2014,pcr
+18748,PEND,POV GATES,Edward,"Anchorage, US",Unit,HON,ANK,3088384,0,0,1AK,,1/20/2014,achadaluri,18748,"123,535.36",5,2,2.03,0,0,0,0,0,"123,544.39",1/25/2014,pcr
+18749,PEND,POV GATES,Edward,"Anchorage, US",Unit,HON,ANK,3088938,0,0,1AK,,1/20/2014,achadaluri,18749,"123,557.52",5,2,2.03,0,0,0,0,0,"123,566.55",1/25/2014,pcr
+18750,PEND,POV GATES,Edward,"Anchorage, US",Unit,HON,ANK,3090000,0,1,1AK,,1/20/2014,achadaluri,18750,"123,600.00",5,2,2.03,0,0,0,0,0,"123,609.03",1/25/2014,pcr
+18751,PEND,POV GATES,Edward,"Anchorage, US",Unit,HON,ANK,3090000,0,0,1AK,,1/20/2014,achadaluri,18751,"123,600.00",5,2,2.03,0,0,0,0,0,"123,609.03",1/25/2014,pcr
+18752,PEND,POV GATES,Edward,"Anchorage, US",Unit,HON,ANK,3095458,0,0,1AK,,1/20/2014,achadaluri,18752,"123,818.32",5,2,2.03,0,0,0,0,0,"123,827.35",1/25/2014,pcr
+18753,PEND,GOVT PROP,Edward,"Anchorage, US",Unit,HON,ANK,3097498,0,898,1AK, RED,1/20/2014,achadaluri,18753,"111,262,128.16",5,2,2.03,0,9,"371,699.76",0,0,"111,633,845.95",1/25/2014,pcr
+18754,PEND,GOVT PROP,Edward,"Anchorage, US",Unit,HON,ANK,3097980,0,8,1AK, RED,1/20/2014,achadaluri,18754,"991,353.60",5,2,2.03,0,9,"371,757.60",0,0,"1,363,129.23",1/25/2014,pcr
+18756,PEND,GOVT PROP,Edward,"Anchorage, US",Unit,HON,ANK,3100000,100,5,1AK, RED,1/20/2014,achadaluri,18756,"620,000.00",5,2,2.03,0,9,"372,000.00",0,0,"992,018.03",1/25/2014,pcr
+18757,PEND,GOVT PROP,Edward,"Anchorage, US",Unit,HON,ANK,3100000,1000,5,1AK, RED,1/20/2014,achadaluri,18757,"620,000.00",5,2,2.03,0,9,"372,000.00",0,0,"992,018.03",1/25/2014,pcr
+18758,PEND,GOVT PROP,Edward,"Anchorage, US",Unit,HON,ANK,3103354,500,1,1AK, RED,1/20/2014,achadaluri,18758,"124,134.16",5,2,2.03,0,0,"372,402.48",0,0,"496,545.67",1/25/2014,pcr
+18759,PEND,GOVT PROP,Edward,"Anchorage, US",Unit,HON,ANK,3110800,0,5,1AK, RED,1/20/2014,achadaluri,18759,"622,160.00",5,2,2.03,0,9,"373,296.00",0,0,"995,474.03",1/25/2014,pcr
+18760,PEND,POV GATES,Edward,"Anchorage, US",Unit,HON,ANK,3113726,0,0,1AK,,1/20/2014,achadaluri,18760,"124,549.04",5,2,2.03,0,0,0,0,0,"124,558.07",1/25/2014,pcr
+18761,PEND,POV GATES,Edward,"Anchorage, US",Unit,HON,ANK,3114356,0,0,1AK,,1/20/2014,achadaluri,18761,"124,574.24",5,2,2.03,0,0,0,0,0,"124,583.27",1/25/2014,pcr
+18762,PEND,POV GATES,Edward,"Anchorage, US",Unit,HON,ANK,3116340,0,0,1AK,,1/20/2014,achadaluri,18762,"124,653.60",5,2,2.03,0,0,0,0,0,"124,662.63",1/25/2014,pcr
+18764,PEND,POV GATES,Edward,"Anchorage, US",Unit,HON,ANK,3117990,0,0,1AK,,1/20/2014,achadaluri,18764,"124,719.60",5,2,2.03,0,0,0,0,0,"124,728.63",1/25/2014,pcr
+18765,PEND,Alex Corp,Alex,"Anchorage, US",Unit,HON,ANK,3121770,0,0,1AK,,1/20/2014,achadaluri,18765,"124,870.80",5,2,2.03,0,0,0,0,0,"124,879.83",1/25/2014,pcr
+18766,PEND,Alex Corp,Alex,"Anchorage, US",Unit,HON,ANK,3122148,0,0,1AK,,1/20/2014,achadaluri,18766,"124,885.92",5,2,2.03,0,0,0,0,0,"124,894.95",1/25/2014,pcr
+18767,PEND,Alex Corp,Alex,"Anchorage, US",Unit,HON,ANK,3122808,0,0,1AK,,1/20/2014,achadaluri,18767,"124,912.32",5,2,2.03,0,0,0,0,0,"124,921.35",1/25/2014,pcr
+18768,PEND,Alex Corp,Alex,"Oakland, US",Unit,HON,OAK,3123372,0,0,2034A,,1/20/2014,achadaluri,18768,"124,934.88",5,0,2.03,0,0,0,0,0,"124,941.91",1/25/2014,pcr
+18769,PEND,Alex Corp,Alex,"Oakland, US",Unit,HON,OAK,3125522,0,0,2034A,,1/20/2014,achadaluri,18769,"125,020.88",5,0,2.03,0,0,0,0,0,"125,027.91",1/25/2014,pcr
+18770,PEND,Alex Corp,Alex,"Oakland, US",Unit,HON,OAK,3126256,0,0,2034A,,1/20/2014,achadaluri,18770,"125,050.24",5,0,2.03,0,0,0,0,0,"125,057.27",1/25/2014,pcr
+18771,PEND,Alex Corp,Alex,"Oakland, US",Unit,HON,OAK,3128206,0,0,2034A,,1/20/2014,achadaluri,18771,"125,128.24",5,0,2.03,0,0,0,0,0,"125,135.27",1/25/2014,pcr
+18772,PEND,Alex Corp,Alex,"Oakland, US",Unit,HON,OAK,3129892,0,0,2034A,,1/20/2014,achadaluri,18772,"125,195.68",5,0,2.03,0,0,0,0,0,"125,202.71",1/25/2014,pcr
+18773,PEND,Alex Corp,Alex,"Oakland, US",Unit,HON,OAK,3130000,0,0,2034A,,1/20/2014,achadaluri,18773,"125,200.00",5,0,2.03,0,0,0,0,0,"125,207.03",1/25/2014,pcr
+18774,PEND,Alex Corp,Alex,"Oakland, US",Unit,HON,OAK,3131326,0,0,2034A,,1/20/2014,achadaluri,18774,"125,253.04",5,0,2.03,0,0,0,0,0,"125,260.07",1/25/2014,pcr
+18775,PEND,Alex Corp,Alex,"Oakland, US",Unit,HON,OAK,3139118,0,0,2034A,,1/20/2014,achadaluri,18775,"125,564.72",5,0,2.03,0,0,0,0,0,"125,571.75",1/25/2014,pcr
+18776,PEND,Alex Corp,Alex,"Oakland, US",Unit,HON,OAK,3140000,0,0,2034A,,1/20/2014,achadaluri,18776,"125,600.00",5,0,2.03,0,0,0,0,0,"125,607.03",1/25/2014,pcr
+18777,PEND,Alex Corp,Alex,"Oakland, US",Unit,HON,OAK,3140000,0,0,2034A,,1/20/2014,achadaluri,18777,"125,600.00",5,0,2.03,0,0,0,0,0,"125,607.03",1/25/2014,pcr
+18778,PEND,Alex Corp,Alex,"Oakland, US",Unit,HON,OAK,3142720,0,0,2034A,,1/20/2014,achadaluri,18778,"125,708.80",5,0,2.03,0,0,0,0,0,"125,715.83",1/25/2014,pcr
+18779,PEND,Alex Corp,Alex,"Oakland, US",Unit,HON,OAK,3142720,0,0,2034A,,1/20/2014,achadaluri,18779,"125,708.80",5,0,2.03,0,0,0,0,0,"125,715.83",1/25/2014,pcr
+18780,PEND,Alex Corp,Alex,"Oakland, US",Unit,HON,OAK,3146220,0,0,2034A,,1/20/2014,achadaluri,18780,"125,848.80",5,0,2.03,0,0,0,0,0,"125,855.83",1/25/2014,pcr
+18781,PEND,Alex Corp,Alex,"Oakland, US",Unit,HON,OAK,3150000,0,0,2034A,,1/20/2014,achadaluri,18781,"126,000.00",5,0,2.03,0,0,0,0,0,"126,007.03",1/25/2014,pcr
+18782,PEND,Alex Corp,Alex,"Oakland, US",Unit,HON,OAK,3156642,0,0,2034A,,1/20/2014,achadaluri,18782,"126,265.68",5,0,2.03,0,0,0,0,0,"126,272.71",1/25/2014,pcr
+18783,PEND,Alex Corp,Alex,"Oakland, US",Unit,HON,OAK,3157228,0,0,2034A,,1/20/2014,achadaluri,18783,"126,289.12",5,0,2.03,0,0,0,0,0,"126,296.15",1/25/2014,pcr
+18784,PEND,Alex Corp,Alex,"Oakland, US",Unit,HON,OAK,3157518,0,0,2034A,,1/20/2014,achadaluri,18784,"126,300.72",5,0,2.03,0,0,0,0,0,"126,307.75",1/25/2014,pcr
+18785,PEND,Alex Corp,Alex,"Oakland, US",Unit,HON,OAK,3158600,0,0,2034A,,1/20/2014,achadaluri,18785,"126,344.00",5,0,2.03,0,0,0,0,0,"126,351.03",1/25/2014,pcr
+18786,PEND,Alex Corp,Alex,"Oakland, US",Unit,HON,OAK,3158660,0,0,2034A,,1/20/2014,achadaluri,18786,"126,346.40",5,0,2.03,0,0,0,0,0,"126,353.43",1/25/2014,pcr
+18787,PEND,Alex Corp,Alex,"Oakland, US",Unit,HON,OAK,3160128,0,1,2034A,,1/20/2014,achadaluri,18787,"126,405.12",5,0,2.03,0,0,0,0,0,"126,412.15",1/25/2014,pcr
+18788,PEND,Alex Corp,Alex,"Oakland, US",Unit,HON,OAK,3160938,0,0,2034A,,1/20/2014,achadaluri,18788,"126,437.52",5,0,2.03,0,0,0,0,0,"126,444.55",1/25/2014,pcr
+18789,PEND,Alex Corp,Alex,"Los Angeles, US",Unit,HON,LAX,3161078,0,0,2034A,,1/20/2014,achadaluri,18789,"126,443.12",5,0,2.03,0,0,0,0,0,"126,450.15",1/25/2014,pcr
+18790,PEND,Alex Corp,Alex,"Los Angeles, US",Unit,HON,LAX,3166000,0,1,2034A,,1/20/2014,achadaluri,18790,"126,640.00",5,0,2.03,0,0,0,0,0,"126,647.03",1/25/2014,pcr
+18791,PEND,Alex Corp,Alex,"Los Angeles, US",Unit,HON,LAX,3168000,0,0,2034A,,1/20/2014,achadaluri,18791,"126,720.00",5,0,2.03,0,0,0,0,0,"126,727.03",1/25/2014,pcr
+18792,PEND,Alex Corp,Alex,"Los Angeles, US",Unit,HON,LAX,3170784,0,0,2034A,,1/20/2014,achadaluri,18792,"126,831.36",5,0,2.03,0,0,0,0,0,"126,838.39",1/25/2014,pcr
+18793,PEND,Alex Corp,Alex,"Los Angeles, US",Unit,HON,LAX,3172438,0,2125,2034A,,1/20/2014,achadaluri,18793,"269,657,230.00",5,0,2.03,0,9,0,0,0,"269,657,246.03",1/25/2014,pcr
+18794,PEND,Alex Corp,Alex,"Los Angeles, US",Unit,HON,LAX,3172700,0,1883,2034A,,1/20/2014,achadaluri,18794,"238,967,764.00",5,0,2.03,0,9,0,0,0,"238,967,780.03",1/25/2014,pcr
+18795,PEND,Alex Corp,Alex,"Los Angeles, US",Unit,HON,LAX,3174590,0,0,2034A,,1/20/2014,achadaluri,18795,"126,983.60",5,0,2.03,0,0,0,0,0,"126,990.63",1/25/2014,pcr
+18796,PEND,Alex Corp,Alex,"Los Angeles, US",Unit,HON,LAX,3176000,0,0,2034A,,1/20/2014,achadaluri,18796,"127,040.00",5,0,2.03,0,0,0,0,0,"127,047.03",1/25/2014,pcr
+18797,PEND,Alex Corp,Alex,"Los Angeles, US",Unit,HON,LAX,3176420,0,0,2034A,,1/20/2014,achadaluri,18797,"127,056.80",5,0,2.03,0,0,0,0,0,"127,063.83",1/25/2014,pcr
+18798,PEND,Alex Corp,Alex,"Los Angeles, US",Unit,HON,LAX,3180000,0,0,2034A,,1/20/2014,achadaluri,18798,"127,200.00",5,0,2.03,0,0,0,0,0,"127,207.03",1/25/2014,pcr
+18799,PEND,Alex Corp,Alex,"Los Angeles, US",Unit,HON,LAX,3180000,0,0,2034A,,1/20/2014,achadaluri,18799,"127,200.00",5,0,2.03,0,0,0,0,0,"127,207.03",1/25/2014,pcr
+18800,PEND,Alex Corp,Alex,"Los Angeles, US",Unit,HON,LAX,3181962,0,0,2034A,,1/20/2014,achadaluri,18800,"127,278.48",5,0,2.03,0,0,0,0,0,"127,285.51",1/25/2014,pcr
+18801,PEND,Alex Corp,Alex,"Los Angeles, US",Unit,HON,LAX,3182000,0,0,2034A,,1/20/2014,achadaluri,18801,"127,280.00",5,0,2.03,0,0,0,0,0,"127,287.03",1/25/2014,pcr
+18802,PEND,Alex Corp,Alex,"Los Angeles, US",Unit,HON,LAX,3184000,0,0,2034A,,1/20/2014,achadaluri,18802,"127,360.00",5,0,2.03,0,0,0,0,0,"127,367.03",1/25/2014,pcr
+18803,PEND,Alex Corp,Alex,"Los Angeles, US",Unit,HON,LAX,3186060,0,0,2034A,,1/20/2014,achadaluri,18803,"127,442.40",5,0,2.03,0,0,0,0,0,"127,449.43",1/25/2014,pcr
+18804,PEND,Alex Corp,Alex,"Los Angeles, US",Unit,HON,LAX,3188064,25.46,1,2034A,,1/20/2014,achadaluri,18804,"127,522.56",5,0,2.03,0,0,0,0,0,"127,529.59",1/25/2014,pcr
+18805,PEND,Alex Corp,Alex,"Los Angeles, US",Unit,HON,LAX,3188064,25.46,0,2034A,,1/20/2014,achadaluri,18805,"127,522.56",5,0,2.03,0,0,0,0,0,"127,529.59",1/25/2014,pcr
+18806,PEND,Alex Corp,Alex,"Los Angeles, US",Unit,HON,LAX,3190000,0,0,2034A,,1/20/2014,achadaluri,18806,"127,600.00",5,0,2.03,0,0,0,0,0,"127,607.03",1/25/2014,pcr
+18807,PEND,Alex Corp,Alex,"Los Angeles, US",Unit,HON,LAX,3190000,0,0,2034A,,1/20/2014,achadaluri,18807,"127,600.00",5,0,2.03,0,0,0,0,0,"127,607.03",1/25/2014,pcr
+18808,PEND,Alex Corp,Alex,"Los Angeles, US",Unit,HON,LAX,3190974,0,0,2034A,,1/20/2014,achadaluri,18808,"127,638.96",5,0,2.03,0,0,0,0,0,"127,645.99",1/25/2014,pcr
+18809,PEND,Alex Corp,Alex,"Los Angeles, US",Unit,HON,LAX,3197232,0,1,2034A,,1/20/2014,achadaluri,18809,"127,889.28",5,0,2.03,0,0,0,0,0,"127,896.31",1/25/2014,pcr
+18810,PEND,Alex Corp,Alex,"Los Angeles, US",Unit,HON,LAX,3197518,0,1,2034A,,1/20/2014,achadaluri,18810,"127,900.72",5,0,2.03,0,0,0,0,0,"127,907.75",1/25/2014,pcr
+18811,PEND,Alex Corp,Alex,"Los Angeles, US",Unit,HON,LAX,3198000,0,1,2034A,,1/20/2014,achadaluri,18811,"127,920.00",5,0,2.03,0,0,0,0,0,"127,927.03",1/25/2014,pcr
+18812,PEND,Alex Corp,Alex,"Los Angeles, US",Unit,HON,LAX,3199786,0,0,2034A,,1/20/2014,achadaluri,18812,"127,991.44",5,0,2.03,0,0,0,0,0,"127,998.47",1/25/2014,pcr
+18813,PEND,Alex Corp,Alex,"Los Angeles, US",Unit,HON,LAX,3200000,0,0,2034A,,1/20/2014,achadaluri,18813,"128,000.00",5,0,2.03,0,0,0,0,0,"128,007.03",1/25/2014,pcr
+18814,PEND,Alex Corp,Alex,"Los Angeles, US",Unit,HON,LAX,3200000,0,0,2034A,,1/20/2014,achadaluri,18814,"128,000.00",5,0,2.03,0,0,0,0,0,"128,007.03",1/25/2014,pcr
+18815,PEND,Alex Corp,Alex,"Los Angeles, US",Unit,HON,LAX,3200000,0,0,2034A,,1/20/2014,achadaluri,18815,"128,000.00",5,0,2.03,0,0,0,0,0,"128,007.03",1/25/2014,pcr
+18816,PEND,Alex Corp,Alex,"Los Angeles, US",Unit,HON,LAX,3200000,0,0,2034A,,1/20/2014,achadaluri,18816,"128,000.00",5,0,2.03,0,0,0,0,0,"128,007.03",1/25/2014,pcr
+18817,PEND,Alex Corp,Alex,"Los Angeles, US",Unit,HON,LAX,3200000,0,0,2034A,,1/20/2014,achadaluri,18817,"128,000.00",5,0,2.03,0,0,0,0,0,"128,007.03",1/25/2014,pcr
+18818,PEND,Alex Corp,Alex,"Los Angeles, US",Unit,HON,LAX,3200000,0,0,2034A,,1/20/2014,achadaluri,18818,"128,000.00",5,0,2.03,0,0,0,0,0,"128,007.03",1/25/2014,pcr
+18819,PEND,Alex Corp,Alex,"Los Angeles, US",Unit,HON,LAX,3200000,0,0,2034A,,1/20/2014,achadaluri,18819,"128,000.00",5,0,2.03,0,0,0,0,0,"128,007.03",1/25/2014,pcr
+18820,PEND,Alex Corp,Alex,"Los Angeles, US",Unit,OAK,LAX,3200000,0,0,2034A,REF,1/20/2014,achadaluri,18820,"128,000.00",5,0,2.03,0,0,80,0,0,"128,087.03",1/25/2014,pcr
+18821,PEND,Alex Corp,Alex,"Los Angeles, US",Unit,OAK,LAX,3200000,0,0,2034A,REF,1/20/2014,achadaluri,18821,"128,000.00",5,0,2.03,0,0,80,0,0,"128,087.03",1/25/2014,pcr
+18823,PEND,Alex Corp,Alex,"Los Angeles, US",Unit,OAK,LAX,3200000,0,0,2034A,REF,1/20/2014,achadaluri,18823,"128,000.00",5,0,2.03,0,0,80,0,0,"128,087.03",1/25/2014,pcr
+18824,PEND,Alex Corp,Alex,"Los Angeles, US",Unit,OAK,LAX,3200000,0,0,2034A,REF,1/20/2014,achadaluri,18824,"128,000.00",5,0,2.03,0,0,80,0,0,"128,087.03",1/25/2014,pcr
+18825,PEND,Alex Corp,Alex,"Los Angeles, US",Unit,OAK,LAX,3200000,0,1,2034A,REF,1/20/2014,achadaluri,18825,"128,000.00",5,0,2.03,0,0,80,0,0,"128,087.03",1/25/2014,pcr
+18826,PEND,Alex Corp,Alex,"Los Angeles, US",Unit,OAK,LAX,3203756,0,0,2034A,REF,1/20/2014,achadaluri,18826,"128,150.24",5,0,2.03,0,0,80,0,0,"128,237.27",1/25/2014,pcr
+18827,PEND,One timer 162,Edward,"Los Angeles, US",Unit,OAK,LAX,3211990,0,0,2034A,REF,1/20/2014,achadaluri,18827,"128,479.60",5,0,2.03,0,0,80,0,0,"128,566.63",1/25/2014,pcr
+18828,PEND,One timer 163,Edward,"Los Angeles, US",Unit,OAK,LAX,3214912,0,0,2034A,REF,1/20/2014,achadaluri,18828,"128,596.48",5,0,2.03,0,0,80,0,0,"128,683.51",1/25/2014,pcr
+18829,PEND,One timer 164,Edward,"Los Angeles, US",Unit,OAK,LAX,3216640,0,1,2034A,REF,1/20/2014,achadaluri,18829,"128,665.60",5,0,2.03,0,0,80,0,0,"128,752.63",1/25/2014,pcr
+18830,PEND,One timer 165,Edward,"Los Angeles, US",Unit,OAK,LAX,3218860,0,0,2034A,REF,1/20/2014,achadaluri,18830,"128,754.40",5,0,2.03,0,0,80,0,0,"128,841.43",1/25/2014,pcr
+18831,PEND,One timer 166,Edward,"Los Angeles, US",Unit,OAK,LAX,3226052,0,1,2034A,REF,1/20/2014,achadaluri,18831,"129,042.08",5,0,2.03,0,0,80,0,0,"129,129.11",1/25/2014,pcr
+18832,PEND,One timer 167,Edward,"Los Angeles, US",Unit,OAK,LAX,3226294,0,0,2034A,REF,1/20/2014,achadaluri,18832,"129,051.76",5,0,2.03,0,0,80,0,0,"129,138.79",1/25/2014,pcr
+18833,PEND,One timer 168,Edward,"Los Angeles, US",Unit,OAK,LAX,3232000,0,1,2034A,REF,1/20/2014,achadaluri,18833,"129,280.00",5,0,2.03,0,0,80,0,0,"129,367.03",1/25/2014,pcr
+18834,PEND,One timer 169,Edward,"Los Angeles, US",Unit,OAK,LAX,3234688,0,0,2034A,REF,1/20/2014,achadaluri,18834,"129,387.52",5,0,2.03,0,0,80,0,0,"129,474.55",1/25/2014,pcr
+18835,PEND,One timer 170,Edward,"Los Angeles, US",Unit,OAK,LAX,3236000,0,1935,2034A,REF,1/20/2014,achadaluri,18835,"250,466,400.00",5,0,2.03,0,9,80,0,0,"250,466,496.03",1/25/2014,pcr
+18836,PEND,One timer 171,Edward,"Los Angeles, US",Unit,HON,LAX,3237440,0,1,2034A,,1/20/2014,achadaluri,18836,"129,497.60",5,0,2.03,0,0,0,0,0,"129,504.63",1/25/2014,pcr
+18837,PEND,One timer 172,Edward,"Los Angeles, US",Unit,HON,LAX,3240000,0,24,2034A,,1/20/2014,achadaluri,18837,"3,110,400.00",5,0,2.03,0,9,0,0,0,"3,110,416.03",1/25/2014,pcr
+18838,PEND,One timer 173,Edward,"Los Angeles, US",Unit,HON,LAX,3252898,0,64,2034A,,1/20/2014,achadaluri,18838,"8,327,418.88",5,0,2.03,0,9,0,0,0,"8,327,434.91",1/25/2014,pcr
+18839,PEND,One timer 174,Edward,"Los Angeles, US",Unit,HON,LAX,3253504,0,47,2034A,,1/20/2014,achadaluri,18839,"6,116,587.52",5,0,2.03,0,9,0,0,0,"6,116,603.55",1/25/2014,pcr
+18840,PEND,One timer 175,Edward,"Los Angeles, US",Unit,HON,LAX,3254520,0,36,2034A,,1/20/2014,achadaluri,18840,"4,686,508.80",5,0,2.03,0,9,0,0,0,"4,686,524.83",1/25/2014,pcr
+18841,PEND,One timer 176,Edward,"Los Angeles, US",Unit,HON,LAX,3266000,0,36,2034A,,1/20/2014,achadaluri,18841,"4,703,040.00",5,0,2.03,0,9,0,0,0,"4,703,056.03",1/25/2014,pcr
+18842,PEND,One timer 177,Edward,"Los Angeles, US",Unit,HON,LAX,3266000,0,1,2034A,,1/20/2014,achadaluri,18842,"130,640.00",5,0,2.03,0,0,0,0,0,"130,647.03",1/25/2014,pcr
+18843,PEND,One timer 178,Edward,"Los Angeles, US",Unit,HON,LAX,3268000,0,55,2034A,,1/20/2014,achadaluri,18843,"7,189,600.00",5,0,2.03,0,9,0,0,0,"7,189,616.03",1/25/2014,pcr
+18844,PEND,One timer 179,Edward,"Los Angeles, US",Unit,HON,LAX,3270000,0,26,2034A,,1/20/2014,achadaluri,18844,"3,400,800.00",5,0,2.03,0,9,0,0,0,"3,400,816.03",1/25/2014,pcr
+18845,PEND,One timer 180,Edward,"Los Angeles, US",Unit,HON,LAX,3280000,0,1,2034A,,1/20/2014,achadaluri,18845,"131,200.00",5,0,2.03,0,0,0,0,0,"131,207.03",1/25/2014,pcr
+18846,PEND,One timer 181,Edward,"Los Angeles, US",Unit,HON,LAX,3281200,0,1,2034A,,1/20/2014,achadaluri,18846,"131,248.00",5,0,2.03,0,0,0,0,0,"131,255.03",1/25/2014,pcr
+18847,PEND,One timer 182,Edward,"Los Angeles, US",Unit,HON,LAX,3300000,0,1,2034A,,1/20/2014,achadaluri,18847,"132,000.00",5,0,2.03,0,0,0,0,0,"132,007.03",1/25/2014,pcr
+18848,PEND,One timer 183,Edward,"Los Angeles, US",Unit,HON,LAX,3300000,0,30,2034A,,1/20/2014,achadaluri,18848,"3,960,000.00",5,0,2.03,0,9,0,0,0,"3,960,016.03",1/25/2014,pcr
+18849,PEND,One timer 184,Edward,"Los Angeles, US",Unit,HON,LAX,3300000,0,13,2034A,,1/20/2014,achadaluri,18849,"1,716,000.00",5,0,2.03,0,9,0,0,0,"1,716,016.03",1/25/2014,pcr
+18850,PEND,One timer 185,Edward,"Los Angeles, US",Unit,HON,LAX,3300000,0,22,2034A,,1/20/2014,achadaluri,18850,"2,904,000.00",5,0,2.03,0,9,0,0,0,"2,904,016.03",1/25/2014,pcr
+18851,PEND,One timer 186,Edward,"Los Angeles, US",Unit,HON,LAX,3316000,0,7,2034A,,1/20/2014,achadaluri,18851,"928,480.00",5,0,2.03,0,9,0,0,0,"928,496.03",1/25/2014,pcr
+18852,PEND,One timer 187,Edward,"Los Angeles, US",Unit,HON,LAX,3326686,0,2,2034A,,1/20/2014,achadaluri,18852,"266,134.88",5,0,2.03,0,9,0,0,0,"266,150.91",1/25/2014,pcr
+18853,PEND,One timer 188,Edward,"Los Angeles, US",Unit,HON,LAX,3330209,171910,6,2034A,,1/20/2014,achadaluri,18853,"799,250.16",5,0,2.03,0,9,0,"22,335.30",0,"821,601.49",1/25/2014,pcr
+18854,PEND,One timer 189,Edward,"Los Angeles, US",Unit,HON,LAX,3340592,0,103,2034A,,1/20/2014,achadaluri,18854,"13,763,239.04",5,0,2.03,0,9,0,0,0,"13,763,255.07",1/25/2014,pcr
+18855,PEND,One timer 190,Edward,"Los Angeles, US",Unit,HON,LAX,3350000,0,33,2034A,,1/20/2014,achadaluri,18855,"4,422,000.00",5,0,2.03,0,9,0,0,0,"4,422,016.03",1/25/2014,pcr
+18856,PEND,One timer 191,Edward,"Los Angeles, US",Unit,HON,LAX,3350000,0,6,2034A,,1/20/2014,achadaluri,18856,"804,000.00",5,0,2.03,0,9,0,0,0,"804,016.03",1/25/2014,pcr
+18857,PEND,One timer 192,Edward,"Los Angeles, US",Unit,HON,LAX,3380000,0,1,2034A,,1/20/2014,achadaluri,18857,"135,200.00",5,0,2.03,0,0,0,0,0,"135,207.03",1/25/2014,pcr
+18858,PEND,One timer 193,Edward,"Los Angeles, US",Unit,HON,LAX,3385072,0,6,2034A,,1/20/2014,achadaluri,18858,"812,417.28",5,0,2.03,0,9,0,0,0,"812,433.31",1/25/2014,pcr
+18859,PEND,One timer 194,Edward,"Los Angeles, US",Unit,HON,LAX,3385072,0,5,2034A,,1/20/2014,achadaluri,18859,"677,014.40",5,0,2.03,0,9,0,0,0,"677,030.43",1/25/2014,pcr
+18860,PEND,One timer 195,Edward,"Los Angeles, US",Unit,HON,LAX,3400000,0,5,2034A,,1/20/2014,achadaluri,18860,"680,000.00",5,0,2.03,0,9,0,0,0,"680,016.03",1/25/2014,pcr
+18861,PEND,One timer 196,Edward,"Los Angeles, US",Unit,HON,LAX,3400000,0,12,2034A,,1/20/2014,achadaluri,18861,"1,632,000.00",5,0,2.03,0,9,0,0,0,"1,632,016.03",1/25/2014,pcr
+18862,PEND,One timer 197,Edward,"Los Angeles, US",Unit,HON,LAX,3400000,0,60,2034A,,1/20/2014,achadaluri,18862,"8,160,000.00",5,0,2.03,0,9,0,0,0,"8,160,016.03",1/25/2014,pcr
+18863,PEND,One timer 198,Edward,"Los Angeles, US",Unit,HON,LAX,3405720,0,20,2034A,,1/20/2014,achadaluri,18863,"2,724,576.00",5,0,2.03,0,9,0,0,0,"2,724,592.03",1/25/2014,pcr
+18864,PEND,One timer 199,Edward,"Los Angeles, US",Unit,HON,LAX,3425200,0,1,2034A,,1/20/2014,achadaluri,18864,"137,008.00",5,0,2.03,0,0,0,0,0,"137,015.03",1/25/2014,pcr
+18865,PEND,One timer 200,Edward,"Los Angeles, US",Unit,HON,LAX,3450000,0,54,2034A,,1/20/2014,achadaluri,18865,"7,452,000.00",5,0,2.03,0,9,0,0,0,"7,452,016.03",1/25/2014,pcr
+18866,PEND,One timer 201,Edward,"Los Angeles, US",Unit,HON,LAX,3450000,0,10,2034A,,1/20/2014,achadaluri,18866,"1,380,000.00",5,0,2.03,0,9,0,0,0,"1,380,016.03",1/25/2014,pcr
+18867,PEND,One timer 202,Edward,"Los Angeles, US",Unit,HON,LAX,3450000,0,2,2034A,,1/20/2014,achadaluri,18867,"276,000.00",5,0,2.03,0,9,0,0,0,"276,016.03",1/25/2014,pcr
+18868,PEND,One timer 203,Edward,"Los Angeles, US",Unit,HON,LAX,3450000,0,8,2034A,,1/20/2014,achadaluri,18868,"1,104,000.00",5,0,2.03,0,9,0,0,0,"1,104,016.03",1/25/2014,pcr
+18869,PEND,One timer 204,Edward,"Los Angeles, US",Unit,HON,LAX,3468000,0,3,2034A,,1/20/2014,achadaluri,18869,"416,160.00",5,0,2.03,0,9,0,0,0,"416,176.03",1/25/2014,pcr
+18870,PEND,One timer 205,Edward,"Los Angeles, US",Unit,HON,LAX,3482000,0,1,2034A,,1/20/2014,achadaluri,18870,"139,280.00",5,0,2.03,0,0,0,0,0,"139,287.03",1/25/2014,pcr
+18871,PEND,One timer 206,Edward,"Los Angeles, US",Unit,HON,LAX,3500000,0,11,2034A,,1/20/2014,achadaluri,18871,"1,540,000.00",5,0,2.03,0,9,0,0,0,"1,540,016.03",1/25/2014,pcr
+18872,PEND,One timer 207,Edward,"Los Angeles, US",Unit,HON,LAX,3500000,0,1,2034A,,1/20/2014,achadaluri,18872,"140,000.00",5,0,2.03,0,0,0,0,0,"140,007.03",1/25/2014,pcr
+18873,PEND,One timer 208,Edward,"Los Angeles, US",Unit,HON,LAX,3500000,0,1,2034A,,1/20/2014,achadaluri,18873,"140,000.00",5,0,2.03,0,0,0,0,0,"140,007.03",1/25/2014,pcr
+18874,PEND,One timer 209,Edward,"Los Angeles, US",Unit,HON,LAX,3500000,0,14,2034A,,1/20/2014,achadaluri,18874,"1,960,000.00",5,0,2.03,0,9,0,0,0,"1,960,016.03",1/25/2014,pcr
+18875,PEND,One timer 210,Edward,"Los Angeles, US",Unit,HON,LAX,3500000,0,1,2034A,,1/20/2014,achadaluri,18875,"140,000.00",5,0,2.03,0,0,0,0,0,"140,007.03",1/25/2014,pcr
+18876,PEND,One timer 211,Edward,"Los Angeles, US",Unit,HON,LAX,3502126,0,3,2034A,,1/20/2014,achadaluri,18876,"420,255.12",5,0,2.03,0,9,0,0,0,"420,271.15",1/25/2014,pcr
+18877,PEND,One timer 212,Edward,"Los Angeles, US",Unit,HON,LAX,3506000,0,1,2034A,,1/20/2014,achadaluri,18877,"140,240.00",5,0,2.03,0,0,0,0,0,"140,247.03",1/25/2014,pcr
+18878,PEND,One timer 213,Edward,"Los Angeles, US",Unit,HON,LAX,3516000,0,1,2034A,,1/20/2014,achadaluri,18878,"140,640.00",5,0,2.03,0,0,0,0,0,"140,647.03",1/25/2014,pcr
+18879,PEND,One timer 214,Edward,"Los Angeles, US",Unit,HON,LAX,3517000,0,5,2034A,,1/20/2014,achadaluri,18879,"703,400.00",5,0,2.03,0,9,0,0,0,"703,416.03",1/25/2014,pcr
+18880,PEND,One timer 215,Edward,"Los Angeles, US",Unit,HON,LAX,3542000,0,6,2034A,,1/20/2014,achadaluri,18880,"850,080.00",5,0,2.03,0,9,0,0,0,"850,096.03",1/25/2014,pcr
+18881,PEND,One timer 216,Edward,"Los Angeles, US",Unit,HON,LAX,3550000,0,1,2034A,,1/20/2014,achadaluri,18881,"142,000.00",5,0,2.03,0,0,0,0,0,"142,007.03",1/25/2014,pcr
+18882,PEND,One timer 217,Edward,"Los Angeles, US",Unit,HON,LAX,3550000,0,4,2034A,,1/20/2014,achadaluri,18882,"568,000.00",5,0,2.03,0,9,0,0,0,"568,016.03",1/25/2014,pcr
+18883,PEND,One timer 218,Edward,"Los Angeles, US",Unit,HON,LAX,3550000,0,1,2034A,,1/20/2014,achadaluri,18883,"142,000.00",5,0,2.03,0,0,0,0,0,"142,007.03",1/25/2014,pcr
+18884,PEND,One timer 219,Edward,"Los Angeles, US",Unit,HON,LAX,3560000,0,1,2034A,,1/20/2014,achadaluri,18884,"142,400.00",5,0,2.03,0,0,0,0,0,"142,407.03",1/25/2014,pcr
+18885,PEND,One timer 220,Edward,"Los Angeles, US",Unit,HON,LAX,3576000,0,1,2034A,,1/20/2014,achadaluri,18885,"143,040.00",5,0,2.03,0,0,0,0,0,"143,047.03",1/25/2014,pcr
+18886,PEND,One timer 221,Edward,"Los Angeles, US",Unit,ANK,LAX,3596000,0,2,2034A,,1/20/2014,achadaluri,18886,"287,680.00",5,0,2.03,0,9,0,0,0,"287,696.03",1/25/2014,pcr
+18887,PEND,One timer 222,Edward,"Los Angeles, US",Unit,ANK,LAX,3600000,0,196,2034A,,1/20/2014,achadaluri,18887,"28,224,000.00",5,0,2.03,0,9,0,0,0,"28,224,016.03",1/25/2014,pcr
+18888,PEND,One timer 223,Edward,"Los Angeles, US",Unit,ANK,LAX,3600000,0,0,2034A,,1/20/2014,achadaluri,18888,"144,000.00",5,0,2.03,0,0,0,0,0,"144,007.03",1/25/2014,pcr
+18889,PEND,One timer 224,Edward,"Los Angeles, US",Unit,ANK,LAX,3600000,0,1,2034A,,1/20/2014,achadaluri,18889,"144,000.00",5,0,2.03,0,0,0,0,0,"144,007.03",1/25/2014,pcr
+18890,PEND,One timer 225,Edward,"Los Angeles, US",Unit,ANK,LAX,3600000,0,0,2034A,,1/20/2014,achadaluri,18890,"144,000.00",5,0,2.03,0,0,0,0,0,"144,007.03",1/25/2014,pcr
+18891,PEND,One timer 226,Edward,"Los Angeles, US",Unit,ANK,LAX,3609160,0,0,2034A,,1/20/2014,achadaluri,18891,"144,366.40",5,0,2.03,0,0,0,0,0,"144,373.43",1/25/2014,pcr
+18892,PEND,One timer 227,Edward,"Los Angeles, US",Unit,ANK,LAX,3610080,0,0,2034A,,1/20/2014,achadaluri,18892,"144,403.20",5,0,2.03,0,0,0,0,0,"144,410.23",1/25/2014,pcr
+18893,PEND,One timer 228,Edward,"Los Angeles, US",Unit,ANK,LAX,3610080,0,0,2034A,,1/20/2014,achadaluri,18893,"144,403.20",5,0,2.03,0,0,0,0,0,"144,410.23",1/25/2014,pcr
+18894,PEND,One timer 229,Edward,"Honolulu, US",Unit,ANK,HON,3644000,0,0,2034A,,1/20/2014,dstark,18894,"145,760.00",5,0,2.03,0,0,0,0,0,"145,767.03",1/25/2014,rnoor
+18895,PEND,One timer 230,Edward,"Honolulu, US",Unit,ANK,HON,3644000,0,0,2034A,,1/20/2014,dstark,18895,"145,760.00",5,0,2.03,0,0,0,0,0,"145,767.03",1/25/2014,rnoor
+18896,PEND,One timer 231,Edward,"Honolulu, US",Unit,ANK,HON,3645800,62160,1,2034A,,1/20/2014,dstark,18896,"145,832.00",5,0,2.03,0,0,0,"8,067.80",0,"153,906.83",1/25/2014,rnoor
+18897,PEND,One timer 232,Edward,"Honolulu, US",Unit,ANK,HON,3646000,0,1,2034A,,1/20/2014,dstark,18897,"145,840.00",5,0,2.03,0,0,0,0,0,"145,847.03",1/25/2014,rnoor
+18898,PEND,One timer 233,Edward,"Honolulu, US",Unit,ANK,HON,3650000,0,0,2034A,,1/20/2014,dstark,18898,"146,000.00",5,0,2.03,0,0,0,0,0,"146,007.03",1/25/2014,rnoor
+18899,PEND,One timer 234,Edward,"Honolulu, US",Unit,ANK,HON,3658000,0,1,2034A,,1/20/2014,dstark,18899,"146,320.00",5,0,2.03,0,0,0,0,0,"146,327.03",1/25/2014,rnoor
+18900,PEND,One timer 235,Edward,"Honolulu, US",Unit,ANK,HON,3700000,0,0,2034A,,1/20/2014,dstark,18900,"148,000.00",5,0,2.03,0,0,0,0,0,"148,007.03",1/25/2014,rnoor
+18901,PEND,One timer 236,Edward,"Honolulu, US",Unit,ANK,HON,3720000,0,0,2034A,,1/20/2014,dstark,18901,"148,800.00",5,0,2.03,0,0,0,0,0,"148,807.03",1/25/2014,rnoor
+18902,PEND,One timer 237,Edward,"Honolulu, US",Unit,ANK,HON,3732000,0,0,2034A,,1/20/2014,dstark,18902,"149,280.00",5,0,2.03,0,0,0,0,0,"149,287.03",1/25/2014,rnoor
+18903,PEND,One timer 238,Edward,"Honolulu, US",Unit,ANK,HON,3734488,0,0,2034A,,1/20/2014,dstark,18903,"149,379.52",5,0,2.03,0,0,0,0,0,"149,386.55",1/25/2014,rnoor
+18904,PEND,One timer 239,Edward,"Honolulu, US",Unit,ANK,HON,3745942,0,0,2034A,,1/20/2014,dstark,18904,"149,837.68",5,0,2.03,0,0,0,0,0,"149,844.71",1/25/2014,rnoor
+18905,PEND,One timer 240,Edward,"Honolulu, US",Unit,ANK,HON,3750000,0,0,2034A,,1/20/2014,dstark,18905,"150,000.00",5,0,2.03,0,0,0,0,0,"150,007.03",1/25/2014,rnoor
+18906,PEND,One timer 241,Edward,"Honolulu, US",Unit,ANK,HON,3750000,0,0,2034A,,1/20/2014,dstark,18906,"150,000.00",5,0,2.03,0,0,0,0,0,"150,007.03",1/25/2014,rnoor
+18907,PEND,One timer 242,Edward,"Honolulu, US",Unit,ANK,HON,3774000,0,0,2034A,,1/20/2014,dstark,18907,"150,960.00",5,0,2.03,0,0,0,0,0,"150,967.03",1/25/2014,rnoor
+18908,PEND,One timer 243,Edward,"Honolulu, US",Unit,ANK,HON,3797010,0,0,2034A,,1/20/2014,dstark,18908,"151,880.40",5,0,2.03,0,0,0,0,0,"151,887.43",1/25/2014,rnoor
+18909,PEND,One timer 244,Edward,"Honolulu, US",Unit,ANK,HON,3800000,0,0,2034A,,1/20/2014,dstark,18909,"152,000.00",5,0,2.03,0,0,0,0,0,"152,007.03",1/25/2014,rnoor
+18910,PEND,One timer 245,Edward,"Honolulu, US",Unit,ANK,HON,3816000,0,0,2034A,,1/20/2014,dstark,18910,"152,640.00",5,0,2.03,0,0,0,0,0,"152,647.03",1/25/2014,rnoor
+18911,PEND,One timer 246,Edward,"Honolulu, US",Unit,ANK,HON,3818000,0,0,2034A,,1/20/2014,dstark,18911,"152,720.00",5,0,2.03,0,0,0,0,0,"152,727.03",1/25/2014,rnoor
+18912,PEND,One timer 247,Edward,"Honolulu, US",Unit,ANK,HON,3828000,0,0,2034A,,1/20/2014,dstark,18912,"153,120.00",5,0,2.03,0,0,0,0,0,"153,127.03",1/25/2014,rnoor
+18913,PEND,One timer 248,Edward,"Honolulu, US",Unit,ANK,HON,3828490,0,0,2034A,,1/20/2014,dstark,18913,"153,139.60",5,0,2.03,0,0,0,0,0,"153,146.63",1/25/2014,rnoor
+18914,PEND,One timer 249,Edward,"Honolulu, US",Unit,ANK,HON,3849968,0,0,2034A,,1/20/2014,dstark,18914,"153,998.72",5,0,2.03,0,0,0,0,0,"154,005.75",1/25/2014,rnoor
+18915,PEND,One timer 250,Edward,"Honolulu, US",Unit,ANK,HON,3850000,0,0,2034A,,1/20/2014,dstark,18915,"154,000.00",5,0,2.03,0,0,0,0,0,"154,007.03",1/25/2014,rnoor
+18916,PEND,One timer 251,Edward,"Honolulu, US",Unit,ANK,HON,3860000,0,0,2034A,,1/20/2014,dstark,18916,"154,400.00",5,0,2.03,0,0,0,0,0,"154,407.03",1/25/2014,rnoor
+18917,PEND,One timer 252,Edward,"Honolulu, US",Unit,ANK,HON,3863000,0,0,2034A,,1/20/2014,dstark,18917,"154,520.00",5,0,2.03,0,0,0,0,0,"154,527.03",1/25/2014,rnoor
+18918,PEND,One timer 253,Edward,"Honolulu, US",Unit,ANK,HON,3890105,24992,0,2034A,,1/20/2014,dstark,18918,"155,604.20",5,0,2.03,0,0,0,"3,235.96",0,"158,847.19",1/25/2014,rnoor
+18919,PEND,One timer 254,Edward,"Honolulu, US",Unit,ANK,HON,3909394,0,0,2034A,,1/20/2014,dstark,18919,"156,375.76",5,0,2.03,0,0,0,0,0,"156,382.79",1/25/2014,rnoor
+18920,PEND,One timer 255,Edward,"Honolulu, US",Unit,ANK,HON,3909394,0,0,2034A,,1/20/2014,dstark,18920,"156,375.76",5,0,2.03,0,0,0,0,0,"156,382.79",1/25/2014,rnoor
+18921,PEND,One timer 256,Edward,"Honolulu, US",Unit,ANK,HON,3911394,0,0,2034A,,1/20/2014,dstark,18921,"156,455.76",5,0,2.03,0,0,0,0,0,"156,462.79",1/25/2014,rnoor
+18922,PEND,One timer 257,Edward,"Honolulu, US",Unit,ANK,HON,3911400,0,0,2034A,,1/20/2014,dstark,18922,"156,456.00",5,0,2.03,0,0,0,0,0,"156,463.03",1/25/2014,rnoor
+18923,PEND,One timer 258,Edward,"Honolulu, US",Unit,ANK,HON,3940000,0,0,2034A,,1/20/2014,dstark,18923,"157,600.00",5,0,2.03,0,0,0,0,0,"157,607.03",1/25/2014,rnoor
+18924,PEND,One timer 259,Edward,"Honolulu, US",Unit,ANK,HON,3950000,0,0,2034A,,1/20/2014,dstark,18924,"158,000.00",5,0,2.03,0,0,0,0,0,"158,007.03",1/25/2014,rnoor
+18925,PEND,One timer 260,Edward,"Honolulu, US",Unit,ANK,HON,3981366,0,0,2034A,,1/20/2014,dstark,18925,"159,254.64",5,0,2.03,0,0,0,0,0,"159,261.67",1/25/2014,rnoor
+18926,PEND,One timer 261,Edward,"Honolulu, US",Unit,ANK,HON,4000000,0,0,2034A,,1/20/2014,dstark,18926,"160,000.00",5,0,2.03,0,0,0,0,0,"160,007.03",1/25/2014,rnoor
+18927,PEND,One timer 262,Edward,"Honolulu, US",Unit,ANK,HON,4000000,0,0,2034A,,1/20/2014,dstark,18927,"160,000.00",5,0,2.03,0,0,0,0,0,"160,007.03",1/25/2014,rnoor
+18928,PEND,One timer 263,Edward,"Honolulu, US",Unit,ANK,HON,4000000,0,0,2034A,,1/20/2014,dstark,18928,"160,000.00",5,0,2.03,0,0,0,0,0,"160,007.03",1/25/2014,rnoor
+18929,PEND,One timer 264,Edward,"Honolulu, US",Unit,ANK,HON,4000000,0,0,2034A,,1/20/2014,dstark,18929,"160,000.00",5,0,2.03,0,0,0,0,0,"160,007.03",1/25/2014,rnoor
+18930,PEND,One timer 265,Edward,"Honolulu, US",Unit,ANK,HON,4056000,0,0,2034A,,1/20/2014,dstark,18930,"162,240.00",5,0,2.03,0,0,0,0,0,"162,247.03",1/25/2014,rnoor
+18931,PEND,One timer 266,Edward,"Honolulu, US",Unit,ANK,HON,4116000,0,0,2034A,,1/20/2014,dstark,18931,"164,640.00",5,0,2.03,0,0,0,0,0,"164,647.03",1/25/2014,rnoor
+18932,PEND,One timer 267,Edward,"Honolulu, US",Unit,ANK,HON,4122219,30,0,2034A,,1/20/2014,dstark,18932,"164,888.76",5,0,2.03,0,0,0,0,0,"164,895.79",1/25/2014,rnoor
+18933,PEND,One timer 268,Edward,"Honolulu, US",Unit,ANK,HON,4122219,30,0,2034A,,1/20/2014,dstark,18933,"164,888.76",5,0,2.03,0,0,0,0,0,"164,895.79",1/25/2014,rnoor
+18934,PEND,One timer 269,Edward,"Honolulu, US",Unit,ANK,HON,4192400,0,0,2034A,,1/20/2014,dstark,18934,"167,696.00",5,0,2.03,0,0,0,0,0,"167,703.03",1/25/2014,rnoor
+18935,PEND,One timer 270,Edward,"Honolulu, US",Unit,ANK,HON,4232000,0,0,2034A,,1/20/2014,dstark,18935,"169,280.00",5,0,2.03,0,0,0,0,0,"169,287.03",1/25/2014,rnoor
+18936,PEND,One timer 271,Edward,"Honolulu, US",Unit,ANK,HON,4243408,0,0,2034A,,1/20/2014,dstark,18936,"169,736.32",5,0,2.03,0,0,0,0,0,"169,743.35",1/25/2014,rnoor
+18937,PEND,One timer 272,Edward,"Honolulu, US",Unit,ANK,HON,4254480,0,0,2034A,,1/20/2014,dstark,18937,"170,179.20",5,0,2.03,0,0,0,0,0,"170,186.23",1/25/2014,rnoor
+18938,PEND,One timer 273,Edward,"Honolulu, US",Unit,ANK,HON,4346000,0,0,2034A,,1/20/2014,dstark,18938,"173,840.00",5,0,2.03,0,0,0,0,0,"173,847.03",1/25/2014,rnoor
+18939,PEND,One timer 274,Edward,"Honolulu, US",Unit,ANK,HON,4349860,0,0,2034A,,1/20/2014,dstark,18939,"173,994.40",5,0,2.03,0,0,0,0,0,"174,001.43",1/25/2014,rnoor
+18940,PEND,One timer 275,Edward,"Honolulu, US",Unit,ANK,HON,4477090,0,0,2034A,,1/20/2014,dstark,18940,"179,083.60",5,0,2.03,0,0,0,0,0,"179,090.63",1/25/2014,rnoor
+18941,PEND,One timer 276,Edward,"Honolulu, US",Unit,ANK,HON,4501000,0,0,2034A,,1/20/2014,dstark,18941,"180,040.00",5,0,2.03,0,0,0,0,0,"180,047.03",1/25/2014,rnoor
+18942,PEND,One timer 277,Edward,"Honolulu, US",Unit,ANK,HON,4518000,0,0,2034A,,1/20/2014,dstark,18942,"180,720.00",5,0,2.03,0,0,0,0,0,"180,727.03",1/25/2014,rnoor
+18943,PEND,One timer 278,Edward,"Honolulu, US",Unit,ANK,HON,4567260,0,0,2034A,,1/20/2014,dstark,18943,"182,690.40",5,0,2.03,0,0,0,0,0,"182,697.43",1/25/2014,rnoor
+18944,PEND,One timer 279,Edward,"Honolulu, US",Unit,ANK,HON,4572000,0,0,2034A,,1/20/2014,dstark,18944,"182,880.00",5,0,2.03,0,0,0,0,0,"182,887.03",1/25/2014,rnoor
+18945,PEND,One timer 280,Edward,"Honolulu, US",Unit,ANK,HON,4600000,0,0,2034A,,1/20/2014,dstark,18945,"184,000.00",5,0,2.03,0,0,0,0,0,"184,007.03",1/25/2014,rnoor
+18946,PEND,One timer 281,Edward,"Honolulu, US",Unit,ANK,HON,4708000,0,0,2034A,,1/20/2014,dstark,18946,"188,320.00",5,0,2.03,0,0,0,0,0,"188,327.03",1/25/2014,rnoor
+18947,PEND,One timer 282,Edward,"Honolulu, US",Unit,ANK,HON,4741500,0,0,2034A,,1/20/2014,dstark,18947,"189,660.00",5,0,2.03,0,0,0,0,0,"189,667.03",1/25/2014,rnoor
+18948,PEND,One timer 283,Edward,"Honolulu, US",Unit,ANK,HON,4861280,0,0,2034A,,1/20/2014,dstark,18948,"194,451.20",5,0,2.03,0,0,0,0,0,"194,458.23",1/25/2014,rnoor
+18949,PEND,One timer 284,Edward,"Honolulu, US",Unit,ANK,HON,4870000,0,0,2034A,,1/20/2014,dstark,18949,"194,800.00",5,0,2.03,0,0,0,0,0,"194,807.03",1/25/2014,rnoor
+18950,PEND,One timer 285,Edward,"Honolulu, US",Unit,ANK,HON,4872000,0,0,2034A,,1/20/2014,dstark,18950,"194,880.00",5,0,2.03,0,0,0,0,0,"194,887.03",1/25/2014,rnoor
+18951,PEND,One timer 286,Edward,"Honolulu, US",Unit,ANK,HON,4900000,0,0,2034A,,1/20/2014,dstark,18951,"196,000.00",5,0,2.03,0,0,0,0,0,"196,007.03",1/25/2014,rnoor
+18952,PEND,One timer 287,Edward,"Honolulu, US",Unit,ANK,HON,4912000,0,0,2034A,,1/20/2014,dstark,18952,"196,480.00",5,0,2.03,0,0,0,0,0,"196,487.03",1/25/2014,rnoor
+18953,PEND,One timer 288,Edward,"Honolulu, US",Unit,ANK,HON,4976000,0,0,2034A,,1/20/2014,dstark,18953,"199,040.00",5,0,2.03,0,0,0,0,0,"199,047.03",1/25/2014,rnoor
+18954,PEND,One timer 289,Edward,"Honolulu, US",Unit,ANK,HON,4992058,0,0,2034A,,1/20/2014,dstark,18954,"199,682.32",5,0,2.03,0,0,0,0,0,"199,689.35",1/25/2014,rnoor
+18955,PEND,One timer 290,Edward,"Honolulu, US",Unit,ANK,HON,4992058,0,0,2034A,,1/20/2014,dstark,18955,"199,682.32",5,0,2.03,0,0,0,0,0,"199,689.35",1/25/2014,rnoor
+18958,PEND,One timer 293,Edward,"Honolulu, US",Unit,ANK,HON,4992058,0,0,2034A,,1/20/2014,dstark,18958,"199,682.32",5,0,2.03,0,0,0,0,0,"199,689.35",1/25/2014,rnoor
+18959,PEND,One timer 294,Edward,"Honolulu, US",Unit,ANK,HON,4992058,0,0,2034A,,1/20/2014,dstark,18959,"199,682.32",5,0,2.03,0,0,0,0,0,"199,689.35",1/25/2014,rnoor
+18960,PEND,One timer 295,Edward,"Honolulu, US",Unit,ANK,HON,4992058,0,0,2034A,,1/20/2014,dstark,18960,"199,682.32",5,0,2.03,0,0,0,0,0,"199,689.35",1/25/2014,rnoor
+18961,PEND,One timer 296,Edward,"Honolulu, US",Unit,ANK,HON,4992058,0,0,2034A,,1/20/2014,dstark,18961,"199,682.32",5,0,2.03,0,0,0,0,0,"199,689.35",1/25/2014,rnoor
+18962,PEND,One timer 297,Edward,"Honolulu, US",Unit,ANK,HON,4992058,0,0,2034A,,1/20/2014,dstark,18962,"199,682.32",5,0,2.03,0,0,0,0,0,"199,689.35",1/25/2014,rnoor
+18963,PEND,One timer 298,Edward,"Honolulu, US",Unit,ANK,HON,4992058,0,0,2034A,,1/20/2014,dstark,18963,"199,682.32",5,0,2.03,0,0,0,0,0,"199,689.35",1/25/2014,rnoor
+18964,PEND,One timer 299,Edward,"Honolulu, US",Unit,ANK,HON,4992058,0,1,2034A,,1/20/2014,dstark,18964,"199,682.32",5,0,2.03,0,0,0,0,0,"199,689.35",1/25/2014,rnoor
+18965,PEND,One timer 300,Edward,"Honolulu, US",Unit,ANK,HON,4992058,0,0,2034A,,1/20/2014,dstark,18965,"199,682.32",5,0,2.03,0,0,0,0,0,"199,689.35",1/25/2014,rnoor
+18966,PEND,One timer 301,Edward,"Honolulu, US",Unit,ANK,HON,4992058,0,0,2034A,,1/20/2014,dstark,18966,"199,682.32",5,0,2.03,0,0,0,0,0,"199,689.35",1/25/2014,rnoor
+18967,PEND,One timer 302,Edward,"Honolulu, US",Unit,ANK,HON,4992058,0,1,2034A,,1/20/2014,dstark,18967,"199,682.32",5,0,2.03,0,0,0,0,0,"199,689.35",1/25/2014,rnoor
+18968,PEND,One timer 303,Edward,"Honolulu, US",Unit,ANK,HON,4992058,0,1,2034A,,1/20/2014,dstark,18968,"199,682.32",5,0,2.03,0,0,0,0,0,"199,689.35",1/25/2014,rnoor
+18969,PEND,One timer 304,Edward,"Honolulu, US",Unit,ANK,HON,4992058,0,13,2034A,,1/20/2014,dstark,18969,"2,595,870.16",5,0,2.03,0,9,0,0,0,"2,595,886.19",1/25/2014,rnoor
+18970,PEND,One timer 305,Edward,"Honolulu, US",Unit,ANK,HON,4992058,0,0,2034A,,1/20/2014,dstark,18970,"199,682.32",5,0,2.03,0,0,0,0,0,"199,689.35",1/25/2014,rnoor
+18971,PEND,One timer 306,Edward,"Honolulu, US",Unit,ANK,HON,4992058,0,0,2034A,,1/20/2014,dstark,18971,"199,682.32",5,0,2.03,0,0,0,0,0,"199,689.35",1/25/2014,rnoor
+18972,PEND,One timer 307,Edward,"Honolulu, US",Unit,ANK,HON,4992058,0,0,2034A,,1/20/2014,dstark,18972,"199,682.32",5,0,2.03,0,0,0,0,0,"199,689.35",1/25/2014,rnoor
+18973,PEND,One timer 308,Edward,"Honolulu, US",Unit,ANK,HON,4992058,0,0,2034A,,1/20/2014,dstark,18973,"199,682.32",5,0,2.03,0,0,0,0,0,"199,689.35",1/25/2014,rnoor
+18974,PEND,One timer 309,Edward,"Honolulu, US",Unit,ANK,HON,4992058,0,0,2034A,,1/20/2014,dstark,18974,"199,682.32",5,0,2.03,0,0,0,0,0,"199,689.35",1/25/2014,rnoor
+18975,PEND,One timer 310,Edward,"Honolulu, US",Unit,ANK,HON,4992058,0,0,2034A,,1/20/2014,dstark,18975,"199,682.32",5,0,2.03,0,0,0,0,0,"199,689.35",1/25/2014,rnoor
+18976,PEND,One timer 311,Edward,"Honolulu, US",Unit,ANK,HON,4992058,0,0,2034A,,1/20/2014,dstark,18976,"199,682.32",5,0,2.03,0,0,0,0,0,"199,689.35",1/25/2014,rnoor
+18977,PEND,One timer 312,Edward,"Honolulu, US",Unit,ANK,HON,4992058,0,1,2034A,,1/20/2014,dstark,18977,"199,682.32",5,0,2.03,0,0,0,0,0,"199,689.35",1/25/2014,rnoor
+18978,PEND,One timer 313,Edward,"Honolulu, US",Unit,ANK,HON,4992058,0,0,2034A,,1/20/2014,dstark,18978,"199,682.32",5,0,2.03,0,0,0,0,0,"199,689.35",1/25/2014,rnoor
+18979,PEND,One timer 314,Edward,"Honolulu, US",Unit,ANK,HON,4992058,0,12,2034A,,1/20/2014,dstark,18979,"2,396,187.84",5,0,2.03,0,9,0,0,0,"2,396,203.87",1/25/2014,rnoor
+18980,PEND,One timer 315,Edward,"Honolulu, US",Unit,ANK,HON,4992058,0,1,2034A,,1/20/2014,dstark,18980,"199,682.32",5,0,2.03,0,0,0,0,0,"199,689.35",1/25/2014,rnoor
+18981,PEND,One timer 316,Edward,"Seattle, US",Unit,ANK,SEA,4998000,0,1,2034A,,1/20/2014,achadaluri,18981,"199,920.00",5,0,2.03,0,0,0,0,0,"199,927.03",1/25/2014,pcr
+18983,PEND,One timer 318,Edward,"Seattle, US",Unit,ANK,SEA,5018000,0,0,2034A,,1/20/2014,achadaluri,18983,"200,720.00",5,0,2.03,0,0,0,0,0,"200,727.03",1/25/2014,pcr
+18984,PEND,One timer 319,Edward,"Seattle, US",Unit,ANK,SEA,5059490,0,0,2034A,,1/20/2014,achadaluri,18984,"202,379.60",5,0,2.03,0,0,0,0,0,"202,386.63",1/25/2014,pcr
+18985,PEND,One timer 320,Edward,"Seattle, US",Unit,ANK,SEA,5135540,0,10,2034A,,1/20/2014,achadaluri,18985,"2,054,216.00",5,0,2.03,0,9,0,0,0,"2,054,232.03",1/25/2014,pcr
+18986,PEND,One timer 321,Edward,"Seattle, US",Unit,ANK,SEA,5264000,0,0,2034A,,1/20/2014,achadaluri,18986,"210,560.00",5,0,2.03,0,0,0,0,0,"210,567.03",1/25/2014,pcr
+18987,PEND,One timer 322,Edward,"Seattle, US",Unit,ANK,SEA,5296000,0,1,2034A,,1/20/2014,achadaluri,18987,"211,840.00",5,0,2.03,0,0,0,0,0,"211,847.03",1/25/2014,pcr
+18988,PEND,One timer 323,Edward,"Seattle, US",Unit,ANK,SEA,5387740,0,0,2034A,,1/20/2014,achadaluri,18988,"215,509.60",5,0,2.03,0,0,0,0,0,"215,516.63",1/25/2014,pcr
+18989,PEND,One timer 324,Edward,"Seattle, US",Unit,ANK,SEA,5462000,0,0,2034A,,1/20/2014,achadaluri,18989,"218,480.00",5,0,2.03,0,0,0,0,0,"218,487.03",1/25/2014,pcr
+18990,PEND,One timer 325,Edward,"Seattle, US",Unit,ANK,SEA,5475709,418408,0,2034A,,1/20/2014,achadaluri,18990,"219,028.36",5,0,2.03,0,0,0,"54,380.04",0,"273,415.43",1/25/2014,pcr
+18991,PEND,One timer 326,Edward,"Seattle, US",Unit,ANK,SEA,5475709,418408,0,2034A,,1/20/2014,achadaluri,18991,"219,028.36",5,0,2.03,0,0,0,"54,380.04",0,"273,415.43",1/25/2014,pcr
+18992,PEND,One timer 327,Edward,"Seattle, US",Unit,ANK,SEA,5475709,418409,1,2034A,,1/20/2014,achadaluri,18992,"219,028.36",5,0,2.03,0,0,0,"54,380.17",0,"273,415.56",1/25/2014,pcr
+18993,PEND,One timer 328,Edward,"Seattle, US",Unit,ANK,SEA,5507900,0,1,2034A,,1/20/2014,achadaluri,18993,"220,316.00",5,0,2.03,0,0,0,0,0,"220,323.03",1/25/2014,pcr
+18994,PEND,One timer 329,Edward,"Seattle, US",Unit,ANK,SEA,5510000,0,1,2034A,,1/20/2014,achadaluri,18994,"220,400.00",5,0,2.03,0,0,0,0,0,"220,407.03",1/25/2014,pcr
+18995,PEND,One timer 330,Edward,"Seattle, US",Unit,LAX,SEA,5540000,0,0,2034A,,1/20/2014,achadaluri,18995,"221,600.00",5,0,2.03,0,0,0,0,0,"221,607.03",1/25/2014,pcr
+18996,PEND,One timer 331,Edward,"Seattle, US",Unit,LAX,SEA,5633712,11040,0,2034A,,1/20/2014,achadaluri,18996,"225,348.48",5,0,2.03,0,0,0,"1,422.20",0,"226,777.71",1/25/2014,pcr
+18997,PEND,One timer 332,Edward,"Seattle, US",Unit,LAX,SEA,5999658,0,0,2034A,,1/20/2014,achadaluri,18997,"239,986.32",5,0,2.03,0,0,0,0,0,"239,993.35",1/25/2014,pcr
+18998,PEND,One timer 333,Edward,"Seattle, US",Unit,LAX,SEA,6536000,0,0,2034A,,1/20/2014,achadaluri,18998,"261,440.00",5,0,2.03,0,0,0,0,0,"261,447.03",1/25/2014,pcr
+18999,PEND,One timer 334,Edward,"Seattle, US",Unit,LAX,SEA,9680000,0,0,2034A,,1/20/2014,achadaluri,18999,"387,200.00",5,0,2.03,0,0,0,0,0,"387,207.03",1/25/2014,pcr
